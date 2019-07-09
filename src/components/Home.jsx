@@ -12,7 +12,7 @@ export default class Home extends Component {
                     <h2>Welcome to my life</h2>
                     <p>This is how to build a website with React, React-Router & React-Bootstrap</p>
                     <Link to="/about">
-                        <Button bsStyle="primary">About</Button>
+                        <Button>About</Button>
                     </Link>
                 </Jumbotron>
                 <Row className="show-grid text-center">

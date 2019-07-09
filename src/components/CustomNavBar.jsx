@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavBar.css';
 
@@ -13,13 +13,13 @@ export default class CustomNavBar extends Component {
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link eventKey={1} componentClass={Link} href="/" to="/">
+                        <Nav.Link eventKey={1} href="/" to="/">
                             Home
                         </Nav.Link>
-                        <Nav.Link eventKey={2} componentClass={Link} href="/about" to="/about">
+                        <Nav.Link eventKey={2} href="/about" to="/about">
                             About
                         </Nav.Link>
-                        <Nav.Link eventKey={3} componentClass={Link} href="/news" to="/news">
+                        <Nav.Link eventKey={3} href="/news" to="/news">
                             News
                         </Nav.Link>
                     </Nav>
@@ -28,3 +28,5 @@ export default class CustomNavBar extends Component {
         );
     }
 }
+
+// <Nav.Link eventKey={3} componentClass={Link} href="/news" to="/news"> solve it

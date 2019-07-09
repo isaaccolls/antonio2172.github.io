@@ -8,7 +8,7 @@ export default class About extends Component {
             <div>
                 <Image src="assets/OFON6117.JPG" className="header-image" />
                 <Container>
-                    <Col xs={12} sm={8} smOffset={2}>
+                    <Col xs={12} sm={8}>
                         <Image src="assets/KVEE0251.JPG" className="about-profile-pic" rounded />
                         <h3>More pizza?</h3>
                         <p>We don't really know where this goes - and I'm not sure we really care. You have to make almighty decisions when you're the creator.</p>
