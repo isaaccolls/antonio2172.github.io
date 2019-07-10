@@ -5,11 +5,13 @@ import Home from './components/Home';
 import About from './components/About';
 import News from './components/News';
 import Navbar from './components/CustomNavBar';
+import HomeBanner from './components/HomeBanner';
 
 function App() {
   return (
     <Router>
       <div>
+        <HomeBanner />
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
