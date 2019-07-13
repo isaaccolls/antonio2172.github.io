@@ -12,17 +12,35 @@ code {
     monospace;
 }*/
 
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*background: blue;*/
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2892d7;
+  color: #2892d7;
 }
 
 p {
-    color: grey;
-    font-weight: 300;
+  color: grey;
+  font-weight: 300;
+}
+
+#root {
+  height: 100%;
+  /*background: pink;*/
+}
+
+#appContainer {
+  height: 100%;
+  /*background: green;*/
 }
