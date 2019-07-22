@@ -15,12 +15,3 @@ export default class HomeBanner extends Component {
         );
     }
 }
-
-
-/*<Container id="homeBanner" className="h-100" fluid>
-                <Row className="align-items-center justify-content-center h-100">
-                    <col></col>
-                    <h1>Hello, I'm <strong>Isaac Colls</strong>.</h1>
-                    <h2>Electronic and Computer Engineering</h2>
-                </Row>
-            </Container>*/
