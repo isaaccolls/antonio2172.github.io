@@ -1,4 +1,9 @@
 #homeBanner {
-    height: 15vh;
+    /*height: 95vh;*/
+    background: #bfbfbf;
+    /*width: 100%;*/
+}
+
+.test {
     background: red;
 }

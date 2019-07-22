@@ -10,7 +10,7 @@ import HomeBanner from './components/HomeBanner';
 function App() {
   return (
     <Router>
-      <div id="appContainer">
+      <div id="appContainer" className="">
         <HomeBanner />
         <Navbar />
         <Route exact path="/" component={Home} />

@@ -6,7 +6,7 @@ import './Home.css';
 export default class Home extends Component {
     render() {
         return (
-            <Container id="homeContainer">
+            <Container id="homeContainer" className="h-100" fluid>
                 <Row className="show-grid text-center">
                     <Col xs={12} sm={4} className="person-wrapper">
                         <Image src="assets/IMG_7778.JPG" rounded className="profile-pic" />
