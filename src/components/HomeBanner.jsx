@@ -10,7 +10,7 @@ class HomeBanner extends Component {
         return (
             <div className="h-100">
                 <ParticleComponent />
-                <Container className="h-100 homeBannerContainer" fluid>
+                <Container id="homeBannerContainer" className="h-100" fluid>
                     <Row className="h-100">
                         <Col xs={3}></Col>
                         <Col xs={6} className="my-auto text-center">
