@@ -1,9 +1,16 @@
-#homeBanner {
-    /*height: 95vh;*/
-    background: #bfbfbf;
-    /*width: 100%;*/
+.homeBannerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: radial-gradient(circle, #660066, #540345, #3d092a, #240a16, #000000);;
 }
 
-.test {
-    background: red;
+.homeBannerTittle {
+    padding: 2rem 0 2rem 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.homeBannerTittle h1, h2 {
+    color: #ffffff;
 }
