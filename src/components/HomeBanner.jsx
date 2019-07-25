@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Image } from 'react-bootstrap';
 import ParticleComponent from './ParticleComponent';
 import './HomeBanner.css';
 
