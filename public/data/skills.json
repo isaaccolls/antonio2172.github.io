@@ -1,0 +1,107 @@
+[
+  {
+    "order": 0,
+    "percent": 75,
+    "skill": "Microcontroladores Microchip"
+  },
+  {
+    "order": 1,
+    "percent": 75,
+    "skill": "Diseño de circuitos electrónicos"
+  },
+  {
+    "order": 2,
+    "percent": 75,
+    "skill": "PLC Zelio"
+  },
+  {
+    "order": 3,
+    "percent": 75,
+    "skill": "Microsoft Visual Basic"
+  },
+  {
+    "order": 4,
+    "percent": 75,
+    "skill": "C/C++"
+  },
+  {
+    "order": 5,
+    "percent": 75,
+    "skill": "Matlab"
+  },
+  {
+    "order": 6,
+    "percent": 75,
+    "skill": "HTML5 y CSS3"
+  },
+  {
+    "order": 7,
+    "percent": 75,
+    "skill": "PHP"
+  },
+  {
+    "order": 8,
+    "percent": 75,
+    "skill": "JavaScript ES6"
+  },
+  {
+    "order": 9,
+    "percent": 75,
+    "skill": "NodeJS + Express"
+  },
+  {
+    "order": 10,
+    "percent": 75,
+    "skill": "AngularJS"
+  },
+  {
+    "order": 11,
+    "percent": 75,
+    "skill": "ReactJS + Redux"
+  },
+  {
+    "order": 12,
+    "percent": 75,
+    "skill": "React Native"
+  },
+  {
+    "order": 13,
+    "percent": 75,
+    "skill": "Python"
+  },
+  {
+    "order": 14,
+    "percent": 75,
+    "skill": "Python & Appium"
+  },
+  {
+    "order": 15,
+    "percent": 75,
+    "skill": "SQL Server, MySQL y PostgreSQL"
+  },
+  {
+    "order": 16,
+    "percent": 75,
+    "skill": "MongoDB"
+  },
+  {
+    "order": 17,
+    "percent": 75,
+    "skill": "Java"
+  },
+  {
+    "order": 18,
+    "percent": 75,
+    "skill": "Administración de Servidores"
+  },
+  {
+    "order": 19,
+    "percent": 75,
+    "skill": "Amazon Web Services"
+  },
+  {
+    "order": 20,
+    "percent": 75,
+    "skill": "git and version control"
+  }
+]
