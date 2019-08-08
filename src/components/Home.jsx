@@ -1,12 +1,54 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Spinner, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import me from '../assets/images/me.JPG'
+import me from '../assets/images/OFON6117.JPG'
 import './Home.css';
 
 
 export default class Home extends Component {
+
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            skills: [],
+            isLoading: false,
+            error: null,
+        };
+    }
+
+    componentDidMount() {
+        console.log("componentDidMount Home!");
+        this.fetchSkills();
+    }
+
+    fetchSkills = () => {
+        console.log("fetchSkills started 👽");
+        this.setState({ isLoading: true });
+        fetch('datas/skills.json')
+            .then(response => {
+                if (response.ok) {
+                    console.log("respondio ok!");
+                    return response.json();
+                } else {
+                    throw new Error('Something went wrong...');
+                }
+            })
+            .then(skills => {
+                // console.log(skills);
+                this.setState({ skills, isLoading: false });
+            })
+            .catch(error => this.setState({ error, isLoading: false }));
+    };
+
     render() {
+
+        console.log("render👽");
+        console.log(this.state.isLoading);
+        console.log("error: ", this.state.error);
+        const { skills, isLoading, error } = this.state;
+        console.log(skills);
+
         return (
             <Container id="homeContainer" className="h-100" fluid>
                 <Row className="text-center">
@@ -50,9 +92,26 @@ export default class Home extends Component {
                     <Col xs={6} className="">
                         <h3>Skills</h3>
                         <p>Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
+                        {
+                            error ?
+                                <Alert variant="danger">{`Error: ${error}`}</Alert> :
+                                null
+                        }
+                        {
+                            isLoading ? 
+                            <Spinner animation="grow" variant="dark" /> :
+                            skills.map(skill =>
+                                    <p key={`${skill.skill.replace(/\s/g, '').toLowerCase()}`}>
+                                        {`${skill.skill} - ${skill.percent}`}
+                                    </p>
+                                )
+                        }
                     </Col>
                 </Row>
                 <Row className="show-grid text-center">
+                    <Col xs ={12}>
+                        <p>link to more about me...</p>
+                    </Col>
                 </Row>
             </Container>
         );
