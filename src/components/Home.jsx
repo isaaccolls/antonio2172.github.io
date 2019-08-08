@@ -25,7 +25,7 @@ export default class Home extends Component {
     fetchSkills = () => {
         console.log("fetchSkills started 👽");
         this.setState({ isLoading: true });
-        fetch('datas/skills.json')
+        fetch('data/skills.json')
             .then(response => {
                 if (response.ok) {
                     console.log("respondio ok!");
