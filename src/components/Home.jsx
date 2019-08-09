@@ -50,7 +50,7 @@ export default class Home extends Component {
                     <Col xs={2}>
                         <FontAwesomeIcon icon={["fas","hand-peace"]} />
                         <h1>Resilience</h1>
-                        <p className="text-justify">Always happy with positive attitude <a href="https://en.wikipedia.org/wiki/Hakuna_matata" target="_blank">#hakunaMatata</a>.</p>
+                        <p className="text-justify">Always happy with positive attitude <a href="https://en.wikipedia.org/wiki/Hakuna_matata" target="_blank" rel="noopener noreferrer">#hakunaMatata</a>.</p>
                     </Col>
                     <Col xs={2}>
                         <FontAwesomeIcon icon={["fas", "lightbulb"]} />
