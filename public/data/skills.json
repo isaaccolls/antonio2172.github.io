@@ -1,68 +1,68 @@
 [
   {
     "order": 0,
-    "percent": 75,
-    "skill": "Microcontroladores Microchip"
+    "percent": 90,
+    "skill": "Electronic circuit design"
   },
   {
     "order": 1,
-    "percent": 75,
-    "skill": "Diseño de circuitos electrónicos"
+    "percent": 85,
+    "skill": "Microchip Microcontrollers"
   },
   {
     "order": 2,
     "percent": 75,
-    "skill": "PLC Zelio"
+    "skill": "PLC Zelio (Ladder)"
   },
   {
     "order": 3,
-    "percent": 75,
-    "skill": "Microsoft Visual Basic"
-  },
-  {
-    "order": 4,
-    "percent": 75,
+    "percent": 60,
     "skill": "C/C++"
   },
   {
+    "order": 4,
+    "percent": 70,
+    "skill": "Microsoft Visual Basic"
+  },
+  {
     "order": 5,
-    "percent": 75,
+    "percent": 40,
     "skill": "Matlab"
   },
   {
     "order": 6,
-    "percent": 75,
-    "skill": "HTML5 y CSS3"
+    "percent": 80,
+    "skill": "HTML5 and CSS3"
   },
   {
     "order": 7,
-    "percent": 75,
+    "percent": 70,
     "skill": "PHP"
   },
   {
     "order": 8,
-    "percent": 75,
+    "percent": 80,
     "skill": "JavaScript ES6"
   },
   {
     "order": 9,
     "percent": 75,
-    "skill": "NodeJS + Express"
+    "skill": "ReactJS + Redux"
   },
   {
     "order": 10,
     "percent": 75,
-    "skill": "AngularJS"
+    "skill": "React Native"
   },
   {
     "order": 11,
-    "percent": 75,
-    "skill": "ReactJS + Redux"
+    "percent": 65,
+    "skill": "NodeJS + Express"
   },
   {
     "order": 12,
-    "percent": 75,
-    "skill": "React Native"
+    "percent": 60,
+    "skill": "AngularJS"
   },
   {
     "order": 13,
@@ -71,12 +71,12 @@
   },
   {
     "order": 14,
-    "percent": 75,
+    "percent": 80,
     "skill": "Python & Appium"
   },
   {
     "order": 15,
-    "percent": 75,
+    "percent": 80,
     "skill": "SQL Server, MySQL y PostgreSQL"
   },
   {
@@ -86,22 +86,27 @@
   },
   {
     "order": 17,
-    "percent": 75,
+    "percent": 70,
     "skill": "Java"
   },
   {
     "order": 18,
-    "percent": 75,
-    "skill": "Administración de Servidores"
+    "percent": 60,
+    "skill": "Servers management"
   },
   {
     "order": 19,
-    "percent": 75,
+    "percent": 65,
     "skill": "Amazon Web Services"
   },
   {
     "order": 20,
-    "percent": 75,
-    "skill": "git and version control"
+    "percent": 80,
+    "skill": "Agile methodologies"
+  },
+  {
+    "order": 21,
+    "percent": 85,
+    "skill": "Git and version control"
   }
 ]
