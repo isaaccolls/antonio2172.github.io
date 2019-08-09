@@ -7,17 +7,19 @@ import About from './components/About';
 import News from './components/News';
 import Navbar from './components/CustomNavBar';
 import HomeBanner from './components/HomeBanner';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <Router>
-      <div id="appContainer" className="">
+      <div id="appContainer" className="min-h-100">
         <HomeBanner />
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/news" component={News} />
+        <Footer />
       </div>
     </Router>
   );

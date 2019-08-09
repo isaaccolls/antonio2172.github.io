@@ -45,7 +45,7 @@ export default class Home extends Component {
         });
 
         return (
-            <Container id="homeContainer" className="h-100" fluid>
+            <Container id="homeContainer" className="min-h-100" fluid>
                 <Row className="text-center">
                     <Col xs={2}>
                         <FontAwesomeIcon icon={["fas","hand-peace"]} />
@@ -106,11 +106,6 @@ export default class Home extends Component {
                                     </Row>
                                 )
                         }
-                    </Col>
-                </Row>
-                <Row className="show-grid text-center">
-                    <Col xs ={12}>
-                        <p>link to more about me...</p>
                     </Col>
                 </Row>
             </Container>
