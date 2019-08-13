@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image, ProgressBar, Spinner, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import me from '../assets/images/OFON6117.JPG'
+import me from '../assets/images/me.JPG'
 import './Home.css';
-
 
 export default class Home extends Component {
 
@@ -45,67 +44,83 @@ export default class Home extends Component {
         });
 
         return (
-            <Container id="homeContainer" className="min-h-100" fluid>
+            <Container id="home-container" className="h-100 min-h-100 py-5 px-5" fluid={true}>
                 <Row className="text-center">
                     <Col xs={2}>
-                        <FontAwesomeIcon icon={["fas","hand-peace"]} />
-                        <h1>Resilience</h1>
-                        <p className="text-justify">Always happy with positive attitude <a href="https://en.wikipedia.org/wiki/Hakuna_matata" target="_blank" rel="noopener noreferrer">#hakunaMatata</a>.</p>
+                        <div className="ability-wrapper">
+                            <h3 className="ability-icon"><FontAwesomeIcon icon={["fas","hand-peace"]} /></h3>
+                            <h3>Resilience</h3>
+                            <p className="text-justify">Always happy with positive attitude <a className="text-decoration-none" href="https://en.wikipedia.org/wiki/Hakuna_matata" target="_blank" rel="noopener noreferrer">#hakunaMatata</a>.</p>
+                        </div>
                     </Col>
                     <Col xs={2}>
-                        <FontAwesomeIcon icon={["fas", "lightbulb"]} />
-                        <h1>Proactive</h1>
-                        <p className="text-justify">Transforming ideas in actions and taking its responsibilities.</p>
+                        <div className="ability-wrapper">
+                            <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "lightbulb"]} /></h3>
+                            <h3>Proactive</h3>
+                            <p className="">Transforming ideas in actions and taking its responsibilities.</p>
+                        </div>
                     </Col>
                     <Col xs={2}>
-                        <FontAwesomeIcon icon={["fas", "users"]} />
-                        <h1>Team work</h1>
-                        <p className="text-justify">Each and every individual’s personal opinion matters.</p>
+                        <div className="ability-wrapper">
+                            <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "users"]} /></h3>
+                            <h3>Team work</h3>
+                            <p className="text-justify">Each and every individual’s personal opinion matters.</p>
+                        </div>
                     </Col>
                     <Col xs={2}>
-                        <FontAwesomeIcon icon={["fas", "sitemap"]} />
-                        <h1>Leadership</h1>
-                        <p className="text-justify">Just listening and understanding to take a common goal.</p>
+                        <div className="ability-wrapper">
+                            <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "sitemap"]} /></h3>
+                            <h3>Leadership</h3>
+                            <p className="text-justify">Just listening and understanding to take a common goal.</p>
+                        </div>
                     </Col>
                     <Col xs={2}>
-                        <FontAwesomeIcon icon={["fas", "handshake"]} />
-                        <h1>Committed</h1>
-                        <p className="text-justify">Understanding consequences and impacts on the final product.</p>
+                        <div className="ability-wrapper">
+                            <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "handshake"]} /></h3>
+                            <h3>Committed</h3>
+                            <p className="text-justify">Understanding consequences and impacts on the final product.</p>
+                        </div>
                     </Col>
                     <Col xs={2}>
-                        <FontAwesomeIcon icon={["fas", "book-reader"]} />
-                        <h1>Self learner</h1>
-                        <p className="text-justify">Taking the initiative to formulating learning goals in an ever changing world..</p>
+                        <div className="ability-wrapper">
+                            <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "book-reader"]} /></h3>
+                            <h3>Self learner</h3>
+                            <p className="text-justify">Taking the initiative to formulating learning goals in an ever changing world.</p>
+                        </div>
                     </Col>
                 </Row>
                 <Row className="">
-                    <Col xs={6} className="text-center">
-                        <Image src={me} rounded className="profile-pic" />
-                        <h3>Who's this guy?</h3>
-                        <p className="text-justify">Design and implementation specialist of applications that involve hardware and software to solve problems on technological field.</p>
+                    <Col xs={6} className="text-center my-auto">
+                        <div className="description-wrapper">
+                            <Image src={me} rounded className="profile-pic" />
+                            <h1>Who's this guy?</h1>
+                            <p className="text-justify">Design and implementation specialist of applications that involve hardware and software to solve problems on technological field.</p>
+                        </div>
                     </Col>
                     <Col xs={6} className="text-center">
-                        <h3>Skills</h3>
-                        <p className="text-justify">Since the beginning of my career, I have tried to be agnostic about technology. Where the most important to keep in mind is learning and implementing the best tool to give the best solution.</p>
-                        {
-                            error ?
-                                <Alert variant="danger">{`Error: ${error}`}</Alert> :
-                                null
-                        }
-                        {
-                            isLoading ? 
-                            <Spinner animation="grow" variant="dark" /> :
-                            skills.map(skill =>
-                                    <Row key={`${skill.skill.replace(/\s/g, '').toLowerCase()}`} className="text-justify">
-                                        <Col xs={5}>
-                                            <p>{skill.skill}</p>
-                                        </Col>
-                                        <Col xs={7}>
-                                            <ProgressBar variant="dark" now={skill.percent} label={`${skill.percent}%`} />
-                                        </Col>
-                                    </Row>
-                                )
-                        }
+                        <div className="skills-wrapper">
+                            <h1>Skills</h1>
+                            <p className="text-justify skills-description">Since the beginning of my career, I have tried to be agnostic about technology. Where the most important to keep in mind is learning and implementing the best tool to give the best solution.</p>
+                            {
+                                error ?
+                                    <Alert variant="danger">{`Error: ${error}`}</Alert> :
+                                    null
+                            }
+                            {
+                                isLoading ? 
+                                <Spinner animation="grow" variant="dark" /> :
+                                skills.map(skill =>
+                                        <Row key={`${skill.skill.replace(/\s/g, '').toLowerCase()}`} className="text-justify" noGutters={true}>
+                                            <Col xs={{ span: 4, offset: 2 }}>
+                                                <p className="skill-item">{skill.skill}</p>
+                                            </Col>
+                                            <Col xs={4}>
+                                                <ProgressBar variant="dark" now={skill.percent} label={`${skill.percent}%`} />
+                                            </Col>
+                                        </Row>
+                                    )
+                            }
+                        </div>
                     </Col>
                 </Row>
             </Container>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Col, Image } from 'react-bootstrap';
 import './About.css';
-import exampleImage from '../assets/images/KVEE0251.JPG'
+import exampleImage from '../assets/images/snow-pizza.JPG'
 
 export default class About extends Component {
     render() {

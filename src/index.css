@@ -29,12 +29,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2892d7;
+  /*color: #2892d7;*/
   /*color: #fff;*/
 }
 
 p {
-  color: grey;
+  /*color: grey;*/
   font-weight: 300;
 }
 
