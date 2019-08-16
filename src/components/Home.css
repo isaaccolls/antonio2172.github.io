@@ -16,7 +16,8 @@
 }
 
 .profile-pic {
-  width: 50%;
+  max-width: 50%;
+  box-shadow: 0.4em 0.4em 0px 0px rgba(0,0,0,0.75);
 }
 
 .description-wrapper {
@@ -32,4 +33,8 @@
 
 .skill-item {
     display: inline;
+}
+
+.progress-bar {
+    background-image: radial-gradient(circle, #660066, #540345, #3d092a, #240a16, #000000);
 }

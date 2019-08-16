@@ -92,8 +92,8 @@ export default class Home extends Component {
                 <Row className="">
                     <Col xs={6} className="text-center my-auto">
                         <div className="description-wrapper">
-                            <Image src={me} rounded className="profile-pic" />
-                            <h1>Who's this guy?</h1>
+                            <Image src={me} rounded fluid className="profile-pic" />
+                            <h1 className="mt-2">Who's this guy?</h1>
                             <p className="text-justify">Design and implementation specialist of applications that involve hardware and software to solve problems on technological field.</p>
                         </div>
                     </Col>
@@ -115,7 +115,7 @@ export default class Home extends Component {
                                                 <p className="skill-item">{skill.skill}</p>
                                             </Col>
                                             <Col xs={4}>
-                                                <ProgressBar variant="dark" now={skill.percent} label={`${skill.percent}%`} />
+                                                <ProgressBar now={skill.percent} label={`${skill.percent}%`} />
                                             </Col>
                                         </Row>
                                     )
