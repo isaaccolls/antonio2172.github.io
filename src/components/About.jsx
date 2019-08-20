@@ -6,7 +6,7 @@ import exampleImage from '../assets/images/snow-pizza.JPG'
 export default class About extends Component {
     render() {
         return (
-            <Container className="h-100">
+            <Container id="about-container" className="h-100 min-h-100 py-5 px-5">
                 <Col xs={12} sm={8}>
                     <Image src={exampleImage} className="about-profile-pic" rounded />
                     <h3>More pizza?</h3>

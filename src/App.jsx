@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <div id="appContainer" className="min-h-100">
+      <div id="page-container" className="min-h-100">
         <HomeBanner />
         <Navbar />
         <Route exact path="/" component={Home} />
