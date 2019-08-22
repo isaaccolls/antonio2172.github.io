@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import me from '../assets/images/me.JPG'
 import './Home.css';
 
-export default class Home extends Component {
+class Home extends Component {
 
     constructor(props) {
         super(props);
@@ -127,3 +127,5 @@ export default class Home extends Component {
         );
     }
 }
+
+export default Home;
