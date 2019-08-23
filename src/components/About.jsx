@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import WorkExperience from './WorkExperience';
 import Education from './Education';
+import Courses from './Courses';
 import './About.css';
 
 class About extends Component {
@@ -17,6 +18,11 @@ class About extends Component {
                 <Row>
                     <Col xs={12}>
                         <Education />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <Courses />
                     </Col>
                 </Row>
             </Container>
