@@ -1,0 +1,16 @@
+[
+  {
+    "college": null,
+    "institute": "CH.M.",
+    "order": 0,
+    "title": "bachelor",
+    "date": "2008"
+  },
+  {
+    "college": "Uny",
+    "institute": null,
+    "order": 1,
+    "title": "Engineer",
+    "date": "2015"
+  }
+]
