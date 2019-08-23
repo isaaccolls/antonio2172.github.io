@@ -44,7 +44,7 @@ class Home extends Component {
         });
 
         return (
-            <Container id="home-container" className="h-100 min-h-100 py-5 px-5" fluid={true}>
+            <Container id="home-container" className="h-100 min-h-100 py-5" fluid={true}>
                 <Row className="text-center">
                     <Col xs={2}>
                         <div className="ability-wrapper">
