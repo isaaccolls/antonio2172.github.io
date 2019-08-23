@@ -1,14 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './assets/fontawesome';
-import './App.css';
+import HomeBanner from './components/HomeBanner';
+import Navbar from './components/CustomNavBar';
 import Home from './components/Home';
 import About from './components/About';
-import News from './components/News';
-import Navbar from './components/CustomNavBar';
-import HomeBanner from './components/HomeBanner';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-
+import './assets/fontawesome';
+import './App.css';
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/news" component={News} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Footer />
       </div>
     </Router>

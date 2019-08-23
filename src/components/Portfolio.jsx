@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import './News.css';
+import './Portfolio.css';
 
 export default class News extends Component {
     render() {
         return (
             <Container>
-                <h2>News</h2>
+                <Row>
+                    <h2>Projects</h2>
+                </Row>
                 <Row>
                     <Col xs={12} sm={8} className="main-section">
                         <p>We'll lay all these little funky little things in there. Fluff it up a little and hypnotize it.</p>

@@ -29,7 +29,7 @@ export default class CustomNavBar extends Component {
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="ml-3">
-                            <Nav.Link eventKey={3} as={Link} to="/news">
+                            <Nav.Link eventKey={3} as={Link} to="/portfolio">
                                 Portfolio
                             </Nav.Link>
                         </Nav.Item>
