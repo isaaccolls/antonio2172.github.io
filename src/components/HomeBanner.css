@@ -11,6 +11,10 @@
     background: rgba(0, 0, 0, 0.4);
 }
 
-.home-banner-tittle h1, h2 {
+.home-banner-tittle h1 {
+    color: #ffffff;
+}
+
+.home-banner-tittle h2 {
     color: #ffffff;
 }
