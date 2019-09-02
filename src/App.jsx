@@ -5,7 +5,9 @@ import Navbar from './components/CustomNavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ComingSoon from './components/ComingSoon';
 import './assets/fontawesome';
 import './App.css';
 
@@ -16,8 +18,11 @@ function App() {
         <HomeBanner />
         <Navbar />
         <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/blog" component={ComingSoon} />
+        <Route exact path="/Contact" component={Contact} />
         <Footer />
       </div>
     </Router>
