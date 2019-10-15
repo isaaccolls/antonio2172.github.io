@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import WorkExperience from './WorkExperience';
-import Education from './Education';
-import Courses from './Courses';
+import WorkExperience from '../../components/WorkExperience';
+import Education from '../../components/Education';
+import Courses from '../../components/Courses';
 import './About.css';
 
 class About extends Component {

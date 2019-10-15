@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image, ProgressBar, Spinner, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import me from '../assets/images/me.JPG'
+import me from '../../assets/images/me.JPG'
 import './Home.css';
 
 class Home extends Component {

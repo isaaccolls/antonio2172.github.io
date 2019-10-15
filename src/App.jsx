@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomeBanner from './components/HomeBanner';
 import Navbar from './components/CustomNavBar';
-import Home from './components/Home';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Home from './containers/Home';
+import About from './containers/About';
+import Portfolio from './containers/Portfolio';
+import ComingSoon from './containers/ComingSoon';
+import Contact from './containers/Contact';
 import Footer from './components/Footer';
-import ComingSoon from './components/ComingSoon';
 import './assets/fontawesome';
 import './App.css';
 

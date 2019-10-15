@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, ToggleButtonGroup, ToggleButton, Spinner, Alert } from 'react-bootstrap';
-import PortfolioGallery from './PortfolioGallery';
+import PortfolioGallery from '../../components/PortfolioGallery';
 import './Portfolio.css';
 
 class Portfolio extends Component {
