@@ -14,7 +14,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <Container id="contact-container" className="h-100 min-h-100 py-5" fluid={true}>
+            <Container id="contact-container" className="min-vh-100 py-5" fluid={true}>
                 <Row>
                     <Col xs={{ span: 4, offset: 4 }} className="text-center">
                         <h3 className="testH3">Have a question or want to work together?</h3>

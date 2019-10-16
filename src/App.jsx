@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div id="page-container" className="min-h-100">
+      <div id="page-container" className="">
         <HomeBanner />
         <Navbar />
         <Route exact path="/" component={Home} />
