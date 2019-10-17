@@ -45,7 +45,7 @@ class Portfolio extends Component {
         categories.unshift("all");
 
         return (
-            <Container id="portfolio-container" className="min-vh-100 py-5" fluid={true}>
+            <Container id="portfolio-container" className="min-vh-100 py-5 px-5" fluid={true}>
                 <Row>
                     <Col xs={12}>
                         <h2>Projects</h2>

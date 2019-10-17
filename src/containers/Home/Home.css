@@ -3,7 +3,7 @@
 }
 
 .ability-wrapper p {
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .ability-icon {
@@ -11,8 +11,8 @@
     border-radius: 50%;
     color: #ffffff;
     display: inline-block;
-    line-height: 1.6em;
-    width: 1.6em;
+    line-height: 2em;
+    width: 2em;
 }
 
 .profile-pic {

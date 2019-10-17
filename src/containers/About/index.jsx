@@ -9,7 +9,7 @@ class About extends Component {
 
     render() {
         return (
-            <Container id="about-container" className="min-vh-100 py-5" fluid={true}>
+            <Container id="about-container" className="min-vh-100 py-5 px-5" fluid={true}>
                 <Row>
                     <Col xs={12}>
                         <WorkExperience />

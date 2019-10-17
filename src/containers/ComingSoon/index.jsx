@@ -5,7 +5,7 @@ import './ComingSoon.css';
 class ComingSoon extends Component {
     render() {
         return (
-            <Container id="coming-soon-container" className="min-vh-100 py-5" fluid={true}>
+            <Container id="coming-soon-container" className="min-vh-100 py-5 px-5" fluid={true}>
                 <Row>
                     <Col>
                         <h2>Coming soon!</h2>

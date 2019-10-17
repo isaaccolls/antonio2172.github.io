@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image, ProgressBar, Spinner, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import me from '../../assets/images/me.JPG'
+import me from '../../assets/images/me.JPG';
 import './Home.css';
 
 class Home extends Component {
@@ -44,56 +44,56 @@ class Home extends Component {
         });
 
         return (
-            <Container id="home-container" className="min-vh-100 py-5" fluid={true}>
+            <Container id="home-container" className="min-vh-100 py-5 px-5" fluid={true}>
                 <Row className="text-center">
                     <Col xs={2}>
                         <div className="ability-wrapper">
                             <h3 className="ability-icon"><FontAwesomeIcon icon={["fas","hand-peace"]} /></h3>
                             <h3>Resilience</h3>
-                            <p className="text-justify">Always happy with positive attitude <a className="text-decoration-none" href="https://en.wikipedia.org/wiki/Hakuna_matata" target="_blank" rel="noopener noreferrer">#hakunaMatata</a>.</p>
+                            <p className="text-center">Always happy with positive attitude <a className="text-decoration-none" href="https://en.wikipedia.org/wiki/Hakuna_matata" target="_blank" rel="noopener noreferrer">#hakunaMatata</a>.</p>
                         </div>
                     </Col>
                     <Col xs={2}>
                         <div className="ability-wrapper">
                             <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "lightbulb"]} /></h3>
                             <h3>Proactive</h3>
-                            <p className="">Transforming ideas in actions and taking its responsibilities.</p>
+                            <p className="text-center">Transforming ideas in actions and taking its responsibilities.</p>
                         </div>
                     </Col>
                     <Col xs={2}>
                         <div className="ability-wrapper">
                             <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "users"]} /></h3>
                             <h3>Team work</h3>
-                            <p className="text-justify">Each and every individual’s personal opinion matters.</p>
+                            <p className="text-center">Each and every individual’s personal opinion matters.</p>
                         </div>
                     </Col>
                     <Col xs={2}>
                         <div className="ability-wrapper">
                             <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "sitemap"]} /></h3>
                             <h3>Leadership</h3>
-                            <p className="text-justify">Just listening and understanding to take a common goal.</p>
+                            <p className="text-center">Just listening and understanding to take a common goal.</p>
                         </div>
                     </Col>
                     <Col xs={2}>
                         <div className="ability-wrapper">
                             <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "handshake"]} /></h3>
                             <h3>Committed</h3>
-                            <p className="text-justify">Understanding consequences and impacts on the final product.</p>
+                            <p className="text-center">Understanding consequences and impacts on the final product.</p>
                         </div>
                     </Col>
                     <Col xs={2}>
                         <div className="ability-wrapper">
                             <h3 className="ability-icon"><FontAwesomeIcon icon={["fas", "book-reader"]} /></h3>
                             <h3>Self learner</h3>
-                            <p className="text-justify">Taking the initiative to formulating learning goals in an ever changing world.</p>
+                            <p className="text-center">Formulating learning goals in an ever changing world.</p>
                         </div>
                     </Col>
                 </Row>
-                <Row className="">
+                <Row className="mt-3">
                     <Col xs={6} className="text-center my-auto">
                         <div className="description-wrapper">
                             <Image src={me} rounded fluid className="profile-pic" />
-                            <h1 className="mt-2">Who's this guy?</h1>
+                            <h1 className="mt-3">Who's this guy?</h1>
                             <p className="text-justify">Design and implementation specialist of applications that involve hardware and software to solve problems on technological field.</p>
                         </div>
                     </Col>
