@@ -27,14 +27,33 @@
     margin: 0 20%;
 }
 
-.skills-description {
+/*.skills-description {
     padding: 0 10%;
 }
 
 .skill-item {
+    background-color: #660066;
+    margin-top: 1%;
+}
+
+.skill-paragraph {
     display: inline;
+    color: #ffffff;
+}
+
+.skill-progress-bar {
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .progress-bar {
-    background-image: radial-gradient(circle, #660066, #540345, #3d092a, #240a16, #000000);
+  background-color: #540345;
 }
+
+.progress {
+  border-radius: 0;
+}*/
+
+
+/*660066
+240a16*/

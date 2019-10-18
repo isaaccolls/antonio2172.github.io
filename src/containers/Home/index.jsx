@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image, ProgressBar, Spinner, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Image, Spinner, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ProgressBar from '../../components/ProgressBar/';
 import me from '../../assets/images/me.JPG';
 import './Home.css';
 
@@ -42,6 +43,7 @@ class Home extends Component {
                 return -1;
             }
         });
+        console.log(skills);
 
         return (
             <Container id="home-container" className="min-vh-100 py-5 px-5" fluid={true}>
@@ -91,16 +93,20 @@ class Home extends Component {
                 </Row>
                 <Row className="mt-3">
                     <Col xs={6} className="text-center my-auto">
-                        <div className="description-wrapper">
+                        <div>
                             <Image src={me} rounded fluid className="profile-pic" />
                             <h1 className="mt-3">Who's this guy?</h1>
                             <p className="text-justify">Design and implementation specialist of applications that involve hardware and software to solve problems on technological field.</p>
                         </div>
                     </Col>
                     <Col xs={6} className="text-center">
-                        <div className="skills-wrapper">
-                            <h1>Skills</h1>
-                            <p className="text-justify skills-description">Since the beginning of my career, I have tried to be agnostic about technology. Where the most important to keep in mind is learning and implementing the best tool to give the best solution.</p>
+                        <div>
+                            <Row>
+                                <Col xs={12}>
+                                    <h1>Skills</h1>
+                                    <p className="text-left">Since the beginning of my career, I have tried to be agnostic about technology. Where the most important to keep in mind is learning and implementing the best tool to give the best solution.</p>
+                                </Col>
+                            </Row>
                             {
                                 error ?
                                     <Alert variant="danger">{`Error: ${error}`}</Alert> :
@@ -111,11 +117,8 @@ class Home extends Component {
                                 <Spinner animation="grow" variant="dark" /> :
                                 skills.map(skill =>
                                         <Row key={`${skill.skill.replace(/\s/g, '').toLowerCase()}`} className="text-justify" noGutters={true}>
-                                            <Col xs={{ span: 4, offset: 2 }}>
-                                                <p className="skill-item">{skill.skill}</p>
-                                            </Col>
-                                            <Col xs={4}>
-                                                <ProgressBar now={skill.percent} label={`${skill.percent}%`} />
+                                            <Col xs={12} className="skill-progress-bar">
+                                                <ProgressBar skill={skill} />
                                             </Col>
                                         </Row>
                                     )
