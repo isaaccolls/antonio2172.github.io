@@ -1,21 +1,8 @@
 @font-face {
   font-family: 'Helvetica';
-  src: local('Helvetica'), url(./assets/fonts/Helvetica.ttf) format('truetype');
+  src: local('Helvetica'),
+    url(./assets/fonts/Helvetica/Helvetica.ttf) format('truetype');
 }
-
-/*body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}*/
 
 html {
   height: 100vh;
@@ -33,7 +20,12 @@ body {
   font-family: Helvetica;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   /*color: #2892d7;*/
   /*color: #fff;*/
 }
@@ -43,11 +35,15 @@ p {
   /*font-weight: 300;*/
 }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   color: inherit;
 }
 
-a:hover, a:active,  a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #660066;
 }
 
@@ -57,12 +53,4 @@ a:hover, a:active,  a:focus {
   margin: 0;
   padding: 0;
   /*background: pink;*/
-}
-
-#page-container {
-  /*height: 100%;*/
-  /*width: 100%;*/
-  /*margin: 0;*/
-  /*padding: 0;*/
-  /*background: green;*/
 }

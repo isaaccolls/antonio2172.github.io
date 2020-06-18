@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import HomeBanner from './components/HomeBanner';
-import Navbar from './components/CustomNavBar';
-import Home from './containers/Home';
-import About from './containers/About';
-import Portfolio from './containers/Portfolio';
-import ComingSoon from './containers/ComingSoon';
-import Contact from './containers/Contact';
-import Footer from './components/Footer';
-import './assets/fontawesome';
+import HomeBanner from '../HomeBanner';
+import Navbar from '../CustomNavBar';
+import Home from '../../containers/Home';
+import About from '../../containers/About';
+import Portfolio from '../../containers/Portfolio';
+import ComingSoon from '../../containers/ComingSoon';
+import Contact from '../../containers/Contact';
+import Footer from '../Footer';
+import '../../assets/fonts/FontAwesome';
 import './App.css';
 
 function App() {
