@@ -1,0 +1,16 @@
+#contact-container {
+  /*background-image: radial-gradient(circle, #d0d0d0, #dcdcdc, #e7e7e7, #f3f3f3, #ffffff);*/
+  background-color: #252934;
+}
+
+.inputText {
+  border: 0;
+  background: #1e242c;
+  color: #fff;
+}
+
+.testH3 {
+  color: #04c2c9;
+  /*color: #ffffff;*/
+  /*color: #660066;*/
+}

@@ -1,30 +1,44 @@
 #home-container {
-  background-image: radial-gradient(circle, #d0d0d0, #dcdcdc, #e7e7e7, #f3f3f3, #ffffff);
+  background-image: radial-gradient(
+    circle,
+    #d0d0d0,
+    #dcdcdc,
+    #e7e7e7,
+    #f3f3f3,
+    #ffffff
+  );
 }
 
 .ability-wrapper p {
-    padding: 0 5%;
+  padding: 0 5%;
 }
 
 .ability-icon {
-    background-image: radial-gradient(circle, #660066, #540345, #3d092a, #240a16, #000000);
-    border-radius: 50%;
-    color: #ffffff;
-    display: inline-block;
-    line-height: 2em;
-    width: 2em;
+  background-image: radial-gradient(
+    circle,
+    #660066,
+    #540345,
+    #3d092a,
+    #240a16,
+    #000000
+  );
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 2em;
+  width: 2em;
 }
 
 .profile-pic {
   max-width: 50%;
-  box-shadow: 0.4em 0.4em 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0.4em 0.4em 0px 0px rgba(0, 0, 0, 0.75);
 }
 
 .description-wrapper {
 }
 
 .description-wrapper p {
-    margin: 0 20%;
+  margin: 0 20%;
 }
 
 /*.skills-description {
@@ -53,7 +67,6 @@
 .progress {
   border-radius: 0;
 }*/
-
 
 /*660066
 240a16*/
