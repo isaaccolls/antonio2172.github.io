@@ -28,7 +28,9 @@ class PortfolioContainer extends Component {
 
   fetchPortfolio = () => {
     this.setState({ isLoading: true });
-    fetch('data/portfolio.json')
+    fetch(
+      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/projects',
+    )
       .then(response => {
         if (response.ok) {
           return response.json();

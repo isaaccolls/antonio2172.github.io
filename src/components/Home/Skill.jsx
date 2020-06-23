@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = ({ data }) => (
   <div>
-    <p>{`${data.skill} - ${data.percent}%`}</p>
+    <p>{data.focus}</p>
   </div>
 );
 

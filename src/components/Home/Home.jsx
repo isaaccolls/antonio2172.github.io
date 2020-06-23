@@ -120,7 +120,7 @@ const Home = ({ data }) => {
             ) : (
               skills.map(skill => (
                 <Row
-                  key={`${skill.skill.replace(/\s/g, '').toLowerCase()}`}
+                  key={`${skill.focus.replace(/\s/g, '').toLowerCase()}`}
                   className="text-justify"
                   noGutters={true}
                 >

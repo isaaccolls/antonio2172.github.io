@@ -25,7 +25,9 @@ class About extends Component {
 
   fetchWorkExperience = () => {
     this.setState({ isLoading: true });
-    fetch('data/workExperience.json')
+    fetch(
+      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/experience',
+    )
       .then(response => {
         if (response.ok) {
           return response.json();
@@ -41,7 +43,9 @@ class About extends Component {
 
   fetchEducation = () => {
     this.setState({ isLoading: true });
-    fetch('data/education.json')
+    fetch(
+      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/education',
+    )
       .then(response => {
         if (response.ok) {
           return response.json();
@@ -55,7 +59,9 @@ class About extends Component {
 
   fetchCourses = () => {
     this.setState({ isLoading: true });
-    fetch('data/courses.json')
+    fetch(
+      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/certificates',
+    )
       .then(response => {
         if (response.ok) {
           return response.json();

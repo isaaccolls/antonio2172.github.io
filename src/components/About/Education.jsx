@@ -32,19 +32,17 @@ const Education = ({ data }) => {
         <VerticalTimeline>
           {education.map(educationItem => (
             <VerticalTimelineElement
-              key={`${educationItem.title.replace(/\s/g, '').toLowerCase()}`}
+              key={`${educationItem.degree.replace(/\s/g, '').toLowerCase()}`}
               className="vertical-timeline-element--work"
               date={`${educationItem.date}`}
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
               icon={<FontAwesomeIcon icon={['fas', 'graduation-cap']} />}
             >
               <h4 className="vertical-timeline-element-title">
-                {educationItem.title}
+                {educationItem.degree}
               </h4>
               <h6 className="vertical-timeline-element-subtitle">
-                {educationItem.college
-                  ? educationItem.college
-                  : educationItem.institute}
+                {educationItem.institute}
               </h6>
             </VerticalTimelineElement>
           ))}

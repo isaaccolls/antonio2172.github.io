@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const Courses = ({ data }) => {
   let { courses, isLoading, error } = data;
   courses = courses.sort((a, b) => {
-    if (a.dateStart > b.dateStart) {
+    if (a.date > b.date) {
       return 1;
     } else {
       return -1;

@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const WorkExperience = ({ data }) => {
   let { workExperience, isLoading, error } = data;
   workExperience = workExperience.sort((a, b) => {
-    if (a.dateStart > b.dateStart) {
+    if (a.startDate > b.startDate) {
       return -1;
     } else {
       return 1;
@@ -31,25 +31,25 @@ const WorkExperience = ({ data }) => {
         <VerticalTimeline>
           {workExperience.map(workItem => (
             <VerticalTimelineElement
-              key={`${workItem.employer.replace(/\s/g, '').toLowerCase()}`}
+              key={`${workItem.company.replace(/\s/g, '').toLowerCase()}`}
               className="vertical-timeline-element--work"
-              date={`${workItem.dateStart} - ${workItem.dateEnd}`}
+              date={`${workItem.startDate} - ${workItem.endDate}`}
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
               icon={<FontAwesomeIcon icon={['fas', 'briefcase']} />}
             >
               <h4 className="vertical-timeline-element-title">
-                {workItem.position}{' '}
+                {workItem.title}{' '}
                 {workItem.department ? ` - ${workItem.department}` : null}
               </h4>
               <h6 className="vertical-timeline-element-subtitle">
-                {workItem.employer}
+                {workItem.company}
               </h6>
               <Accordion>
                 <Accordion.Toggle as={Button} variant="light" eventKey="0">
                   ...
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
-                  <p>{workItem.duties}</p>
+                  <p>{workItem.description}</p>
                 </Accordion.Collapse>
               </Accordion>
             </VerticalTimelineElement>

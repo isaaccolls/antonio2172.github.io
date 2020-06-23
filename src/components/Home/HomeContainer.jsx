@@ -17,7 +17,9 @@ class HomeContainer extends Component {
 
   fetchSkills = () => {
     this.setState({ isLoading: true });
-    fetch('data/skills.json')
+    fetch(
+      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/skills',
+    )
       .then(response => {
         if (response.ok) {
           return response.json();
@@ -26,15 +28,6 @@ class HomeContainer extends Component {
         }
       })
       .then(skills => {
-        console.log(`skills: ${JSON.stringify(skills)}`);
-        skills = skills.sort((a, b) => {
-          if (a.order > b.order) {
-            return 1;
-          } else {
-            return -1;
-          }
-        });
-        console.log(`skills: ${JSON.stringify(skills)}`);
         this.setState({ skills, isLoading: false });
       })
       .catch(error => this.setState({ error, isLoading: false }));
