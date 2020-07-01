@@ -1,0 +1,12 @@
+.ability-wrapper p {
+  padding: 0 5%;
+}
+
+.ability-icon {
+  background-color: #ff6f7f;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 2em;
+  width: 2em;
+}

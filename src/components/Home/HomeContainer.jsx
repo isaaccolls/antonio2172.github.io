@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Home from './Home';
+import { Container } from 'react-bootstrap';
+import Abilities from './Abilities';
+import Me from './Me';
+import './HomeContainer.css';
 
 class HomeContainer extends Component {
   constructor(props) {
@@ -28,13 +31,21 @@ class HomeContainer extends Component {
         }
       })
       .then(skills => {
-        this.setState({ skills, isLoading: false });
+        const sortedSkills = skills.sort((a, b) =>
+          a.order > b.order ? 1 : -1,
+        );
+        this.setState({ skills: sortedSkills, isLoading: false });
       })
       .catch(error => this.setState({ error, isLoading: false }));
   };
 
   render() {
-    return <Home data={this.state} />;
+    return (
+      <Container className="min-vh-100 py-5 px-5 home-container" fluid={true}>
+        <Abilities />
+        <Me data={this.state} />
+      </Container>
+    );
   }
 }
 

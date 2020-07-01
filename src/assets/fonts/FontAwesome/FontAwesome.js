@@ -10,6 +10,7 @@ import {
   faEnvelope,
   faBriefcase,
   faStar,
+  faStarHalfAlt,
   faGraduationCap,
   faChalkboardTeacher,
 } from '@fortawesome/free-solid-svg-icons';
@@ -35,6 +36,7 @@ library.add(
   faGithub,
   faBriefcase,
   faStar,
+  faStarHalfAlt,
   faGraduationCap,
   faChalkboardTeacher,
 );
