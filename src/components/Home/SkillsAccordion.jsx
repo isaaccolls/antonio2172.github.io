@@ -18,28 +18,27 @@ const Stars = ({ value }) => {
   return stars;
 };
 
-const SkillsAccordion = ({ skills }) => {
-  return (
-    <Accordion>
-      {skills.map(skill => (
-        <Card key={skill.order}>
-          <Card.Header>
-            <Accordion.Toggle as={Button} variant="link" eventKey={skill.order}>
-              {skill.focus}
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey={skill.order}>
-            <Card.Body>
-              {skill.skills.map(innerSkill => (
-                <Card.Text key={innerSkill.order}>
-                  {innerSkill.name} <Stars value={innerSkill.value} />
-                </Card.Text>
-              ))}
-            </Card.Body>
-          </Accordion.Collapse>
-        </Card>
-      ))}
-    </Accordion>
-  );
-};
+const SkillsAccordion = ({ skills }) => (
+  <Accordion>
+    {skills.map(skill => (
+      <Card key={skill.order}>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey={skill.order}>
+            {skill.focus}
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey={skill.order}>
+          <Card.Body>
+            {skill.skills.map(innerSkill => (
+              <Card.Text key={innerSkill.order}>
+                {innerSkill.name} <Stars value={innerSkill.value} />
+              </Card.Text>
+            ))}
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+    ))}
+  </Accordion>
+);
+
 export default SkillsAccordion;
