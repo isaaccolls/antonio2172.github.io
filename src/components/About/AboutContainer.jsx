@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Container, Row, Col } from 'react-bootstrap';
-import Experience from './Experience';
-import Education from './Education';
-import Certificates from './Certificates';
-import './About.css';
 import { getExperience } from '../../reducers/experience';
 import { getEducation } from '../../reducers/education';
 import { getCertificates } from '../../reducers/certificates';
@@ -13,6 +9,10 @@ import {
   fetchEducation,
   fetchCertificates,
 } from '../../actions';
+import Experience from './Experience';
+import Education from './Education';
+import Certificates from './Certificates';
+import './About.css';
 
 class AboutContainer extends Component {
   componentDidMount() {

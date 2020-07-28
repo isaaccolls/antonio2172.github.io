@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import {
   Container,
   Row,
@@ -6,55 +7,28 @@ import {
   ToggleButtonGroup,
   ToggleButton,
   Spinner,
-  Alert,
 } from 'react-bootstrap';
+import { getProjects, getProjectCategory } from '../../reducers/projects';
+import { fetchProjects, setProjectCategory } from '../../actions/actions';
 import PortfolioGallery from './PortfolioGallery';
 import './Portfolio.css';
 
 class PortfolioContainer extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      portfolio: [],
-      isLoading: false,
-      error: null,
-      selectedCategory: 'all',
-    };
-  }
-
   componentDidMount() {
-    this.fetchPortfolio();
+    this.props.fetchProjects();
+    this.props.setProjectCategory('all');
   }
-
-  fetchPortfolio = () => {
-    this.setState({ isLoading: true });
-    fetch(
-      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/projects',
-    )
-      .then(response => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          throw new Error('Something went wrong...');
-        }
-      })
-      .then(portfolio => {
-        this.setState({ portfolio, isLoading: false });
-      })
-      .catch(error => this.setState({ error, isLoading: false }));
-  };
 
   handleChange = selectedCategory => {
-    this.setState({ selectedCategory });
+    this.props.setProjectCategory(selectedCategory);
   };
 
   render() {
-    let { portfolio, isLoading, error, selectedCategory } = this.state;
-    let categories = [
-      ...new Set(portfolio.map(portfolioItem => portfolioItem.category)),
-    ];
+    const { projects, selectedCategory } = this.props;
+    let categories = projects
+      ? [...new Set(projects.map(portfolioItem => portfolioItem.category))]
+      : [];
     categories.unshift('all');
-
     return (
       <Container
         id="portfolio-container"
@@ -77,13 +51,12 @@ class PortfolioContainer extends Component {
         </Row>
         <Row>
           <Col xs={12} className="text-center">
-            {error && <Alert variant="danger">{`Error: ${error}`}</Alert>}
-            {isLoading && <Spinner animation="grow" variant="dark" />}
-            {categories.length > 0 && (
+            {/*{error && <Alert variant="danger">{`Error: ${error}`}</Alert>}*/}
+            {categories.length > 1 ? (
               <ToggleButtonGroup
                 name="selectCategory"
                 type="radio"
-                value={selectedCategory}
+                value={'selectedCategory'}
                 onChange={this.handleChange}
                 className="mb-4"
               >
@@ -93,20 +66,34 @@ class PortfolioContainer extends Component {
                   </ToggleButton>
                 ))}
               </ToggleButtonGroup>
+            ) : (
+              <Spinner animation="grow" variant="dark" />
             )}
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} className="text-center">
-            <PortfolioGallery
-              selectedCategory={selectedCategory}
-              portfolio={portfolio}
-            />
-          </Col>
-        </Row>
+        {categories.length > 1 && (
+          <Row>
+            <Col xs={12} className="text-center">
+              <PortfolioGallery
+                selectedCategory={selectedCategory}
+                projects={projects}
+              />
+            </Col>
+          </Row>
+        )}
       </Container>
     );
   }
 }
 
-export default PortfolioContainer;
+const mapStateToProps = state => ({
+  projects: getProjects(state),
+  selectedCategory: getProjectCategory(state),
+});
+
+const mapDispatchToProps = dispatch => ({
+  fetchProjects: value => dispatch(fetchProjects(value)),
+  setProjectCategory: value => dispatch(setProjectCategory(value)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(PortfolioContainer);

@@ -3,6 +3,8 @@ import {
   SET_EXPERIENCE_DATA,
   SET_EDUCATION_DATA,
   SET_CERTIFICATES_DATA,
+  SET_PROJECTS_DATA,
+  SET_PROJECT_CATEGORY,
 } from './actionsTypes';
 
 const setSkillsData = payload => ({ type: SET_SKILLS_DATA, payload });
@@ -79,3 +81,21 @@ export const fetchCertificates = () => {
       });
   };
 };
+
+const setProjectsData = payload => ({
+  type: SET_PROJECTS_DATA,
+  payload,
+});
+
+export const fetchProjects = () => {
+  return dispatch => {
+    const url =
+      'https://us-central1-portfolio-api-77f4e.cloudfunctions.net/api/projects';
+    dispatch(setProjectsData({}));
+    return fetch(url)
+      .then(response => response.json())
+      .then(projects => dispatch(setProjectsData({ projects })));
+  };
+};
+
+export const setProjectCategory = payload => ({ type: SET_PROJECT_CATEGORY, payload });

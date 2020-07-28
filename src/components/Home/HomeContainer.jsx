@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Container } from 'react-bootstrap';
+import { getSkills } from '../../reducers/skills';
+import { fetchSkills } from '../../actions';
 import Abilities from './Abilities';
 import Me from './Me';
 import './HomeContainer.css';
-import { getSkills } from '../../reducers/skills';
-import { fetchSkills } from '../../actions';
 
 class HomeContainer extends Component {
   componentDidMount() {
