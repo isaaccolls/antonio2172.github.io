@@ -8,6 +8,7 @@ import PortfolioContainer from '../Portfolio';
 import Blog from '../Blog';
 import Contact from '../Contact';
 import Footer from '../Footer';
+import NotFound from '../NotFound';
 import '../../assets/fonts/FontAwesome';
 import './App.css';
 
@@ -21,6 +22,7 @@ const App = () => (
       <Route exact path="/portfolio" component={PortfolioContainer} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/Contact" component={Contact} />
+      <Route path="*" component={NotFound} />
       <Footer />
     </div>
   </Router>
