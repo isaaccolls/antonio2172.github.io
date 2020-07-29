@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomeBanner from '../HomeBanner';
 import Navbar from '../CustomNavBar';
 import HomeContainer from '../Home';
@@ -17,12 +17,14 @@ const App = () => (
     <div id="page-container" className="">
       <HomeBanner />
       <Navbar />
-      <Route exact path="/" component={HomeContainer} />
-      <Route exact path="/about" component={AboutContainer} />
-      <Route exact path="/portfolio" component={PortfolioContainer} />
-      <Route exact path="/blog" component={Blog} />
-      <Route exact path="/Contact" component={Contact} />
-      <Route path="*" component={NotFound} />
+      <Switch>
+        <Route exact path="/" component={HomeContainer} />
+        <Route exact path="/about" component={AboutContainer} />
+        <Route exact path="/portfolio" component={PortfolioContainer} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route path="*" component={NotFound} />
+      </Switch>
       <Footer />
     </div>
   </Router>
