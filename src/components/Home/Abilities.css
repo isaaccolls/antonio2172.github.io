@@ -3,9 +3,9 @@
 }
 
 .ability-icon {
-  background-color: #ff6f7f;
+  background-color: var(--c-platinum);
   border-radius: 50%;
-  color: #ffffff;
+  color: var(--c-indian-red);
   display: inline-block;
   line-height: 2em;
   width: 2em;

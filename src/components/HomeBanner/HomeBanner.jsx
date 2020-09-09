@@ -1,24 +1,29 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ParticleComponent from './ParticleComponent';
+import CustomParticles from './CustomParticles';
 import './HomeBanner.css';
 
 const HomeBanner = () => (
-  <div className="min-vh-100">
-    <ParticleComponent />
-    <Container id="home-banner-container" className="h-100" fluid={true}>
-      <Row className="h-100">
-        <Col xs={{ span: 6, offset: 3 }} className="my-auto text-center">
-          <div className="home-banner-tittle">
-            <h1>
-              Hello, I'm <strong>Isaac Colls</strong>
-            </h1>
-            <h2>Electronic and Computer Engineering</h2>
-          </div>
-        </Col>
-      </Row>
-    </Container>
-  </div>
+  <Container className="h-100" fluid>
+    <Row className="h-100 d-flex align-items-center">
+      <Col
+        xs={{ span: 10, offset: 1 }}
+        sm={{ span: 4, offset: 4 }}
+        className="text-center py-4 home-banner-tittle"
+      >
+        <h1>
+          Hey, I'm <br className="d-sm-none" />
+          <strong>
+            <em>Isaac Colls</em>
+          </strong>
+        </h1>
+        <p className="my-1">Electronic and Computer Engineering</p>
+        <p className="my-1">&</p>
+        <p className="my-1">Full Stack developer</p>
+      </Col>
+    </Row>
+    <CustomParticles />
+  </Container>
 );
 
 export default HomeBanner;
