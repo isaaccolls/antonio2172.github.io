@@ -1,39 +1,20 @@
-/*nav.navbar, .navbar-default {
-  background-color: #2892D7 !important;
+.navbar-custom {
+  background-color: var(--c-gunmetal);
 }
 
-.navbar-default {
-  background-image: none;
-  border: none;
-  border-radius: 0;
+.navbar-custom .navbar-brand {
+  color: var(--c-platinum) !important;
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='hsla%280, 0%, 93%25, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
+.navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: var(--c-platinum);
 }
 
-.navbar-default .navbar-toggle {
-  border-color: white;
+.navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link.active,
+.navbar-custom .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+  color: var(--c-indian-red);
 }
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  color: white;
-  background-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: white;
-  background-color: transparent;
-}*/

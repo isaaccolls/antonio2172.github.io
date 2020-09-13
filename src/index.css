@@ -4,8 +4,9 @@
   --c-corn: hsla(53, 91%, 69%, 1);
   --c-redwood: hsla(14, 32%, 44%, 1);
   --c-independence: hsla(249, 11%, 34%, 1);
-  --c-black-t: hsla(0, 0%, 0%, 0.3);
   --c-platinum: hsla(0, 0%, 93%, 1);
+  --c-gunmetal: hsla(210, 10%, 23%, 1);
+  --c-gunmetal-t: hsla(210, 10%, 23%, 0.5);
 }
 
 @font-face {
