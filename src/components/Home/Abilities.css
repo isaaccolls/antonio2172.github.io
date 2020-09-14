@@ -3,10 +3,14 @@
 }
 
 .ability-icon {
-  background-color: var(--c-platinum);
+  background-color: var(--c-cultured);
   border-radius: 50%;
   color: var(--c-indian-red);
   display: inline-block;
   line-height: 2em;
   width: 2em;
+}
+
+.ability-link {
+  color: var(--c-indian-red) !important;
 }
