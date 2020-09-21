@@ -15,7 +15,7 @@ class HomeContainer extends Component {
   render() {
     const { skills } = this.props;
     return (
-      <Container className="h-auto p-1 p-sm-5 home-container" fluid>
+      <Container className="p-1 p-sm-5 home-container" fluid>
         <Abilities />
         <Me skills={skills} />
       </Container>
