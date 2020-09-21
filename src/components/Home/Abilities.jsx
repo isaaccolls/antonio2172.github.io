@@ -5,7 +5,7 @@ import './Abilities.css';
 
 const Abilities = () => (
   <Row className="text-center">
-    <Col xs={6} sm={2}>
+    <Col xs={6} md={4} lg={2}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'hand-peace']} />
@@ -25,7 +25,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} sm={2}>
+    <Col xs={6} md={4} lg={2}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'lightbulb']} />
@@ -36,7 +36,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} sm={2}>
+    <Col xs={6} md={4} lg={2}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'users']} />
@@ -47,7 +47,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} sm={2}>
+    <Col xs={6} md={4} lg={2}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'sitemap']} />
@@ -58,7 +58,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} sm={2}>
+    <Col xs={6} md={4} lg={2}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'handshake']} />
@@ -69,7 +69,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} sm={2}>
+    <Col xs={6} md={4} lg={2}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'book-reader']} />

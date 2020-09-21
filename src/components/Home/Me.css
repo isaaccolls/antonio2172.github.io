@@ -1,11 +1,5 @@
 .profile-pic {
-  max-width: 50%;
-  box-shadow: 0.4em 0.4em 0px 0px rgba(0, 0, 0, 0.75);
-}
-
-.description-wrapper {
-}
-
-.description-wrapper p {
-  margin: 0 20%;
+  max-width: 30%;
+  height: auto;
+  box-shadow: 0.5em 0.5em 0px 0px var(--c-gunmetal);
 }

@@ -12,7 +12,7 @@ const HomeBanner = () => (
         className="text-center py-4 home-banner-tittle"
       >
         <h1>
-          Hey, I'm <br className="d-sm-none" />
+          Hey, I'm <br className=".d-none .d-sm-block" />
           <strong>
             <em>Isaac Colls</em>
           </strong>

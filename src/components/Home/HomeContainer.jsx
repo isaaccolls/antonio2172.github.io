@@ -17,7 +17,7 @@ class HomeContainer extends Component {
     return (
       <Container className="h-auto p-1 p-sm-5 home-container" fluid>
         <Abilities />
-        {/*<Me skills={skills} />*/}
+        <Me skills={skills} />
       </Container>
     );
   }

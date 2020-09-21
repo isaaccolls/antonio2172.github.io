@@ -1,37 +1,61 @@
 import React from 'react';
-import { Accordion, Card, Button } from 'react-bootstrap';
+import { Accordion, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './SkillsAccordion.css';
 
 const Stars = ({ value }) => {
   let stars = [];
-  for (let k = 1; k <= value; k++) {
-    stars.push(<FontAwesomeIcon key={k} icon={['fas', 'star']} />);
-  }
-  if (value % 1 !== 0) {
-    stars.push(
-      <FontAwesomeIcon
-        key={Math.round(value)}
-        icon={['fas', 'star-half-alt']}
-      />,
-    );
+  for (let k = 1; k <= 3; k++) {
+    if (k <= value) {
+      stars.push(
+        <FontAwesomeIcon
+          key={k}
+          icon={['fas', 'star']}
+          className="custom-star"
+        />,
+      );
+    } else {
+      if (k - value === 0.5) {
+        stars.push(
+          <FontAwesomeIcon
+            key={value}
+            icon={['fas', 'star-half-alt']}
+            className="custom-star"
+          />,
+        );
+      } else {
+        stars.push(
+          <FontAwesomeIcon
+            key={k}
+            icon={['far', 'star']}
+            className="custom-star"
+          />,
+        );
+      }
+    }
   }
   return stars;
 };
 
 const SkillsAccordion = ({ skills }) => (
-  <Accordion>
+  <Accordion className="w-75 mx-auto">
     {skills.map(skill => (
-      <Card key={skill.order}>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey={skill.order}>
+      <Card key={skill.order} className="custom-card">
+        <Card.Header className="custom-card-header py-0">
+          <Accordion.Toggle
+            as={Card.Header}
+            eventKey={skill.order}
+            className="custom-accordion-toggle py-0 text-left test"
+          >
+            <span className="custom-star"> - </span>
             {skill.focus}
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey={skill.order}>
-          <Card.Body>
+          <Card.Body className="custom-card-body py-1">
             {skill.skills.map(innerSkill => (
-              <Card.Text key={innerSkill.order}>
-                {innerSkill.name} <Stars value={innerSkill.value} />
+              <Card.Text key={innerSkill.order} className="my-0">
+                {innerSkill.name} - <Stars value={innerSkill.value} />
               </Card.Text>
             ))}
           </Card.Body>

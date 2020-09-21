@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSmile } from '@fortawesome/free-regular-svg-icons';
+import { faSmile, faStar } from '@fortawesome/free-regular-svg-icons';
 import {
   faHandPeace,
   faLightbulb,
@@ -9,7 +9,7 @@ import {
   faBookReader,
   faEnvelope,
   faBriefcase,
-  faStar,
+  faStar as faStarS,
   faStarHalfAlt,
   faGraduationCap,
   faChalkboardTeacher,
@@ -36,6 +36,7 @@ library.add(
   faGithub,
   faBriefcase,
   faStar,
+  faStarS,
   faStarHalfAlt,
   faGraduationCap,
   faChalkboardTeacher,
