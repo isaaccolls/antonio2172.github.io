@@ -45,7 +45,7 @@ const SkillsAccordion = ({ skills }) => (
           <Accordion.Toggle
             as={Card.Header}
             eventKey={skill.order}
-            className="custom-accordion-toggle py-0 text-left test"
+            className="custom-accordion-toggle py-0 text-left"
           >
             <span className="custom-star"> - </span>
             {skill.focus}

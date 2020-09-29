@@ -12,7 +12,7 @@ import {
 import Experience from './Experience';
 import Education from './Education';
 import Certificates from './Certificates';
-import './About.css';
+import './AboutContainer.css';
 
 class AboutContainer extends Component {
   componentDidMount() {
@@ -24,11 +24,7 @@ class AboutContainer extends Component {
   render() {
     const { experience, education, certificates } = this.props;
     return (
-      <Container
-        id="about-container"
-        className="min-vh-100 py-5 px-5"
-        fluid={true}
-      >
+      <Container className="p-1 p-sm-5 about-container" fluid>
         <Row>
           <Col xs={12}>
             <Experience experience={experience} />

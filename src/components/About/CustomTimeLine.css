@@ -1,0 +1,17 @@
+.timeline-elem-icon {
+  color: var(--c-indian-red);
+  background-color: var(--c-cultured) !important;
+}
+
+.timeline-elem-icon-start {
+  color: var(--c-corn);
+  background-color: var(--c-indian-red);
+}
+
+.timeline-elem-date {
+  color: var(--c-gunmetal);
+}
+
+.timeline-elem-text {
+  border-top: 3px solid var(--c-indian-red);
+}

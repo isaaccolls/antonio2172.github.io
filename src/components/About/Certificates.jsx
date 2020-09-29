@@ -6,27 +6,22 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './CustomTimeLine.css';
 
 const Certificates = ({ certificates }) => (
   <>
     <h3>Certificates</h3>
-    <p>
-      We don't really know where this goes - and I'm not sure we really care.
-      You have to make almighty decisions when you're the creator.
-    </p>
     {/*{error ? <Alert variant="danger">{`Error: ${error}`}</Alert> : null}*/}
     {certificates !== undefined && certificates.length > 0 ? (
       <VerticalTimeline>
         {certificates.map(coursesItem => (
           <VerticalTimelineElement
             key={`${coursesItem.title.replace(/\s/g, '').toLowerCase()}`}
-            className="vertical-timeline-element--work"
+            textClassName="timeline-elem-text"
             date={`${coursesItem.date}`}
-            iconStyle={{
-              background: 'rgb(33, 150, 243)',
-              color: '#fff',
-            }}
+            dateClassName="timeline-elem-date"
             icon={<FontAwesomeIcon icon={['fas', 'chalkboard-teacher']} />}
+            iconClassName="timeline-elem-icon"
           >
             <h4 className="vertical-timeline-element-title">
               {coursesItem.title}
@@ -72,11 +67,8 @@ const Certificates = ({ certificates }) => (
           </VerticalTimelineElement>
         ))}
         <VerticalTimelineElement
-          iconStyle={{
-            background: 'rgb(16, 204, 82)',
-            color: '#fff',
-          }}
-          icon={<FontAwesomeIcon icon={['fas', 'star']} />}
+          icon={<FontAwesomeIcon icon={['fas', 'star']} transform="right-3" />}
+          iconClassName="timeline-elem-icon-start"
         />
       </VerticalTimeline>
     ) : (

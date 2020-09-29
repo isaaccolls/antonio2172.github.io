@@ -6,25 +6,27 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './CustomTimeLine.css';
 
 const Education = ({ education }) => (
   <>
     <h3>Education</h3>
-    <p>
-      That's a crooked tree. We'll send him to Washington. Almost everything is
-      going to happen for you automatically - you don't have to spend any time
-      working or worrying. In life you need colors.
-    </p>
     {/*error ? <Alert variant="danger">{`Error: ${error}`}</Alert> : null*/}
     {education !== undefined && education.length > 0 ? (
       <VerticalTimeline>
         {education.map(educationItem => (
           <VerticalTimelineElement
             key={`${educationItem.degree.replace(/\s/g, '').toLowerCase()}`}
-            className="vertical-timeline-element--work"
+            textClassName="timeline-elem-text"
             date={`${educationItem.date}`}
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={['fas', 'graduation-cap']} />}
+            dateClassName="timeline-elem-date"
+            icon={
+              <FontAwesomeIcon
+                icon={['fas', 'graduation-cap']}
+                transform="right-2"
+              />
+            }
+            iconClassName="timeline-elem-icon"
           >
             <h4 className="vertical-timeline-element-title">
               {educationItem.degree}
@@ -35,8 +37,8 @@ const Education = ({ education }) => (
           </VerticalTimelineElement>
         ))}
         <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-          icon={<FontAwesomeIcon icon={['fas', 'star']} />}
+          icon={<FontAwesomeIcon icon={['fas', 'star']} transform="right-3" />}
+          iconClassName="timeline-elem-icon-start"
         />
       </VerticalTimeline>
     ) : (
