@@ -19,6 +19,7 @@ import {
   faFacebook,
   faLinkedin,
   faGithub,
+  faSteam,
 } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
@@ -40,4 +41,5 @@ library.add(
   faStarHalfAlt,
   faGraduationCap,
   faChalkboardTeacher,
+  faSteam,
 );

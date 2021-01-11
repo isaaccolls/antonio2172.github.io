@@ -47,6 +47,14 @@ const Footer = () => {
             >
               <FontAwesomeIcon icon={['fas', 'envelope']} />
             </a>
+            <a
+              className="text-decoration-none ml-4"
+              href="https://steamcommunity.com/id/isaaccolls/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={['fab', 'steam']} />
+            </a>
           </h3>
         </Col>
       </Row>
