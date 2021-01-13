@@ -41,7 +41,7 @@ const Experience = ({ experience }) => (
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="0">
                 <React.Fragment>
-                  {workItem.description.split('\n').map(p => <p className="mt-2 p-0">{p}</p>)}
+                  {workItem.description.split('\n').map((p, i) => <p className="mt-2 p-0" key={i}>{p}</p>)}
                 </React.Fragment>
               </Accordion.Collapse>
             </Accordion>
