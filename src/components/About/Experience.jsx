@@ -40,7 +40,9 @@ const Experience = ({ experience }) => (
                 ...
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="0">
-                <p>{workItem.description}</p>
+                <React.Fragment>
+                  {workItem.description.split('\n').map(p => <p className="mt-2 p-0">{p}</p>)}
+                </React.Fragment>
               </Accordion.Collapse>
             </Accordion>
           </VerticalTimelineElement>
@@ -51,8 +53,8 @@ const Experience = ({ experience }) => (
         />
       </VerticalTimeline>
     ) : (
-      <Spinner animation="grow" variant="dark" />
-    )}
+        <Spinner animation="grow" variant="dark" />
+      )}
   </>
 );
 
