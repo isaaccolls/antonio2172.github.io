@@ -4,9 +4,7 @@ import HomeBanner from '../HomeBanner';
 import Navbar from '../CustomNavBar';
 import Home from '../Home';
 import About from '../About';
-import Portfolio from '../Portfolio';
-import Blog from '../ComingSoon';
-import Contact from '../Contact';
+import ComingSoon from '../ComingSoon';
 import Footer from '../Footer';
 import NotFound from '../NotFound';
 import '../../assets/fonts/FontAwesome';
@@ -18,9 +16,9 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/portfolio" component={Portfolio} />
-      <Route exact path="/blog" component={Blog} />
-      <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/portfolio" component={ComingSoon} />
+      <Route exact path="/blog" component={ComingSoon} />
+      <Route exact path="/Contact" component={ComingSoon} />
       <Route path="*" component={NotFound} />
     </Switch>
     <Footer />

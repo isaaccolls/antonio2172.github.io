@@ -1,11 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Blog.css';
+import './ComingSoon.css';
 
-const Blog = () => (
+const ComingSoon = () => (
   <Container
-    id="coming-soon-container"
-    className="min-vh-100 py-5 px-5"
+    className="min-vh-100 py-5 px-5 coming-soon"
     fluid={true}
   >
     <Row>
@@ -17,4 +16,4 @@ const Blog = () => (
   </Container>
 );
 
-export default Blog;
+export default ComingSoon;
