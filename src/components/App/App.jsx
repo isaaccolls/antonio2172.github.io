@@ -10,7 +10,7 @@ import NotFound from '../NotFound';
 import '../../assets/fonts/FontAwesome';
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <HomeBanner />
     <Navbar />
     <Switch>
@@ -25,4 +25,5 @@ const App = () => (
   </Router>
 );
 
+console.log('Your process.env.PUBLIC_URL', process.env.PUBLIC_URL, "?");
 export default App;
