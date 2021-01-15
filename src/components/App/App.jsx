@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import HomeBanner from '../HomeBanner';
 import Navbar from '../CustomNavBar';
 import Home from '../Home';
@@ -10,7 +10,7 @@ import NotFound from '../NotFound';
 import '../../assets/fonts/FontAwesome';
 
 const App = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <HomeBanner />
     <Navbar />
     <Switch>
