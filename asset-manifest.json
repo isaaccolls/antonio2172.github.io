@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.b05405dc.chunk.css",
-    "main.js": "./static/js/main.33983ebf.chunk.js",
-    "main.js.map": "./static/js/main.33983ebf.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/css/2.49695c23.chunk.css": "./static/css/2.49695c23.chunk.css",
-    "static/js/2.0904c81c.chunk.js": "./static/js/2.0904c81c.chunk.js",
-    "static/js/2.0904c81c.chunk.js.map": "./static/js/2.0904c81c.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.8266586d0ce6c1f9d76755e911df12f7.js": "./precache-manifest.8266586d0ce6c1f9d76755e911df12f7.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.49695c23.chunk.css.map": "./static/css/2.49695c23.chunk.css.map",
-    "static/css/main.b05405dc.chunk.css.map": "./static/css/main.b05405dc.chunk.css.map",
-    "static/media/index.css": "./static/media/Helvetica.1b580d98.ttf"
+    "main.css": "/antonio2172.github.io/static/css/main.68b4f602.chunk.css",
+    "main.js": "/antonio2172.github.io/static/js/main.25f8061e.chunk.js",
+    "main.js.map": "/antonio2172.github.io/static/js/main.25f8061e.chunk.js.map",
+    "runtime~main.js": "/antonio2172.github.io/static/js/runtime~main.671ec072.js",
+    "runtime~main.js.map": "/antonio2172.github.io/static/js/runtime~main.671ec072.js.map",
+    "static/css/2.49695c23.chunk.css": "/antonio2172.github.io/static/css/2.49695c23.chunk.css",
+    "static/js/2.0904c81c.chunk.js": "/antonio2172.github.io/static/js/2.0904c81c.chunk.js",
+    "static/js/2.0904c81c.chunk.js.map": "/antonio2172.github.io/static/js/2.0904c81c.chunk.js.map",
+    "index.html": "/antonio2172.github.io/index.html",
+    "precache-manifest.81772e61d7508d6db2ae74a53494d813.js": "/antonio2172.github.io/precache-manifest.81772e61d7508d6db2ae74a53494d813.js",
+    "service-worker.js": "/antonio2172.github.io/service-worker.js",
+    "static/css/2.49695c23.chunk.css.map": "/antonio2172.github.io/static/css/2.49695c23.chunk.css.map",
+    "static/css/main.68b4f602.chunk.css.map": "/antonio2172.github.io/static/css/main.68b4f602.chunk.css.map",
+    "static/media/index.css": "/antonio2172.github.io/static/media/Helvetica.1b580d98.ttf"
   }
 }
