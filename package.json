@@ -2,7 +2,7 @@
   "name": "antonio2172.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antonio2172.github.io/antonio2172.github.io",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-brands-svg-icons": "^5.10.1",
@@ -15,7 +15,7 @@
     "react-dom": "^16.8.6",
     "react-particles-js": "^2.7.0",
     "react-redux": "^7.2.0",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.0.1",
     "react-vertical-timeline-component": "^3.0.2",
     "redux": "^4.0.5",
