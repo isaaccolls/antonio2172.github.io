@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "isaaccolls.website/static/css/main.a193864d.chunk.css",
-    "main.js": "isaaccolls.website/static/js/main.0c21f405.chunk.js",
-    "main.js.map": "isaaccolls.website/static/js/main.0c21f405.chunk.js.map",
-    "runtime~main.js": "isaaccolls.website/static/js/runtime~main.ad4c8d5b.js",
-    "runtime~main.js.map": "isaaccolls.website/static/js/runtime~main.ad4c8d5b.js.map",
-    "static/css/2.49695c23.chunk.css": "isaaccolls.website/static/css/2.49695c23.chunk.css",
-    "static/js/2.8c2f1670.chunk.js": "isaaccolls.website/static/js/2.8c2f1670.chunk.js",
-    "static/js/2.8c2f1670.chunk.js.map": "isaaccolls.website/static/js/2.8c2f1670.chunk.js.map",
-    "index.html": "isaaccolls.website/index.html",
-    "precache-manifest.5d4873039a02dd71cc6e9a71fe16c4c3.js": "isaaccolls.website/precache-manifest.5d4873039a02dd71cc6e9a71fe16c4c3.js",
-    "service-worker.js": "isaaccolls.website/service-worker.js",
-    "static/css/2.49695c23.chunk.css.map": "isaaccolls.website/static/css/2.49695c23.chunk.css.map",
-    "static/css/main.a193864d.chunk.css.map": "isaaccolls.website/static/css/main.a193864d.chunk.css.map",
-    "static/media/index.css": "isaaccolls.website/static/media/Helvetica.1b580d98.ttf"
+    "main.css": "./static/css/main.b05405dc.chunk.css",
+    "main.js": "./static/js/main.995cea8d.chunk.js",
+    "main.js.map": "./static/js/main.995cea8d.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.49695c23.chunk.css": "./static/css/2.49695c23.chunk.css",
+    "static/js/2.8c2f1670.chunk.js": "./static/js/2.8c2f1670.chunk.js",
+    "static/js/2.8c2f1670.chunk.js.map": "./static/js/2.8c2f1670.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.42a4d058d459f33d1e7b2eb48cee45fb.js": "./precache-manifest.42a4d058d459f33d1e7b2eb48cee45fb.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.49695c23.chunk.css.map": "./static/css/2.49695c23.chunk.css.map",
+    "static/css/main.b05405dc.chunk.css.map": "./static/css/main.b05405dc.chunk.css.map",
+    "static/media/index.css": "./static/media/Helvetica.1b580d98.ttf"
   }
 }
