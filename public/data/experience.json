@@ -1,0 +1,68 @@
+{
+    "experience": [
+        {
+            "company": "2brains",
+            "department": "Devs",
+            "description": "Frontend developer.\nDesign system\nAnd more.",
+            "endDate": "",
+            "startDate": "2020-10-01",
+            "title": "Frontend Dev"
+        },
+        {
+            "company": "Kubi Tech SPA",
+            "department": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2020-09-30",
+            "startDate": "2020-02-20",
+            "title": "Web application developer"
+        },
+        {
+            "company": "Aplicaciones Computacionales SPA",
+            "department": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2019-09-22",
+            "startDate": "2018-06-06",
+            "title": "Java analyst developer"
+        },
+        {
+            "company": "SmartboxTV SpA.",
+            "department": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2018-06-05",
+            "startDate": "2017-04-25",
+            "title": "Support & QA Engineer"
+        },
+        {
+            "company": "Transve S.A.",
+            "department": "Engineering",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2017-04-02",
+            "startDate": "2016-09-12",
+            "title": "Engineering Technician"
+        },
+        {
+            "company": "Servicios Integrales de Pagos Electronicos C.A.",
+            "department": "Operations and production support management",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2016-07-01",
+            "startDate": "2016-02-15",
+            "title": "Banking Support Analyst"
+        },
+        {
+            "company": "Eurolift de Venezuela C.A.",
+            "department": "Electronic Laboratory",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2016-02-02",
+            "startDate": "2015-01-05",
+            "title": "Project analyst"
+        },
+        {
+            "company": "Eurolift de Venezuela C.A.",
+            "department": "Electronic Laboratory",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "endDate": "2015-01-04",
+            "startDate": "2014-09-15",
+            "title": "Internship"
+        }
+    ]
+}
