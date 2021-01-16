@@ -1,0 +1,16 @@
+{
+    "education": [
+        {
+            "date": "Jul 2015",
+            "degree": "Electronic and Computer Engineering",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "institute": "uny"
+        },
+        {
+            "date": "Jul 2008",
+            "degree": "Bachelor",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "institute": "chm"
+        }
+    ]
+}
