@@ -16,7 +16,7 @@ const Experience = ({ experience }) => (
       <VerticalTimeline>
         {experience.map(workItem => (
           <VerticalTimelineElement
-            key={`${workItem.company.replace(/\s/g, '').toLowerCase()}`}
+            key={`${workItem.company.replace(/\s/g, '').toLowerCase()}-${workItem.startDate}`}
             textClassName="timeline-elem-text"
             date={`${workItem.startDate} - ${workItem.endDate}`}
             dateClassName="timeline-elem-date"
@@ -40,9 +40,9 @@ const Experience = ({ experience }) => (
                 ...
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="0">
-                <React.Fragment>
+                <>
                   {workItem.description.split('\n').map((p, i) => <p className="mt-2 p-0" key={i}>{p}</p>)}
-                </React.Fragment>
+                </>
               </Accordion.Collapse>
             </Accordion>
           </VerticalTimelineElement>
