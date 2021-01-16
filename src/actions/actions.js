@@ -35,9 +35,7 @@ export const fetchExperience = () => {
     return fetch(url)
       .then(response => response.json())
       .then(experience => {
-        const sortedExperience = experience.sort((a, b) =>
-          a.startDate > b.startDate ? 1 : -1,
-        );
+        const sortedExperience = experience.sort((a, b) => new Date(a.startDate) < new Date(b.startDate) ? 1 : -1);
         dispatch(setExperienceData({ experience: sortedExperience }));
       });
   };
