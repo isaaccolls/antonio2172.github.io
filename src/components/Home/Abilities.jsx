@@ -5,14 +5,15 @@ import './Abilities.css';
 
 const Abilities = () => (
   <Row className="text-center">
-    <Col xs={6} md={4} lg={2}>
+    <Col xs={6} md={3}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'hand-peace']} />
         </h3>
         <h3>Resilience</h3>
         <p className="text-center d-none d-sm-block">
-          Always happy with positive attitude{' '}
+          Always happy with positive attitude
+          {' '}
           <a
             className="text-decoration-none ability-link"
             href="https://en.wikipedia.org/wiki/Hakuna_matata"
@@ -25,7 +26,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} md={4} lg={2}>
+    <Col xs={6} md={3}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'lightbulb']} />
@@ -36,7 +37,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} md={4} lg={2}>
+    <Col xs={6} md={3}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'users']} />
@@ -47,18 +48,7 @@ const Abilities = () => (
         </p>
       </div>
     </Col>
-    <Col xs={6} md={4} lg={2}>
-      <div className="ability-wrapper">
-        <h3 className="ability-icon">
-          <FontAwesomeIcon icon={['fas', 'sitemap']} />
-        </h3>
-        <h3>Leadership</h3>
-        <p className="text-center d-none d-sm-block">
-          Just listening and understanding to take a common goal.
-        </p>
-      </div>
-    </Col>
-    <Col xs={6} md={4} lg={2}>
+    <Col xs={6} md={3}>
       <div className="ability-wrapper">
         <h3 className="ability-icon">
           <FontAwesomeIcon icon={['fas', 'handshake']} />
@@ -66,17 +56,6 @@ const Abilities = () => (
         <h3>Committed</h3>
         <p className="text-center d-none d-sm-block">
           Understanding consequences and impacts on the final product.
-        </p>
-      </div>
-    </Col>
-    <Col xs={6} md={4} lg={2}>
-      <div className="ability-wrapper">
-        <h3 className="ability-icon">
-          <FontAwesomeIcon icon={['fas', 'book-reader']} />
-        </h3>
-        <h3>Self learner</h3>
-        <p className="text-center d-none d-sm-block">
-          Formulating learning goals in an ever changing world.
         </p>
       </div>
     </Col>
