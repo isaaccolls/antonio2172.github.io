@@ -5,33 +5,28 @@
             "order": 1,
             "skills": [
                 {
-                    "name": "HTML5",
+                    "name": "HTML5 + CSS3",
                     "order": 0,
                     "value": 2.5
                 },
                 {
-                    "name": "CSS3",
-                    "order": 1,
-                    "value": 2
-                },
-                {
                     "name": "JavaScript ES6",
-                    "order": 2,
+                    "order": 1,
                     "value": 2.5
                 },
                 {
                     "name": "ReactJS + Redux",
-                    "order": 3,
+                    "order": 2,
                     "value": 2.5
                 },
                 {
                     "name": "Angular",
-                    "order": 4,
+                    "order": 3,
                     "value": 2
                 },
                 {
                     "name": "Vue.js",
-                    "order": 5,
+                    "order": 4,
                     "value": 1.5
                 }
             ]
@@ -59,37 +54,38 @@
                     "name": "Java + Spring Boot",
                     "order": 3,
                     "value": 1
-                },
+                }
+            ]
+        },
+        {
+            "focus": "DevOps",
+            "order": 3,
+            "skills": [
                 {
                     "name": "Firebase",
-                    "order": 4,
+                    "order": 0,
                     "value": 2
                 },
                 {
                     "name": "AWS",
-                    "order": 5,
-                    "value": 2
-                },
-                {
-                    "name": "PostgreSQL",
-                    "order": 6,
+                    "order": 1,
                     "value": 2
                 },
                 {
                     "name": "Ansible",
-                    "order": 7,
+                    "order": 2,
                     "value": 1
                 },
                 {
                     "name": "Docker",
-                    "order": 8,
+                    "order": 3,
                     "value": 2
                 }
             ]
         },
         {
             "focus": "Database",
-            "order": 3,
+            "order": 4,
             "skills": [
                 {
                     "name": "MySQL",
@@ -110,7 +106,7 @@
         },
         {
             "focus": "Mobile",
-            "order": 4,
+            "order": 5,
             "skills": [
                 {
                     "name": "React Native",
@@ -126,7 +122,7 @@
         },
         {
             "focus": "QA",
-            "order": 5,
+            "order": 6,
             "skills": [
                 {
                     "name": "Python + Appium",
@@ -137,7 +133,7 @@
         },
         {
             "focus": "IoT",
-            "order": 6,
+            "order": 7,
             "skills": [
                 {
                     "name": "Circuit design",
@@ -148,6 +144,11 @@
                     "name": "PIC Microcontrollers",
                     "order": 1,
                     "value": 2.5
+                },
+                {
+                    "name": "Raspberry Pi",
+                    "order": 2,
+                    "value": 2
                 }
             ]
         }
