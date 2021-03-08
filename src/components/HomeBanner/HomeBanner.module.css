@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: var(--c-platinum);
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/home-bg.png?alt=media');
+  height: 70%;
+}
+
+.tittle {
+  background: var(--c-gunmetal-t);
+}
+
+.tittle h1 {
+  color: var(--c-cultured);
+}
+
+.tittle p {
+  color: var(--c-cultured);
+}
+
+.header svg {
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    fill: var(--c-gunmetal);;
+}
+
+@media (orientation: landscape) and (max-width: 991.98px) {
+  .hide {
+    display: none;
+  }
+ }

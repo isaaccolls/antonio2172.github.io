@@ -1,13 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Abilities.css';
+import styles from './Abilities.module.css';
 
 const Abilities = () => (
-  <Row className="text-center">
+  <Row>
     <Col xs={6} md={3}>
-      <div className="ability-wrapper">
-        <h3 className="ability-icon">
+      <div className={`text-center ${styles.wrapper}`}>
+        <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'hand-peace']} />
         </h3>
         <h3>Resilience</h3>
@@ -15,7 +15,7 @@ const Abilities = () => (
           Always happy with positive attitude
           {' '}
           <a
-            className="text-decoration-none ability-link"
+            className={`text-decoration-none ${styles.link}`}
             href="https://en.wikipedia.org/wiki/Hakuna_matata"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,8 +27,8 @@ const Abilities = () => (
       </div>
     </Col>
     <Col xs={6} md={3}>
-      <div className="ability-wrapper">
-        <h3 className="ability-icon">
+      <div className={`text-center ${styles.wrapper}`}>
+        <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'lightbulb']} />
         </h3>
         <h3>Proactive</h3>
@@ -38,8 +38,8 @@ const Abilities = () => (
       </div>
     </Col>
     <Col xs={6} md={3}>
-      <div className="ability-wrapper">
-        <h3 className="ability-icon">
+      <div className={`text-center ${styles.wrapper}`}>
+        <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'users']} />
         </h3>
         <h3>Team work</h3>
@@ -49,8 +49,8 @@ const Abilities = () => (
       </div>
     </Col>
     <Col xs={6} md={3}>
-      <div className="ability-wrapper">
-        <h3 className="ability-icon">
+      <div className={`text-center ${styles.wrapper}`}>
+        <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'handshake']} />
         </h3>
         <h3>Committed</h3>

@@ -1,29 +1,28 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import CustomParticles from './CustomParticles';
-import './HomeBanner.css';
+import styles from './HomeBanner.module.css';
 
 const HomeBanner = () => (
-  <Container className="h-100" fluid>
-    <Row className="h-100 d-flex align-items-center">
-      <Col
-        xs={{ span: 10, offset: 1 }}
-        sm={{ span: 4, offset: 4 }}
-        className="text-center py-4 home-banner-tittle"
-      >
-        <h1>
-          Hey, I'm <br className=".d-none .d-sm-block" />
-          <strong>
-            <em>Isaac Colls</em>
-          </strong>
-        </h1>
-        <p className="my-1">Electronic and Computer Engineering</p>
-        <p className="my-1">&</p>
-        <p className="my-1">Full Stack developer</p>
-      </Col>
-    </Row>
-    <CustomParticles />
-  </Container>
+  <div className={`d-flex align-items-start flex-column ${styles.wrapper}`}>
+    <div className={`my-auto mx-auto text-center p-2 p-sm-5 ${styles.tittle}`}>
+      <h1>
+        Hey, I&apos;m
+        {' '}
+        <br className={`.d-none .d-sm-block ${styles.hide}`} />
+        <strong>
+          <em>Isaac Colls</em>
+        </strong>
+      </h1>
+      <p className={`my-1 ${styles.hide}`}>Electronic and Computer Engineering</p>
+      <p className={`my-1 ${styles.hide}`}>&</p>
+      <p className={`my-1 ${styles.hide}`}>Full Stack developer</p>
+    </div>
+    <div className={`w-100 ${styles.header}`}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon className="svg--sm" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100" />
+        <polygon className="svg--lg" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+      </svg>
+    </div>
+  </div>
 );
 
 export default HomeBanner;

@@ -1,8 +1,8 @@
-.ability-wrapper p {
+.wrapper p {
   padding: 0 5%;
 }
 
-.ability-icon {
+.icon {
   background-color: var(--c-cultured);
   border-radius: 50%;
   color: var(--c-indian-red);
@@ -11,6 +11,6 @@
   width: 2em;
 }
 
-.ability-link {
+.link {
   color: var(--c-indian-red) !important;
 }

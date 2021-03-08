@@ -24,7 +24,7 @@ class AboutContainer extends Component {
   render() {
     const { experience, education, certificates } = this.props;
     return (
-      <Container className="p-1 p-sm-5 about-container" fluid>
+      <>
         <Row>
           <Col xs={12}>
             <Experience experience={experience} />
@@ -40,21 +40,21 @@ class AboutContainer extends Component {
             <Certificates certificates={certificates} />
           </Col>
         </Row>
-      </Container>
+      </>
     );
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   experience: getExperience(state),
   education: getEducation(state),
   certificates: getCertificates(state),
 });
 
-const mapDispatchToProps = dispatch => ({
-  fetchExperience: value => dispatch(fetchExperience(value)),
-  fetchEducation: value => dispatch(fetchEducation(value)),
-  fetchCertificates: value => dispatch(fetchCertificates(value)),
+const mapDispatchToProps = (dispatch) => ({
+  fetchExperience: (value) => dispatch(fetchExperience(value)),
+  fetchEducation: (value) => dispatch(fetchEducation(value)),
+  fetchCertificates: (value) => dispatch(fetchCertificates(value)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(AboutContainer);
