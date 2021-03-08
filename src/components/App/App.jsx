@@ -41,7 +41,7 @@ const App = () => (
     <div className="wrapper-global">
       <HomeBanner />
       <Navbar />
-      <Container className="wrapper" fluid>
+      <Container className="py-4 wrapper" fluid>
         <Pages />
       </Container>
       <Footer />
