@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import './CustomParticles.css';
+import styles from './CustomParticles.module.css';
 
 const particlesOptions = {
   particles: {
@@ -49,7 +49,7 @@ const particlesOptions = {
 };
 
 const CustomParticles = () => (
-  <Particles params={particlesOptions} className="particles" />
+  <Particles params={particlesOptions} className={styles.particles} />
 );
 
 export default CustomParticles;
