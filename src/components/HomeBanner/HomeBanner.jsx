@@ -3,7 +3,7 @@ import styles from './HomeBanner.module.css';
 
 const HomeBanner = () => (
   <div className={`d-flex align-items-start flex-column ${styles.wrapper}`}>
-    <div className={`my-auto mx-auto text-center p-2 p-sm-5 ${styles.tittle}`}>
+    <div className={`my-auto mx-auto text-center py-2 px-4 py-sm-3 px-sm-5 ${styles.tittle}`}>
       <h1>
         Hey, I&apos;m
         {' '}
