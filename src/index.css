@@ -66,6 +66,18 @@ body {
   padding: 0;
 }
 
+.btn-primary {
+  background: var(--c-indian-red) !important;
+  border-color: var(--c-indian-red) !important;
+  color: var(--c-cultured) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
+  background: var(--c-indian-red) !important;
+  border-color: var(--c-indian-red) !important;
+  box-shadow: none !important;
+}
+
 a,
 a:link,
 a:visited,

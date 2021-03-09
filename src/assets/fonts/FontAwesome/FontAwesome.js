@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSmile, faStar } from '@fortawesome/free-regular-svg-icons';
 import {
@@ -13,6 +14,8 @@ import {
   faStarHalfAlt,
   faGraduationCap,
   faChalkboardTeacher,
+  faChevronUp,
+  faChevronDown,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -21,6 +24,7 @@ import {
   faGithub,
   faSteam,
 } from '@fortawesome/free-brands-svg-icons';
+/* eslint-enable import/no-extraneous-dependencies */
 
 library.add(
   faSmile,
@@ -42,4 +46,6 @@ library.add(
   faGraduationCap,
   faChalkboardTeacher,
   faSteam,
+  faChevronUp,
+  faChevronDown,
 );

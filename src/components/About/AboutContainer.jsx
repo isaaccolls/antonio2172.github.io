@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { getExperience } from '../../reducers/experience';
 import { getEducation } from '../../reducers/education';
 import { getCertificates } from '../../reducers/certificates';
@@ -12,7 +12,6 @@ import {
 import Experience from './Experience';
 import Education from './Education';
 import Certificates from './Certificates';
-import './AboutContainer.css';
 
 class AboutContainer extends Component {
   componentDidMount() {
@@ -25,18 +24,14 @@ class AboutContainer extends Component {
     const { experience, education, certificates } = this.props;
     return (
       <>
-        <Row>
+        <Row className="mb-auto">
           <Col xs={12}>
             <Experience experience={experience} />
           </Col>
-        </Row>
-        <Row>
-          <Col xs={12}>
+          <Col xs={12} className="mt-4">
             <Education education={education} />
           </Col>
-        </Row>
-        <Row>
-          <Col xs={12}>
+          <Col xs={12} className="mt-4">
             <Certificates certificates={certificates} />
           </Col>
         </Row>
