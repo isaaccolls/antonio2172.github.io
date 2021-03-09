@@ -9,7 +9,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import styles from './TimeLine.module.css';
 
 const Education = ({ education }) => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <>
       <Button
