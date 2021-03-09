@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 const ComingSoon = () => (
-  <Row>
+  <Row className="mb-auto">
     <Col xs={12} className="text-center">
       <h2>Coming soon!</h2>
       <p>This section under construction and will be available here soon.</p>
