@@ -4,9 +4,10 @@ import {
 } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import HomeBanner from '../HomeBanner';
-import Navbar from '../CustomNavBar';
+import Navbar from '../NavBar';
 import Home from '../Home';
 import About from '../About';
+import Contact from '../Contact';
 import ComingSoon from '../ComingSoon';
 import Footer from '../Footer';
 import NotFound from '../NotFound';
@@ -30,7 +31,7 @@ const Pages = () => {
       <Route exact path="/about" component={About} />
       <Route exact path="/portfolio" component={ComingSoon} />
       <Route exact path="/blog" component={ComingSoon} />
-      <Route exact path="/Contact" component={ComingSoon} />
+      <Route exact path="/Contact" component={Contact} />
       <Route path="*" component={NotFound} />
     </Switch>
   );

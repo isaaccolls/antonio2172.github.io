@@ -1,10 +1,9 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './CustomNavBar.css';
 
 const CustomNavBar = () => (
-  <Navbar collapseOnSelect expand="md" className="navbar-custom shadow" sticky="top">
+  <Navbar collapseOnSelect expand="md" sticky="top">
     <Navbar.Brand className="ml-5">I C</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse>
