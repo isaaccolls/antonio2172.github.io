@@ -1,3 +1,4 @@
 .footer {
   background-color: var(--c-gunmetal);
+  border-top: 3px solid var(--c-indian-red);
 }

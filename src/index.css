@@ -81,6 +81,7 @@ a:hover {
 .navbar {
   background-color: var(--c-gunmetal);
   box-shadow: 0 10px 5px 0 var(--c-gunmetal-t);
+  border-bottom: 3px solid var(--c-indian-red);
 }
 
 .navbar .navbar-brand {
