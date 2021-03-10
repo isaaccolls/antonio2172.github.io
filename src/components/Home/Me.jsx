@@ -1,20 +1,29 @@
 import React from 'react';
 import {
-  Row, Col, Image, Spinner,
+  Row, Col, Spinner, Figure,
 } from 'react-bootstrap';
 import SkillsAccordion from './SkillsAccordion';
-import styles from './Me.module.css';
 
 const Me = ({ skills }) => (
   <Row>
-    <Col xs={12} sm={6} className="text-center my-auto">
-      <Image
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.JPG?alt=media"
-        rounded
-        className={styles.image}
-        alt="profile-pic"
-      />
-      <h1 className="mt-3">Who&apos;s this guy?</h1>
+    <Col xs={12} sm={6} className="text-center">
+      <Figure className="d-block d-sm-none w-50 h-auto mx-auto">
+        <Figure.Image
+          rounded
+          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.JPG?alt=media"
+          className="shadow"
+          alt="profile-pic"
+        />
+      </Figure>
+      <Figure className="d-none d-sm-block w-25 h-auto mx-auto">
+        <Figure.Image
+          rounded
+          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.JPG?alt=media"
+          className="shadow"
+          alt="profile-pic"
+        />
+      </Figure>
+      <h1>Who&apos;s this guy?</h1>
       <p className="text-justify mx-2 px-2 mx-lg-5 px-lg-5">
         Design and implementation specialist of applications that involve
         hardware and software to solve problems on technological field.
