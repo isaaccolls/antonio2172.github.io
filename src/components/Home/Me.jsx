@@ -23,14 +23,14 @@ const Me = ({ skills }) => (
           alt="profile-pic"
         />
       </Figure>
-      <h1>Who&apos;s this guy?</h1>
+      <h2>Who&apos;s this guy?</h2>
       <p className="text-justify mx-2 px-2 mx-lg-5 px-lg-5">
         Design and implementation specialist of applications that involve
         hardware and software to solve problems on technological field.
       </p>
     </Col>
     <Col xs={12} sm={6} className="text-center">
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <p className="text-justify mx-2 px-2 mx-lg-5 px-lg-5">
         Since the beginning of my career, I had my focus on been agnostic about
         technology. Where the most important to keep in mind is learning and
