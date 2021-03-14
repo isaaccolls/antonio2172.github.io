@@ -20,7 +20,7 @@ const Experience = ({ experience }) => {
         aria-expanded={open}
         className={open && styles.open}
       >
-        <span>Work Experience</span>
+        <span>Work</span>
         <FontAwesomeIcon icon={['fas', open ? 'chevron-up' : 'chevron-down']} className="ml-2" />
       </Button>
       <Collapse in={open}>

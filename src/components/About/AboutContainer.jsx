@@ -24,7 +24,10 @@ class AboutContainer extends Component {
     const { experience, education, certificates } = this.props;
     return (
       <>
-        <Row className="align-self-center">
+        <Row className="align-self-center text-center">
+          <Col xs={12} className="mb-4">
+            <h2>Experience</h2>
+          </Col>
           <Col xs={12}>
             <Experience experience={experience} />
           </Col>
