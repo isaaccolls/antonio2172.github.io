@@ -1,20 +1,31 @@
 {
     "certificates": [
         {
-            "date": "Jan 2019",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2012-04",
             "institute": "Platzi",
             "title": "Dummy test 2",
             "urlToCertified": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
             "urlToRepo": "https://github.com/antonio2172"
         },
         {
-            "date": "Jan 2018",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2012-06",
             "institute": "Udemy",
             "title": "Dummy test 1",
             "urlToCertified": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
             "urlToRepo": "https://github.com/antonio2172"
+        },
+        {
+            "date": "2010-04",
+            "institute": "Udemy",
+            "title": "Dummy test 5",
+            "urlToCertified": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+            "urlToRepo": "https://github.com/antonio2172"
+        },
+        {
+            "date": "2010-10",
+            "institute": "D&L Soluciones Integrales C.A.",
+            "title": "Ensamblaje y Reparación de PC",
+            "urlToCertified": "https://isaaccolls.website/data/files/ensamblaje_y_reparacion_de_pcs.pdf",
         }
     ]
 }
