@@ -41,7 +41,18 @@ const Certificates = ({ certificates }) => {
                     {coursesItem.title}
                   </h4>
                   <h6 className="vertical-timeline-element-subtitle">
-                    {coursesItem.institute}
+                    {coursesItem.urlToInstitute
+                      ? (
+                        <a
+                          className={`text-decoration-none ${styles.link}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={coursesItem.urlToInstitute}
+                        >
+                          {coursesItem.institute}
+                        </a>
+                      )
+                      : <span className={styles.link}>{coursesItem.institute}</span>}
                   </h6>
                   {coursesItem.urlToCertified || coursesItem.urlToRepo ? (
                     <Accordion>
