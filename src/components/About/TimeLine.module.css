@@ -23,3 +23,17 @@
 .link {
   color: var(--c-gunmetal-t) !important;
 }
+
+.toggle {
+  box-shadow: none !important;
+}
+
+.toggle:focus {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.toggle:hover {
+  background-color: var(--c-indian-red) !important;
+}
+

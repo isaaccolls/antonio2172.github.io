@@ -45,26 +45,26 @@ const Certificates = ({ certificates }) => {
                   </h6>
                   {coursesItem.urlToCertified || coursesItem.urlToRepo ? (
                     <Accordion>
-                      <Accordion.Toggle as={Button} variant="light" eventKey="0">
+                      <Accordion.Toggle as={Button} variant="light" eventKey="0" className={styles.toggle}>
                         ...
                       </Accordion.Toggle>
                       <Accordion.Collapse eventKey="0">
                         <>
                           {coursesItem.urlToCertified ? (
-                            <p>
+                            <p className="m-0">
                               <a
                                 className={`text-decoration-none ${styles.link}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href={coursesItem.urlToCertified}
                               >
-                                Download Certified
+                                Download certified
                                 <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
                               </a>
                             </p>
                           ) : null}
                           {coursesItem.urlToRepo ? (
-                            <p>
+                            <p className="m-0">
                               <a
                                 className={`text-decoration-none ${styles.link}`}
                                 target="_blank"

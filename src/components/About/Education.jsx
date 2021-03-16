@@ -21,7 +21,7 @@ const Education = ({ education }) => {
         <span>Education</span>
         <FontAwesomeIcon icon={['fas', open ? 'chevron-up' : 'chevron-down']} className="ml-2" />
       </Button>
-      <Collapse in={open}>
+      <Collapse in={open} className="text-left">
         <div id="education-collapse">
           {/* error ? <Alert variant="danger">{`Error: ${error}`}</Alert> : null */}
           {education !== undefined && education.length > 0 ? (

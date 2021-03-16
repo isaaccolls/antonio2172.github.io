@@ -23,7 +23,7 @@ const Experience = ({ experience }) => {
         <span>Work</span>
         <FontAwesomeIcon icon={['fas', open ? 'chevron-up' : 'chevron-down']} className="ml-2" />
       </Button>
-      <Collapse in={open}>
+      <Collapse in={open} className="text-left">
         <div id="experience-collapse">
           {/* error ? <Alert variant="danger">{`Error: ${error}`}</Alert> : null */}
           {experience !== undefined && experience.length > 0 ? (
@@ -63,7 +63,7 @@ const Experience = ({ experience }) => {
                       {workItem.company}
                     </h5>
                     <Accordion>
-                      <Accordion.Toggle as={Button} variant="light" eventKey="0">
+                      <Accordion.Toggle as={Button} variant="light" eventKey="0" className={styles.toggle}>
                         ...
                       </Accordion.Toggle>
                       <Accordion.Collapse eventKey="0">
