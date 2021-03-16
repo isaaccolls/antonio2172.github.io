@@ -19,3 +19,7 @@
 .text {
   border-top: 3px solid var(--c-indian-red);
 }
+
+.link {
+  color: var(--c-gunmetal-t) !important;
+}

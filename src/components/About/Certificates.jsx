@@ -23,7 +23,7 @@ const Certificates = ({ certificates }) => {
         <span>Certificates</span>
         <FontAwesomeIcon icon={['fas', open ? 'chevron-up' : 'chevron-down']} className="ml-2" />
       </Button>
-      <Collapse in={open}>
+      <Collapse in={open} className="text-left">
         <div id="certificates-collapse">
           {/* {error ? <Alert variant="danger">{`Error: ${error}`}</Alert> : null} */}
           {certificates !== undefined && certificates.length > 0 ? (
@@ -53,24 +53,26 @@ const Certificates = ({ certificates }) => {
                           {coursesItem.urlToCertified ? (
                             <p>
                               <a
-                                className="text-decoration-none"
+                                className={`text-decoration-none ${styles.link}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href={coursesItem.urlToCertified}
                               >
                                 Download Certified
+                                <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
                               </a>
                             </p>
                           ) : null}
                           {coursesItem.urlToRepo ? (
                             <p>
                               <a
-                                className="text-decoration-none"
+                                className={`text-decoration-none ${styles.link}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href={coursesItem.urlToRepo}
                               >
-                                Go to repository!
+                                Watch repo
+                                <FontAwesomeIcon icon={['fab', 'git-alt']} className="ml-2" />
                               </a>
                             </p>
                           ) : null}

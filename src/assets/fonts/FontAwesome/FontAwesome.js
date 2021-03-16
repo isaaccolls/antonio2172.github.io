@@ -16,6 +16,7 @@ import {
   faChalkboardTeacher,
   faChevronUp,
   faChevronDown,
+  faFilePdf,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -23,6 +24,7 @@ import {
   faLinkedin,
   faGithub,
   faSteam,
+  faGitAlt,
 } from '@fortawesome/free-brands-svg-icons';
 /* eslint-enable import/no-extraneous-dependencies */
 
@@ -48,4 +50,6 @@ library.add(
   faSteam,
   faChevronUp,
   faChevronDown,
+  faFilePdf,
+  faGitAlt,
 );
