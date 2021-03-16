@@ -69,7 +69,7 @@ const Certificates = ({ certificates }) => {
                                 rel="noopener noreferrer"
                                 href={coursesItem.urlToCertified}
                               >
-                                Download certified
+                                Certificate
                                 <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
                               </a>
                             </p>
