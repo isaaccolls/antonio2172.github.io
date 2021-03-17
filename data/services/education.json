@@ -1,7 +1,7 @@
 {
     "education": [
         {
-            "date": "Jul 2015",
+            "date": "2015-07",
             "degree": "Electronic and Computer Engineering",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "institute": "Universidad Yacambú",
@@ -9,7 +9,7 @@
             "urlToDiploma": "https://isaaccolls.website/data/files/engineer.pdf"
         },
         {
-            "date": "Jul 2008",
+            "date": "2008-07",
             "degree": "Bachelor",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "institute": "Liceo Privado Churum Meru",
