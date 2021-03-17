@@ -4,13 +4,17 @@
             "date": "Jul 2015",
             "degree": "Electronic and Computer Engineering",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "institute": "uny"
+            "institute": "Universidad Yacambú",
+            "urlToInstitute": "http://www.uny.edu.ve/",
+            "urlToDiploma": "https://isaaccolls.website/data/files/engineer.pdf"
         },
         {
             "date": "Jul 2008",
             "degree": "Bachelor",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "institute": "chm"
+            "institute": "Liceo Privado Churum Meru",
+            "urlToInstitute": "",
+            "urlToDiploma": "https://isaaccolls.website/data/files/bachelor.pdf"
         }
     ]
 }

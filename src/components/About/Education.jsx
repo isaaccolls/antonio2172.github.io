@@ -43,9 +43,39 @@ const Education = ({ education }) => {
                   <h4 className="vertical-timeline-element-title">
                     {educationItem.degree}
                   </h4>
-                  <h6 className="vertical-timeline-element-subtitle">
+                  {/* <h6 className="vertical-timeline-element-subtitle">
                     {educationItem.institute}
+                  </h6> */}
+                  {/*  */}
+                  <h6 className="vertical-timeline-element-subtitle">
+                    {educationItem.urlToInstitute
+                      ? (
+                        <a
+                          className={`text-decoration-none ${styles.link}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={educationItem.urlToInstitute}
+                        >
+                          {educationItem.institute}
+                        </a>
+                      )
+                      : <span className={styles.link}>{educationItem.institute}</span>}
                   </h6>
+                  {/*  */}
+                  {educationItem.urlToDiploma ? (
+                    <p className="m-0">
+                      <a
+                        className={`text-decoration-none ${styles.link}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={educationItem.urlToDiploma}
+                      >
+                        Diploma
+                        <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
+                      </a>
+                    </p>
+                  ) : null}
+                  {/*  */}
                 </VerticalTimelineElement>
               ))}
               <VerticalTimelineElement

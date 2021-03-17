@@ -54,20 +54,20 @@ const Certificates = ({ certificates }) => {
                       )
                       : <span className={styles.link}>{coursesItem.institute}</span>}
                   </h6>
-                  {coursesItem.urlToCertified || coursesItem.urlToRepo ? (
+                  {coursesItem.urlToCertificate || coursesItem.urlToRepo ? (
                     <Accordion>
                       <Accordion.Toggle as={Button} variant="light" eventKey="0" className={styles.toggle}>
                         ...
                       </Accordion.Toggle>
                       <Accordion.Collapse eventKey="0">
                         <>
-                          {coursesItem.urlToCertified ? (
+                          {coursesItem.urlToCertificate ? (
                             <p className="m-0">
                               <a
                                 className={`text-decoration-none ${styles.link}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href={coursesItem.urlToCertified}
+                                href={coursesItem.urlToCertificate}
                               >
                                 Certificate
                                 <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
