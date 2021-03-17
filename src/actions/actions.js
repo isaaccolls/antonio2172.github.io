@@ -9,7 +9,7 @@ import {
 
 const setSkillsData = (payload) => ({ type: SET_SKILLS_DATA, payload });
 const baseUrl = process.env.NODE_ENV === 'production' ? 'https://isaaccolls.website/' : '';
-const basePath = 'data/';
+const basePath = 'data/services/';
 
 export const fetchSkills = () => (dispatch) => {
   const url = `${baseUrl}${basePath}skills.json`;
