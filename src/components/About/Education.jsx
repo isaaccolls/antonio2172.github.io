@@ -43,10 +43,6 @@ const Education = ({ education }) => {
                   <h4 className="vertical-timeline-element-title">
                     {educationItem.degree}
                   </h4>
-                  {/* <h6 className="vertical-timeline-element-subtitle">
-                    {educationItem.institute}
-                  </h6> */}
-                  {/*  */}
                   <h6 className="vertical-timeline-element-subtitle">
                     {educationItem.urlToInstitute
                       ? (
@@ -61,7 +57,6 @@ const Education = ({ education }) => {
                       )
                       : <span className={styles.link}>{educationItem.institute}</span>}
                   </h6>
-                  {/*  */}
                   {educationItem.urlToDiploma ? (
                     <p className="m-0">
                       <a
@@ -75,7 +70,6 @@ const Education = ({ education }) => {
                       </a>
                     </p>
                   ) : null}
-                  {/*  */}
                 </VerticalTimelineElement>
               ))}
               <VerticalTimelineElement
