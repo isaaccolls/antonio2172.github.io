@@ -1,0 +1,36 @@
+{
+    "clients": [
+        {
+            "company": "2brains",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "Kubi Tech SPA",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "Aplicaciones Computacionales SPA",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "SmartboxTV SpA.",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "Transve S.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "Servicios Integrales de Pagos Electronicos C.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "Eurolift de Venezuela C.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        },
+        {
+            "company": "Eurolift de Venezuela C.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/"
+        }
+    ]
+}
