@@ -7,6 +7,11 @@
   background-color: var(--c-cultured) !important;
 }
 
+.icon2 {
+  color: var(--c-indian-red);
+  background-color: transparent !important;
+}
+
 .start {
   color: var(--c-corn);
   background-color: var(--c-indian-red);
