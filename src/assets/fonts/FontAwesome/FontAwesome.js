@@ -2,8 +2,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faSmile,
   faStar,
-  faSmileWink,
-  faGrimace,
 } from '@fortawesome/free-regular-svg-icons';
 import {
   faHandPeace,
@@ -24,6 +22,8 @@ import {
   faUserNinja,
   faPaperPlane,
   faUserGraduate,
+  faGrinWink,
+  faSearch,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -58,9 +58,9 @@ library.add(
   faChevronDown,
   faFilePdf,
   faGitAlt,
-  faSmileWink,
-  faGrimace,
+  faSearch,
   faUserNinja,
   faPaperPlane,
   faUserGraduate,
+  faGrinWink,
 );

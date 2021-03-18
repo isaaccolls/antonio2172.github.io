@@ -11,7 +11,7 @@ const Clients = ({ clients }) => (
       <h2>
         I did my bit on
         {' '}
-        <FontAwesomeIcon icon={['far', 'smile-wink']} className={styles.icon2} />
+        <FontAwesomeIcon icon={['fas', 'grin-wink']} className={styles.icon2} />
       </h2>
     </Col>
     <Col xs={12} className="px-5">

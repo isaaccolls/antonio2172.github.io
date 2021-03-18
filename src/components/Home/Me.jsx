@@ -28,7 +28,7 @@ const Me = ({ skills }) => (
       <h2>
         Who&apos;s this guy?
         {' '}
-        <FontAwesomeIcon icon={['far', 'grimace']} className={styles.icon} />
+        <FontAwesomeIcon icon={['fas', 'search']} className={styles.icon} />
       </h2>
       <p className="text-justify mx-2 px-2 mx-lg-5 px-lg-5">
         Design and implementation specialist of applications that involve
