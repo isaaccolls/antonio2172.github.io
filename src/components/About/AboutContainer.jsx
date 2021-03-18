@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './About.module.css';
 import { getExperience } from '../../reducers/experience';
 import { getEducation } from '../../reducers/education';
 import { getCertificates } from '../../reducers/certificates';
@@ -35,7 +37,11 @@ class AboutContainer extends Component {
       <>
         <Row className="align-self-center text-center">
           <Col xs={12} className="mb-4">
-            <h2>Experience</h2>
+            <h2>
+              Experience
+              {' '}
+              <FontAwesomeIcon icon={['fas', 'user-graduate']} className={styles.icon2} />
+            </h2>
           </Col>
           <Col xs={12}>
             <Experience experience={experience} />
