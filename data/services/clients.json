@@ -1,36 +1,39 @@
 {
     "clients": [
         {
-            "company": "2brains",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "2brains",
+            "logo": "https://isaaccolls.website/data/files/logos/2brains.svg",
+            "clientUrl": "https://www.2brains.cl/"
         },
         {
-            "company": "Kubi Tech SPA",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "Kubi Tech SPA",
+            "logo": "https://isaaccolls.website/data/files/logos/kubi.png",
+            "clientUrl": "https://kubi.cl/"
         },
         {
-            "company": "Aplicaciones Computacionales SPA",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "Aplicaciones Computacionales SPA",
+            "logo": "https://isaaccolls.website/data/files/logos/acl.png",
+            "clientUrl": "https://www.acl.cl/"
         },
         {
-            "company": "SmartboxTV SpA.",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "Nunchee TM",
+            "logo": "https://isaaccolls.website/data/files/logos/nunchee.png",
+            "clientUrl": "https://nunchee.com/en/"
         },
         {
-            "company": "Transve S.A.",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "Transve S.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/transve.png",
+            "clientUrl": "https://transve.cl/"
         },
         {
-            "company": "Servicios Integrales de Pagos Electronicos C.A.",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "Banco San Juan Internacional (BSJI), Inc.",
+            "logo": "https://isaaccolls.website/data/files/logos/bsji.svg",
+            "clientUrl": "https://www.bsji.com/"
         },
         {
-            "company": "Eurolift de Venezuela C.A.",
-            "logo": "https://isaaccolls.website/data/files/logos/"
-        },
-        {
-            "company": "Eurolift de Venezuela C.A.",
-            "logo": "https://isaaccolls.website/data/files/logos/"
+            "client": "Eurolift de Venezuela C.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/eurolift.png",
+            "clientUrl": "https://www.eurolift.com.ve/"
         }
     ]
 }
