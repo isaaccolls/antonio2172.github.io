@@ -101,6 +101,7 @@ export const fetchClients = () => (dispatch) => {
     .then((res) => res.json())
     .then((resJson) => {
       const { clients } = resJson;
-      dispatch(setClientsData({ clients }));
+      const randomClients = clients.sort(() => 0.5 - Math.random());
+      dispatch(setClientsData({ clients: randomClients }));
     });
 };
