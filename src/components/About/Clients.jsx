@@ -20,7 +20,7 @@ const Clients = ({ clients }) => (
           ? clients.map((client) => (
             <Col
               xs={4}
-              sm={3}
+              sm={2}
               key={`${client.client.replace(/\s/g, '').toLowerCase()}`}
               className="mb-4"
             >
