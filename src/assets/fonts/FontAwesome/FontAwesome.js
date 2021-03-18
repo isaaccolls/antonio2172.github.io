@@ -22,6 +22,7 @@ import {
   faChevronDown,
   faFilePdf,
   faUserNinja,
+  faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -59,4 +60,5 @@ library.add(
   faSmileWink,
   faGrimace,
   faUserNinja,
+  faPaperPlane,
 );

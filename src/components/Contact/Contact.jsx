@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Row, Col, Form, Button,
 } from 'react-bootstrap';
-import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const handleSubmit = (event) => {
   console.log('Sent email📬');
@@ -15,23 +15,28 @@ const handleSubmit = (event) => {
 const Contact = () => (
   <>
     <Row>
-      <Col xs={{ span: 10, offset: 1 }} sm={{ span: 4, offset: 4 }} className="text-center">
-        <h3 className="testH3">Have a question or want to work together?</h3>
+      <Col
+        xs={12}
+        sm={{ span: 8, offset: 2 }}
+        className="text-center mb-4 px-1 px-sm-0"
+      >
+        <h2>Have a question or want to work together?</h2>
       </Col>
-      <Col xs={{ span: 10, offset: 1 }} sm={{ span: 4, offset: 4 }}>
+      <Col
+        xs={{ span: 10, offset: 1 }}
+        sm={{ span: 4, offset: 4 }}
+      >
         <Form onSubmit={handleSubmit}>
           <Form.Group controlid="formContactName">
             <Form.Control
               type="text"
-              placeholder="Name"
-              className="inputText"
+              placeholder="Full name"
             />
           </Form.Group>
           <Form.Group controlid="formContactEmail">
             <Form.Control
               type="email"
-              placeholder="Enter email"
-              className="inputText"
+              placeholder="Email"
             />
           </Form.Group>
           <Form.Group>
@@ -40,12 +45,12 @@ const Contact = () => (
               as="textarea"
               rows="5"
               placeholder="Your message"
-              className="inputText"
             />
           </Form.Group>
-          <Button variant="dark" type="submit">
+          <Button type="submit" className="float-right">
             Submit
-            {/* align it to right */}
+            {' '}
+            <FontAwesomeIcon icon={['fas', 'paper-plane']} />
           </Button>
         </Form>
       </Col>
