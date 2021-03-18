@@ -1,6 +1,10 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSmile, faStar, faSmileWink } from '@fortawesome/free-regular-svg-icons';
+import {
+  faSmile,
+  faStar,
+  faSmileWink,
+  faGrimace,
+} from '@fortawesome/free-regular-svg-icons';
 import {
   faHandPeace,
   faLightbulb,
@@ -17,6 +21,7 @@ import {
   faChevronUp,
   faChevronDown,
   faFilePdf,
+  faUserNinja,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -26,7 +31,6 @@ import {
   faSteam,
   faGitAlt,
 } from '@fortawesome/free-brands-svg-icons';
-/* eslint-enable import/no-extraneous-dependencies */
 
 library.add(
   faSmile,
@@ -53,4 +57,6 @@ library.add(
   faFilePdf,
   faGitAlt,
   faSmileWink,
+  faGrimace,
+  faUserNinja,
 );
