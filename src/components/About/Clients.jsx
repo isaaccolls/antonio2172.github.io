@@ -2,21 +2,41 @@ import React from 'react';
 import {
   Row, Col, Spinner, Image,
 } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './About.module.css';
 
 const Clients = ({ clients }) => (
   <>
-    <Col xs={12}>
-      <h2>Some people with I&apos;ve been working</h2>
-      <p className="text-left mt-2">I did my bit on:</p>
-      {/* <p>{JSON.stringify(clients)}</p> */}
+    <Col xs={12} className="mb-4">
+      <h2>
+        I did my bit on
+        {' '}
+        <FontAwesomeIcon icon={['fas', 'smile-wink']} className={styles.icon} />
+      </h2>
     </Col>
-    <Col xs={12}>
+    <Col xs={12} className="px-5">
       <Row>
         {clients !== undefined && clients.length > 0
           ? clients.map((client) => (
-            <Col xs={4} sm={2}>
-              <Image src={client.logo} className={styles.client} alt="..." fluid />
+            <Col
+              xs={4}
+              sm={3}
+              key={`${client.client.replace(/\s/g, '').toLowerCase()}`}
+              className="mb-4"
+            >
+              <a
+                href={client.clientUrl ? client.clientUrl : ''}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none"
+              >
+                <Image
+                  src={client.logo}
+                  className={styles.client}
+                  alt={client.client}
+                  fluid
+                />
+              </a>
             </Col>
           ))
           : <Spinner animation="grow" variant="dark" />}
@@ -26,4 +46,3 @@ const Clients = ({ clients }) => (
 );
 
 export default Clients;
-// <Image src="https://c0.klipartz.com/pngpicture/996/784/gratis-png-rick-y-morty-ilustracion-rick-y-morty-monstruos.png" className={styles.client} alt="..." fluid />

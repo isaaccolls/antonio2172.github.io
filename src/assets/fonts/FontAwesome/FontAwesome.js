@@ -17,6 +17,7 @@ import {
   faChevronUp,
   faChevronDown,
   faFilePdf,
+  faSmileWink,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -52,4 +53,5 @@ library.add(
   faChevronDown,
   faFilePdf,
   faGitAlt,
+  faSmileWink,
 );
