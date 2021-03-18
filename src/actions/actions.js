@@ -5,6 +5,7 @@ import {
   SET_CERTIFICATES_DATA,
   SET_PROJECTS_DATA,
   SET_PROJECT_CATEGORY,
+  SET_CLIENTS_DATA,
 } from './actionsTypes';
 
 const setSkillsData = (payload) => ({ type: SET_SKILLS_DATA, payload });
@@ -81,8 +82,25 @@ export const fetchProjects = () => (dispatch) => {
   return fetch(url)
     .then((res) => res.json())
     .then((resJson) => {
-      const { projects } = resJson; dispatch(setProjectsData({ projects }));
+      const { projects } = resJson;
+      dispatch(setProjectsData({ projects }));
     });
 };
 
 export const setProjectCategory = (payload) => ({ type: SET_PROJECT_CATEGORY, payload });
+
+const setClientsData = (payload) => ({
+  type: SET_CLIENTS_DATA,
+  payload,
+});
+
+export const fetchClients = () => (dispatch) => {
+  const url = `${baseUrl}${basePath}clients.json`;
+  dispatch(setClientsData({}));
+  return fetch(url)
+    .then((res) => res.json())
+    .then((resJson) => {
+      const { clients } = resJson;
+      dispatch(setClientsData({ clients }));
+    });
+};

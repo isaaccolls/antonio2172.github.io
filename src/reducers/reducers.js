@@ -4,6 +4,7 @@ import { experience } from './experience';
 import { education } from './education';
 import { certificates } from './certificates';
 import { projects } from './projects';
+import { clients } from './clients';
 
 export default combineReducers({
   skills,
@@ -11,4 +12,5 @@ export default combineReducers({
   education,
   certificates,
   projects,
+  clients,
 });

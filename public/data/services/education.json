@@ -6,7 +6,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "institute": "Universidad Yacambú",
             "urlToInstitute": "http://www.uny.edu.ve/",
-            "urlToDiploma": "https://isaaccolls.website/data/files/engineer.pdf"
+            "urlToDiploma": "https://isaaccolls.website/data/certificates/engineer.pdf"
         },
         {
             "date": "2008-07",
@@ -14,7 +14,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "institute": "Liceo Privado Churum Meru",
             "urlToInstitute": "",
-            "urlToDiploma": "https://isaaccolls.website/data/files/bachelor.pdf"
+            "urlToDiploma": "https://isaaccolls.website/data/certificates/bachelor.pdf"
         }
     ]
 }

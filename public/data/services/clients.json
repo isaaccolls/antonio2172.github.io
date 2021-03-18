@@ -1,0 +1,39 @@
+{
+    "clients": [
+        {
+            "client": "2brains",
+            "logo": "https://isaaccolls.website/data/files/logos/2brains.svg",
+            "clientUrl": "https://www.2brains.cl/"
+        },
+        {
+            "client": "Kubi Tech SPA",
+            "logo": "https://isaaccolls.website/data/files/logos/kubi.png",
+            "clientUrl": "https://kubi.cl/"
+        },
+        {
+            "client": "Aplicaciones Computacionales SPA",
+            "logo": "https://isaaccolls.website/data/files/logos/acl.png",
+            "clientUrl": "https://www.acl.cl/"
+        },
+        {
+            "client": "Nunchee TM",
+            "logo": "https://isaaccolls.website/data/files/logos/nunchee.png",
+            "clientUrl": "https://nunchee.com/en/"
+        },
+        {
+            "client": "Transve S.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/transve.png",
+            "clientUrl": "https://transve.cl/"
+        },
+        {
+            "client": "Banco San Juan Internacional (BSJI), Inc.",
+            "logo": "https://isaaccolls.website/data/files/logos/bsji.svg",
+            "clientUrl": "https://www.bsji.com/"
+        },
+        {
+            "client": "Eurolift de Venezuela C.A.",
+            "logo": "https://isaaccolls.website/data/files/logos/eurolift.png",
+            "clientUrl": "https://www.eurolift.com.ve/"
+        }
+    ]
+}
