@@ -44,7 +44,7 @@ const Contact = () => (
               controlid="formContactMessage"
               as="textarea"
               rows="5"
-              placeholder="Your message"
+              placeholder="Message"
             />
           </Form.Group>
           <Button type="submit" className="float-right">
