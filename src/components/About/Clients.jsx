@@ -15,7 +15,7 @@ const Clients = ({ clients }) => (
       </h2>
     </Col>
     <Col xs={12} className="px-5">
-      <Row>
+      <Row className="px-sm-5">
         {clients !== undefined && clients.length > 0
           ? clients.map((client) => (
             <Col
