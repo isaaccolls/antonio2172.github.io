@@ -10,7 +10,7 @@ const Footer = () => (
         <h3>
           <a
             className="text-decoration-none"
-            href="https://github.com/antonio2172"
+            href="https://github.com/isaaccolls"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,12 +39,6 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={['fab', 'facebook']} />
-          </a>
-          <a
-            className="text-decoration-none ml-4"
-            href="mailto:colls_isaac@hotmail.com"
-          >
-            <FontAwesomeIcon icon={['fas', 'envelope']} />
           </a>
           <a
             className="text-decoration-none ml-4"
