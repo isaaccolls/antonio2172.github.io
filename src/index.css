@@ -99,7 +99,16 @@ a:hover {
 }
 
 .navbar .navbar-brand {
-  color: var(--c-cultured) !important;
+  background-image: url("./assets/images/logo-white.svg") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  min-height: 56px !important;
+  max-height: 100% !important;
+  min-width: 140px !important;
+}
+
+.navbar .navbar-brand:hover {
+  background-image: url("./assets/images/logo-color.svg") !important;
 }
 
 .navbar-toggler-icon {
