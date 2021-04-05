@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const CustomNavBar = () => (
   <Navbar collapseOnSelect expand="md" sticky="top">
-    <Navbar.Brand className="ml-0 ml-sm-5 mr-0 mr-sm-2" />
+    <Navbar.Brand className="ml-0 ml-sm-5 mr-0 mr-sm-5" />
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse>
       <Nav className="mr-auto" defaultActiveKey={1}>
