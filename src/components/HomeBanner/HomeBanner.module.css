@@ -14,13 +14,6 @@
   color: var(--c-cultured);
 }
 
-.header svg {
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    fill: var(--c-gunmetal);;
-}
-
 @media (orientation: landscape) and (max-width: 991.98px) {
   .hide {
     display: none;
