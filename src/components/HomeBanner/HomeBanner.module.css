@@ -2,15 +2,26 @@
   height: 70%;
 }
 
-.tittle {
+.title {
   background: var(--c-gunmetal-t);
 }
 
-.tittle h1 {
+.title h1 {
   color: var(--c-cultured);
 }
 
-.tittle p {
+.title h1 span {
+  font-family: Playlist Script;
+}
+
+.title:hover h1 span {
+  font-family: Playlist Script;
+  background: linear-gradient(to right, #7ece5c, #97d35b, #aed95c, #c5dd5e, #dbe262, #e9da5d, #f5d15c, #ffc85d, #ffb05d, #ff9964, #ff8370, #ff6f7f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title p {
   color: var(--c-cultured);
 }
 

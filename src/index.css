@@ -42,6 +42,24 @@
   font-style: oblique;
 }
 
+@font-face {
+  font-family: 'Playlist Script';
+  src: local('Playlist Script'),
+    url('./assets/fonts/PlaylistFF/Playlist Caps.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Playlist Script';
+  src: local('Playlist Script'),
+    url('./assets/fonts/PlaylistFF/Playlist Ornament.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Playlist Script';
+  src: local('Playlist Script'),
+    url('./assets/fonts/PlaylistFF/Playlist Script.otf') format('opentype');
+}
+
 ::-webkit-scrollbar {
   width: 8px !important;
   background-color: var(--c-platinum) !important;
@@ -57,18 +75,18 @@
 }
 
 html {
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 100vh !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
   height: 100% !important;
   width: 100% !important;
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Helvetica !important;
   color: var(--c-independence) !important;
   background-color: var(--c-platinum) !important;
 }
@@ -108,7 +126,7 @@ a:hover {
   min-width: 140px !important;
 }
 
-.navbar .navbar-brand:hover {
+.navbar:hover .navbar-brand {
   background-image: url("./assets/images/logo-color.svg") !important;
 }
 

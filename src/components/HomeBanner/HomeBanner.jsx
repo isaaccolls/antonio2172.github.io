@@ -6,14 +6,12 @@ import headerBorder from '../../assets/images/header-border.svg';
 const HomeBanner = () => (
   <div className={`d-flex align-items-start flex-column ${styles.wrapper}`}>
     <CustomParticles />
-    <div className={`my-auto mx-auto text-center py-2 px-4 py-sm-3 px-sm-5 ${styles.tittle}`}>
+    <div className={`my-auto mx-auto text-center py-2 px-2 py-sm-3 px-sm-5 ${styles.title}`}>
       <h1>
         Hey, I&apos;m
         {' '}
         <br className={`.d-none .d-sm-block ${styles.hide}`} />
-        <strong>
-          <em>Isaac Colls</em>
-        </strong>
+        <span className="display-4">Isaac Colls</span>
       </h1>
       <p className={`my-1 ${styles.hide}`}>Electronic and Computer Engineering</p>
       <p className={`my-1 ${styles.hide}`}>&</p>
