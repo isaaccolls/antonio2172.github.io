@@ -11,16 +11,16 @@ const Me = ({ skills }) => (
     <Col xs={12} sm={6} className="text-center">
       <Figure className="d-block d-sm-none w-50 h-auto mx-auto">
         <Figure.Image
-          rounded
-          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.JPG?alt=media"
+          roundedCircle
+          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.png?alt=media"
           className="shadow"
           alt="profile-pic"
         />
       </Figure>
       <Figure className="d-none d-sm-block w-25 h-auto mx-auto">
         <Figure.Image
-          rounded
-          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.JPG?alt=media"
+          roundedCircle
+          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.png?alt=media"
           className="shadow"
           alt="profile-pic"
         />
