@@ -10,7 +10,7 @@ const Abilities = () => (
         <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'hand-peace']} />
         </h3>
-        <h3>Resilience</h3>
+        <h3>Constructive</h3>
         <p className="text-center d-none d-sm-block">
           Always happy with positive attitude
           {' '}
