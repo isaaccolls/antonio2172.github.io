@@ -49,3 +49,7 @@
 .client:hover {
   filter: none;
 }
+
+.stack {
+  color: var(--c-indian-red);
+}

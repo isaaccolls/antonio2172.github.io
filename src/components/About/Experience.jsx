@@ -68,7 +68,14 @@ const Experience = ({ experience }) => {
                       </Accordion.Toggle>
                       <Accordion.Collapse eventKey="0">
                         <>
-                          {workItem.description.split('\n').map((p, i) => <p className="mt-2 p-0" key={i}>{p}</p>)}
+                          <>
+                            {workItem.description.split('\n').map((p, i) => <p className="mt-2 p-0" key={i}>{p}</p>)}
+                          </>
+                          <p className={styles.stack}>
+                            <small>
+                              {workItem.techStack.map((t, i, { length }) => `#${t}${i === length - 1 ? '' : ' '}`)}
+                            </small>
+                          </p>
                         </>
                       </Accordion.Collapse>
                     </Accordion>

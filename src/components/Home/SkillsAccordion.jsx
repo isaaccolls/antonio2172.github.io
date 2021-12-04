@@ -5,7 +5,7 @@ import './SkillsAccordion.css';
 
 const Stars = ({ value }) => {
   const stars = [];
-  for (let k = 1; k <= 3; k++) {
+  for (let k = 1; k <= 3; k += 1) {
     if (k <= value) {
       stars.push(
         <FontAwesomeIcon
