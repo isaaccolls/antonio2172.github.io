@@ -6,63 +6,107 @@
             "description": "Frontend developer.\nDesign system\nAnd more.",
             "endDate": "",
             "startDate": "2020-10-01",
-            "title": "Frontend Developer"
+            "title": "Frontend Developer",
+            "titleSp": "",
+            "techStack": []
         },
         {
             "company": "Kubi Tech SPA",
             "department": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "",
+            "descriptionSP": "",
             "endDate": "2020-09-30",
             "startDate": "2020-02-20",
-            "title": "Web application developer"
+            "title": "Web application developer",
+            "titleSp": "",
+            "techStack": []
         },
         {
             "company": "Aplicaciones Computacionales SPA",
             "department": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "",
+            "descriptionSP": "",
             "endDate": "2019-09-22",
             "startDate": "2018-06-06",
-            "title": "Java analyst developer"
+            "title": "Java analyst developer",
+            "titleSp": "",
+            "techStack": []
         },
         {
             "company": "SmartboxTV SpA.",
             "department": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nhttps://www.nunchee.com/\nhttps://www.fanatiz.com (Chile,Mexico,Peru,Argentina)\nhttps://www.vidmais.com (Brasil)\nhttps://www.beisbolplay.com (Venezuela)\nhttps://gol.movistar.com\nhttps://www.modogaming.cl/\nhttps://www.vivoplay.net/\nhttps://www.vivofutebol.com.br/\nhttps://play.minuto30.com/",
+            "description": "\nhttps://www.nunchee.com/\nhttps://www.fanatiz.com (Chile,Mexico,Peru,Argentina)\nhttps://www.vidmais.com (Brasil)\nhttps://www.beisbolplay.com (Venezuela)\nhttps://gol.movistar.com\nhttps://www.modogaming.cl/\nhttps://www.vivoplay.net/\nhttps://www.vivofutebol.com.br/\nhttps://play.minuto30.com/",
+            "descriptionSP": "Desarrollo de scripts para la automatización de QA en apps mobiles iOS y Android.\nRealización de actividades proactivas, healthchecks, sobre IaaS/PaaS en AWS.\nAutomatización de configuraciones y despliegues mediante scripts.\nResolución de 3er nivel de incidentes, requerimientos y gestión de problemas.\nDocumentación de procesos y flujo de soporte",
             "endDate": "2018-06-05",
             "startDate": "2017-04-25",
-            "title": "Support & QA Engineer"
+            "title": "Support & QA Engineer",
+            "titleSp": "Support & QA Engineer",
+            "techStack": [
+                "Python",
+                "Appium",
+                "AWS",
+                "Terraform",
+                "Ansible",
+                "Node.js",
+                "Reactjs",
+                "MongoDB"
+            ]
         },
         {
             "company": "Transve S.A.",
             "department": "Engineering",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "",
+            "descriptionSP": "Diseño, diagnóstico y reparación tanto de hardware como software de elementos que forman parte de los productos comercializados por Transve S.A. referentes al transporte vertical, elevadores, escaleras mecanicas y orugas.",
             "endDate": "2017-04-02",
             "startDate": "2016-09-12",
-            "title": "Engineering Technician"
+            "title": "Engineering Technician",
+            "titleSp": "Técnico de Ingeniería",
+            "techStack": []
         },
         {
             "company": "Servicios Integrales de Pagos Electronicos C.A.",
             "department": "Operations and production support management",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "Analista de Soporte Bancario",
+            "descriptionSP": "Actividades de soporte técnico para aplicaciones Core Bancario de Fiserv Inc. y Evertec Inc.\nEjecucion de tareas referentes a movimientos bancarios.\nComprobación de integridad de las bases de datos.\nCumplimiento de los requerimientos y manejo de incidencias de los clientes de acuerdo a los niveles de servicios definidos con el Banco San Juan Internacional, Inc. con sede en San Juan de Puerto Rico, USA.",
             "endDate": "2016-07-01",
             "startDate": "2016-02-15",
-            "title": "Banking Support Analyst"
+            "title": "Banking Support Analyst",
+            "titleSp": "",
+            "techStack": [
+                "PostgreSQL"
+            ]
         },
         {
             "company": "Eurolift de Venezuela C.A.",
             "department": "Electronic Laboratory",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "Development electronic card to control cargo lift based on PIC microcontroller.\nDevelopment of electronic operator for doors control with variable speed (PWM) working with PIC microcontroller.\nBuilt a voltage regulator for powering lifts control system, with battery charger and automatic emergency lighting.",
+            "descriptionSP": "Desarrollo de tarjeta electrónica para el control de ascensor de carga basada en microcontrolador PIC.\nDesarrollo de operador electrónico para control de puertas con velocidad variable (PWM) empleando microcontrolador PIC.\nConstrucción de regulador de voltaje para alimentación del sistema de control de ascensores, con cargador de batería y encendido automático de lámpara de emergencia.",
             "endDate": "2016-02-02",
             "startDate": "2015-01-05",
-            "title": "Project analyst"
+            "title": "Project analyst",
+            "titleSp": "Analista de Proyecto",
+            "techStack": [
+                "ASM",
+                "C",
+                "PIC16FXXX",
+                "PIC18FXXX"
+            ]
         },
         {
             "company": "Eurolift de Venezuela C.A.",
             "department": "Electronic Laboratory",
             "description": "3 months of professional internship for title \"Electronic and Computer Engineering\".",
+            "descriptionSP": "3 meses de pasantía profesional parar al título de \"Ingeniero Electrónico en Computación\".",
             "endDate": "2015-01-04",
             "startDate": "2014-09-15",
-            "title": "Internship"
+            "title": "Internship",
+            "titleSp": "Pasante",
+            "techStack": [
+                "ASM",
+                "C",
+                "PIC18FXXX",
+                "PIC18FXXX"
+            ]
         }
     ]
 }
