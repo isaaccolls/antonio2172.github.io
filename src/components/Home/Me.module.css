@@ -2,3 +2,11 @@
   color: var(--c-indian-red);
   background-color: transparent !important;
 }
+
+.profile {
+  transition: filter .25s linear 0.2s;
+}
+
+.profile:hover {
+  filter: grayscale(100%);
+}

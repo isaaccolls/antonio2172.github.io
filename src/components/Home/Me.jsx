@@ -12,16 +12,16 @@ const Me = ({ skills }) => (
       <Figure className="d-block d-sm-none w-50 h-auto mx-auto">
         <Figure.Image
           roundedCircle
-          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.png?alt=media"
-          className="shadow"
+          src="https://isaaccolls.website/data/images/profile/profile-pic.jpg"
+          className={`shadow ${styles.profile}`}
           alt="profile-pic"
         />
       </Figure>
       <Figure className="d-none d-sm-block w-25 h-auto mx-auto">
         <Figure.Image
           roundedCircle
-          src="https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/profile-pic.png?alt=media"
-          className="shadow"
+          src="https://isaaccolls.website/data/images/profile/profile-pic.jpg"
+          className={`shadow ${styles.profile}`}
           alt="profile-pic"
         />
       </Figure>
