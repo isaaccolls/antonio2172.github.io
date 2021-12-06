@@ -5,8 +5,29 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-api-77f4e.appspot.com/o/home-bg.png?alt=media');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  animation-name: backgroundCarousel;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes backgroundCarousel {
+  0% {
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.png');
+  }
+  25% {
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-2.png');
+  }
+  50% {
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.png');
+  }
+  75% {
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-2.png');
+  }
+  100% {
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.png');
+  }
 }
