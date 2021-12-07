@@ -35,7 +35,7 @@
         {
             "company": "SmartboxTV SpA.",
             "department": "",
-            "description": "\nhttps://www.nunchee.com/\nhttps://www.fanatiz.com (Chile,Mexico,Peru,Argentina)\nhttps://www.vidmais.com (Brasil)\nhttps://www.beisbolplay.com (Venezuela)\nhttps://gol.movistar.com\nhttps://www.modogaming.cl/\nhttps://www.vivoplay.net/\nhttps://www.vivofutebol.com.br/\nhttps://play.minuto30.com/",
+            "description": "https://www.vidmais.com (Brasil)\nhttps://www.beisbolplay.com (Venezuela)\nhttps://gol.movistar.com\nhttps://www.modogaming.cl/\nhttps://www.vivoplay.net/\nhttps://www.vivofutebol.com.br/\nhttps://play.minuto30.com/",
             "descriptionSP": "Desarrollo de scripts para la automatización de QA en apps mobiles iOS y Android.\nRealización de actividades proactivas, healthchecks, sobre IaaS/PaaS en AWS.\nAutomatización de configuraciones y despliegues mediante scripts.\nResolución de 3er nivel de incidentes, requerimientos y gestión de problemas.\nDocumentación de procesos y flujo de soporte",
             "endDate": "2018-06-05",
             "startDate": "2017-04-25",
@@ -56,7 +56,7 @@
             "company": "Transve S.A.",
             "department": "Engineering",
             "description": "",
-            "descriptionSP": "Diseño, diagnóstico y reparación tanto de hardware como software de elementos que forman parte de los productos comercializados por Transve S.A. referentes al transporte vertical, elevadores, escaleras mecanicas y orugas.",
+            "descriptionSP": "Diagnóstico y reparación de hardware que forma parte de los productos comercializados por Transve S.A. referentes al transporte vertical, elevadores, escaleras mecanicas y orugas. Principalmente trabajando con las marcas Orona, Schindler y Otis",
             "endDate": "2017-04-02",
             "startDate": "2016-09-12",
             "title": "Engineering Technician",
@@ -95,6 +95,7 @@
         {
             "company": "Eurolift de Venezuela C.A.",
             "department": "Electronic Laboratory",
+            "departmentSp": "Laboratorio de electrónica",
             "description": "3 months of professional internship for title \"Electronic and Computer Engineering\".",
             "descriptionSP": "3 meses de pasantía profesional parar al título de \"Ingeniero Electrónico en Computación\".",
             "endDate": "2015-01-04",
