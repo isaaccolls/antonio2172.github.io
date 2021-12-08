@@ -85,6 +85,11 @@
                     "name": "Docker",
                     "order": 3,
                     "value": 2
+                },
+                {
+                    "name": "Kubernetes",
+                    "order": 4,
+                    "value": 1
                 }
             ]
         },

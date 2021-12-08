@@ -60,7 +60,18 @@ const Experience = ({ experience }) => {
                     </h6>
                   )}
                     <h5 className="vertical-timeline-element-subtitle">
-                      {workItem.company}
+                      {workItem.url
+                        ? (
+                          <a
+                            href={workItem.url}
+                            className={styles.linkDecoNone}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {workItem.company}
+                          </a>
+                        )
+                        : workItem.company}
                     </h5>
                     <Accordion>
                       <Accordion.Toggle as={Button} variant="light" eventKey="0" className={styles.toggle}>
