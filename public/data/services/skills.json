@@ -77,18 +77,23 @@
                     "value": 2
                 },
                 {
-                    "name": "Ansible",
+                    "name": "Terraform",
                     "order": 2,
                     "value": 1
                 },
                 {
-                    "name": "Docker",
+                    "name": "Ansible",
                     "order": 3,
+                    "value": 1
+                },
+                {
+                    "name": "Docker",
+                    "order": 4,
                     "value": 2
                 },
                 {
                     "name": "Kubernetes",
-                    "order": 4,
+                    "order": 5,
                     "value": 1
                 }
             ]
