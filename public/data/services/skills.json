@@ -36,23 +36,28 @@
             "order": 2,
             "skills": [
                 {
-                    "name": "Node.js",
+                    "name": "Node.js + Express",
                     "order": 0,
                     "value": 2.5
                 },
                 {
-                    "name": "PHP",
+                    "name": "Node.js + Nest",
                     "order": 1,
+                    "value": 2
+                },
+                {
+                    "name": "PHP",
+                    "order": 2,
                     "value": 2.5
                 },
                 {
                     "name": "Python + Django",
-                    "order": 2,
-                    "value": 2
+                    "order": 3,
+                    "value": 1.5
                 },
                 {
                     "name": "Java + Spring Boot",
-                    "order": 3,
+                    "order": 4,
                     "value": 1
                 }
             ]
