@@ -41,9 +41,24 @@
             "clientUrl": "https://www.fanatiz.com/"
         },
         {
-            "client": "",
-            "logo": "",
-            "clientUrl": ""
+            "client": "Beisbolplay",
+            "logo": "https://isaaccolls.website/data/logos/beisbolplay.png",
+            "clientUrl": "https://www.beisbolplay.com/"
+        },
+        {
+            "client": "Movistar Gol",
+            "logo": "https://isaaccolls.website/data/logos/movistargol.png",
+            "clientUrl": "https://gol.movistar.com/"
+        },
+        {
+            "client": "VIVOplay",
+            "logo": "https://isaaccolls.website/data/logos/vivoplay.svg",
+            "clientUrl": "https://www.vivoplay.net/"
+        },
+        {
+            "client": "Minuto30",
+            "logo": "https://isaaccolls.website/data/logos/movistargol.png",
+            "clientUrl": "https://play.minuto30.com/"
         }
     ]
 }

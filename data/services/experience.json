@@ -4,43 +4,57 @@
             "company": "2brains",
             "department": "Devs",
             "description": "Frontend developer.\nDesign system\nAnd more.",
+            "descriptionSP": "Desarrollo de Design Systems complejos y escalables, basados en Web Components.\nImplementación de nuevas funcionalidades de sitios web responsive con integración para el consumo de servicios.\nDiseño y desarrollo de microservicios.\nFlujos de trabajo adheridos a las metodologías ágiles y el marco de trabajo Scrum.",
             "endDate": "",
             "startDate": "2020-10-01",
             "title": "Frontend Developer",
             "titleSp": "",
-            "techStack": []
+            "url": "https://www.2brains.cl/",
+            "techStack": [
+                "ReactJS",
+                "Vue.js",
+                "Angular",
+                "Node.js + Nest",
+                "PostgreSQL",
+                "AWS",
+                "Terraform",
+                "Kubernetes"
+            ]
         },
         {
             "company": "Kubi Tech SPA",
             "department": "",
             "description": "",
-            "descriptionSP": "",
+            "descriptionSP": "Desarrollo de microservicios en NodeJS con almacenamiento de datos en MongoDB para la API Rest de Kubi, la cual es utilizada por Apps (Android e iOS) siendo un completo sistema de juegos del tipo Quiz incluyendo el manejo de chats a través de Sockets.\nDesarrollo de panel que muestre data del juego en curso en tiempo real a los animadores.",
             "endDate": "2020-09-30",
             "startDate": "2020-02-20",
             "title": "Web application developer",
             "titleSp": "",
+            "url": "https://kubi.cl/",
             "techStack": []
         },
         {
             "company": "Aplicaciones Computacionales SPA",
             "department": "",
-            "description": "",
+            "description": "Integrante de las salas digitales del Banco Itau, para desarrollar requerimientos complejos en framework hibrido mobile (Android e iOS) Kony utilizando JavaScript Y Java respectivamente.\nConstruyendo interfaces gráficas, integración de servicios e implementación en producción.\nBrindar apoyo al Project Owner en la creación de historias de usuario que entregaran valor al negocio.",
             "descriptionSP": "",
             "endDate": "2019-09-22",
             "startDate": "2018-06-06",
             "title": "Java analyst developer",
             "titleSp": "",
+            "url": "https://www.acl.cl/",
             "techStack": []
         },
         {
             "company": "SmartboxTV SpA.",
             "department": "",
-            "description": "https://www.vidmais.com (Brasil)\nhttps://www.beisbolplay.com (Venezuela)\nhttps://gol.movistar.com\nhttps://www.modogaming.cl/\nhttps://www.vivoplay.net/\nhttps://www.vivofutebol.com.br/\nhttps://play.minuto30.com/",
-            "descriptionSP": "Desarrollo de scripts para la automatización de QA en apps mobiles iOS y Android.\nRealización de actividades proactivas, healthchecks, sobre IaaS/PaaS en AWS.\nAutomatización de configuraciones y despliegues mediante scripts.\nResolución de 3er nivel de incidentes, requerimientos y gestión de problemas.\nDocumentación de procesos y flujo de soporte",
+            "description": "",
+            "descriptionSP": "Desarrollo de scripts para la automatización de QA en apps mobiles iOS y Android.\nRealización de actividades proactivas, healthchecks, sobre IaaS/PaaS en AWS.\nAutomatización de configuraciones y despliegues mediante scripts.\nResolución de 3er nivel de incidentes, requerimientos y gestión de problemas.\nDocumentación de procesos y flujo de soporte.\nParticipación en el desarrollo front-end web de Nunchee (plataforma white label de gestión de contenidos OTT)",
             "endDate": "2018-06-05",
             "startDate": "2017-04-25",
             "title": "Support & QA Engineer",
             "titleSp": "Support & QA Engineer",
+            "url": "https://nunchee.com/en/",
             "techStack": [
                 "Python",
                 "Appium",
@@ -61,6 +75,7 @@
             "startDate": "2016-09-12",
             "title": "Engineering Technician",
             "titleSp": "Técnico de Ingeniería",
+            "url": "https://transve.cl/",
             "techStack": []
         },
         {
@@ -72,6 +87,7 @@
             "startDate": "2016-02-15",
             "title": "Banking Support Analyst",
             "titleSp": "",
+            "url": "https://www.bsji.com/",
             "techStack": [
                 "PostgreSQL"
             ]
@@ -85,6 +101,7 @@
             "startDate": "2015-01-05",
             "title": "Project analyst",
             "titleSp": "Analista de Proyecto",
+            "url": "https://www.eurolift.com.ve/",
             "techStack": [
                 "ASM",
                 "C",
@@ -102,6 +119,7 @@
             "startDate": "2014-09-15",
             "title": "Internship",
             "titleSp": "Pasante",
+            "url": "https://www.eurolift.com.ve/",
             "techStack": [
                 "ASM",
                 "C",
