@@ -31,7 +31,7 @@ const Pages = () => {
       <Route exact path="/about" component={About} />
       <Route exact path="/portfolio" component={ComingSoon} />
       <Route exact path="/blog" component={ComingSoon} />
-      <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/contact" component={Contact} />
       <Route path="*" component={NotFound} />
     </Switch>
   );
@@ -42,7 +42,7 @@ const App = () => (
     <div className="wrapper-global">
       <HomeBanner />
       <Navbar />
-      <Container className="py-4 wrapper-pages" fluid>
+      <Container className="py-5 wrapper-pages" fluid>
         <Pages />
       </Container>
       <Footer />

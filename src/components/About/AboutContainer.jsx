@@ -53,7 +53,7 @@ class AboutContainer extends Component {
             <Certificates certificates={certificates} />
           </Col>
         </Row>
-        <Row className="align-self-center text-center">
+        <Row className="mt-4 align-self-center text-center">
           <Clients clients={clients} />
         </Row>
       </>

@@ -15,7 +15,9 @@ class HomeContainer extends Component {
     return (
       <>
         <Abilities />
-        <Me skills={skills} />
+        <div className="mt-5">
+          <Me skills={skills} />
+        </div>
       </>
     );
   }
