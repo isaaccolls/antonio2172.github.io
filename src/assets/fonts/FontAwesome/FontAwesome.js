@@ -24,6 +24,7 @@ import {
   faUserGraduate,
   faGrinWink,
   faSearch,
+  faDownload,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -59,6 +60,7 @@ library.add(
   faFilePdf,
   faGitAlt,
   faSearch,
+  faDownload,
   faUserNinja,
   faPaperPlane,
   faUserGraduate,
