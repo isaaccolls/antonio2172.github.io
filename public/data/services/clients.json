@@ -59,6 +59,31 @@
             "client": "Minuto30",
             "logo": "https://isaaccolls.website/data/logos/minuto30.png",
             "clientUrl": "https://play.minuto30.com/"
+        },
+        {
+            "client": "Banco Itau",
+            "logo": "https://isaaccolls.website/data/logos/itau.png",
+            "clientUrl": "https://banco.itau.cl/"
+        },
+        {
+            "client": "Cencosud",
+            "logo": "https://isaaccolls.website/data/logos/cencosud.png",
+            "clientUrl": "https://www.cencosud.com/"
+        },
+        {
+            "client": "Clinica Alemana",
+            "logo": "https://isaaccolls.website/data/logos/cas.svg",
+            "clientUrl": "https://www.clinicaalemana.cl/"
+        },
+        {
+            "client": "Vida Security",
+            "logo": "https://isaaccolls.website/data/logos/vidasecurity.svg",
+            "clientUrl": "https://www.clinicaalemana.cl/"
+        },
+        {
+            "client": "Contable",
+            "logo": "https://isaaccolls.website/data/logos/contable.png",
+            "clientUrl": "https://contable.app/"
         }
     ]
 }
