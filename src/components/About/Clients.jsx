@@ -15,7 +15,7 @@ const Clients = ({ clients }) => (
       </h2>
     </Col>
     <Col xs={12} className="px-5">
-      <Row className="px-sm-5">
+      <Row className={`px-2 py-2 px-sm-5 py-sm-5 ${styles.clients}`}>
         {clients !== undefined && clients.length > 0
           ? clients.map((client) => (
             <Col

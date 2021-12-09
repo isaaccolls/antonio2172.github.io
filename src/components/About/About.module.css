@@ -47,6 +47,11 @@
   background-color: var(--c-indian-red) !important;
 }
 
+.clients {
+  background-color: var(--c-gunmetal-t);
+  border-radius: 25px;
+}
+
 .client {
   filter: grayscale(100%);
 }
