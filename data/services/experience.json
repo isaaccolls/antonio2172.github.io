@@ -3,7 +3,7 @@
         {
             "company": "2brains",
             "department": "Devs",
-            "description": "Frontend developer.\nDesign system\nAnd more.",
+            "description": "Development of complex and scalable Design Systems, based on Web Components.\nNew functionalities implementation of responsive websites with integration for the services consumption.\nDesign and development of microservices.\nWorkflows adhered to agile methodologies and Scrum job framework.",
             "descriptionSP": "Desarrollo de Design Systems complejos y escalables, basados en Web Components.\nImplementación de nuevas funcionalidades de sitios web responsive con integración para el consumo de servicios.\nDiseño y desarrollo de microservicios.\nFlujos de trabajo adheridos a las metodologías ágiles y el marco de trabajo Scrum.",
             "endDate": "",
             "startDate": "2020-10-01",
@@ -24,8 +24,8 @@
         {
             "company": "Kubi Tech SPA",
             "department": "",
-            "description": "",
-            "descriptionSP": "Desarrollo de microservicios en NodeJS con almacenamiento de datos en MongoDB para la API Rest de Kubi, la cual es utilizada por Apps (Android e iOS) siendo un completo sistema de juegos del tipo Quiz incluyendo el manejo de chats a través de Sockets.\nDesarrollo de panel que muestre data del juego en curso en tiempo real a los animadores.",
+            "description": "Microservices development in NodeJS with data storage in MongoDB for Kubi's Rest API, which is used by Apps (Android and iOS) being a complete Quiz type game system including chats management through Sockets.\nThe game has a panel that shows data from the current game in real time to the animators.",
+            "descriptionSP": "Desarrollo de microservicios en NodeJS con almacenamiento de datos en MongoDB para la API Rest de Kubi, la cual es utilizada por Apps (Android e iOS) siendo un completo sistema de juegos del tipo Quiz incluyendo el manejo de chats a través de Sockets.\nEl juego cuenta con panel que muestra data del juego actual en tiempo real a los animadores.",
             "endDate": "2020-09-30",
             "startDate": "2020-02-20",
             "title": "Web application developer",
@@ -36,20 +36,24 @@
         {
             "company": "Aplicaciones Computacionales SPA",
             "department": "",
-            "description": "Integrante de las salas digitales del Banco Itau, para desarrollar requerimientos complejos en framework hibrido mobile (Android e iOS) Kony utilizando JavaScript Y Java respectivamente.\nConstruyendo interfaces gráficas, integración de servicios e implementación en producción.\nBrindar apoyo al Project Owner en la creación de historias de usuario que entregaran valor al negocio.",
-            "descriptionSP": "",
+            "description": "Member of digital rooms on Itau Bank, to develop complex requirements on hybrid mobile framework (Android and iOS) Kony working JavaScript and Java respectively.\nBuilding graphical interfaces, integration of services and production implementation.\nProvide support to Project Owner at of user stories that will deliver value to the business.",
+            "descriptionSP": "Integrante de las salas digitales del Banco Itau, para desarrollar requerimientos complejos en framework hibrido mobile (Android e iOS) Kony utilizando JavaScript Y Java respectivamente.\nConstruyendo interfaces gráficas, integración de servicios e implementación en producción.\nBrindar apoyo al Project Owner en la creación de historias de usuario que entregaran valor al negocio.",
             "endDate": "2019-09-22",
             "startDate": "2018-06-06",
             "title": "Java analyst developer",
             "titleSp": "",
             "url": "https://www.acl.cl/",
-            "techStack": []
+            "techStack": [
+                "Kony",
+                "JS",
+                "Java"
+            ]
         },
         {
             "company": "SmartboxTV SpA.",
             "department": "",
-            "description": "",
-            "descriptionSP": "Desarrollo de scripts para la automatización de QA en apps mobiles iOS y Android.\nRealización de actividades proactivas, healthchecks, sobre IaaS/PaaS en AWS.\nAutomatización de configuraciones y despliegues mediante scripts.\nResolución de 3er nivel de incidentes, requerimientos y gestión de problemas.\nDocumentación de procesos y flujo de soporte.\nParticipación en el desarrollo front-end web de Nunchee (plataforma white label de gestión de contenidos OTT)",
+            "description": "Scripts development for automatic execution of use cases in mobile apps (iOS and Android).\nPerforming proactive activities, healthchecks, on IaaS / PaaS in AWS.\nSettings automation and deployments through scripting.\nResolution of 3rd level issues, requirements and management of problems.\nProcess and support flow documentation.\nParticipation in the front-end web development of Nunchee (OTT content management white label platform)",
+            "descriptionSP": "Desarrollo de scripts para la ejecucion automatica de casos de uso en apps mobiles (iOS y Android).\nRealización de actividades proactivas, healthchecks, sobre IaaS/PaaS en AWS.\nAutomatización de configuraciones y despliegues mediante scripts.\nResolución de 3er nivel de incidentes, requerimientos y gestión de problemas.\nDocumentación de procesos y flujo de soporte.\nParticipación en el desarrollo front-end web de Nunchee (plataforma white label de gestión de contenidos OTT)",
             "endDate": "2018-06-05",
             "startDate": "2017-04-25",
             "title": "Support & QA Engineer",
@@ -69,8 +73,9 @@
         {
             "company": "Transve S.A.",
             "department": "Engineering",
-            "description": "",
-            "descriptionSP": "Diagnóstico y reparación de hardware que forma parte de los productos comercializados por Transve S.A. referentes al transporte vertical, elevadores, escaleras mecanicas y orugas. Principalmente trabajando con las marcas Orona, Schindler y Otis",
+            "departmentSp": "Ingeniería",
+            "description": "Diagnosis and repair of hardware marketed by Transve S.A. referring to vertical transport, elevators, escalators and caterpillars.\nMainly working with the brands Orona, Schindler and Otis",
+            "descriptionSP": "Diagnóstico y reparación de hardware que forma parte de los productos comercializados por Transve S.A. referentes al transporte vertical, elevadores, escaleras mecanicas y orugas.\nPrincipalmente trabajando con las marcas Orona, Schindler y Otis",
             "endDate": "2017-04-02",
             "startDate": "2016-09-12",
             "title": "Engineering Technician",
@@ -80,13 +85,14 @@
         },
         {
             "company": "Servicios Integrales de Pagos Electronicos C.A.",
-            "department": "Operations and production support management",
-            "description": "Analista de Soporte Bancario",
+            "department": "Operations and production support",
+            "departmentSp": "Soporte a operaciones y produccion",
+            "description": "Technical support activities for Core Banking applications of Fiserv Inc. and Evertec Inc.\nTasks execution related to bank movements.\nDatabases integrity checking.\nPerform requirements and clients incidents handling according to the services levels defined with Banco San Juan Internacional, Inc. based in San Juan de Puerto Rico, USA.",
             "descriptionSP": "Actividades de soporte técnico para aplicaciones Core Bancario de Fiserv Inc. y Evertec Inc.\nEjecucion de tareas referentes a movimientos bancarios.\nComprobación de integridad de las bases de datos.\nCumplimiento de los requerimientos y manejo de incidencias de los clientes de acuerdo a los niveles de servicios definidos con el Banco San Juan Internacional, Inc. con sede en San Juan de Puerto Rico, USA.",
             "endDate": "2016-07-01",
             "startDate": "2016-02-15",
             "title": "Banking Support Analyst",
-            "titleSp": "",
+            "titleSp": "Analista de soporte a Banca",
             "url": "https://www.bsji.com/",
             "techStack": [
                 "PostgreSQL"
@@ -95,13 +101,14 @@
         {
             "company": "Eurolift de Venezuela C.A.",
             "department": "Electronic Laboratory",
+            "departmentSp": "Laboratorio de electrónica",
             "description": "Development electronic card to control cargo lift based on PIC microcontroller.\nDevelopment of electronic operator for doors control with variable speed (PWM) working with PIC microcontroller.\nBuilt a voltage regulator for powering lifts control system, with battery charger and automatic emergency lighting.",
             "descriptionSP": "Desarrollo de tarjeta electrónica para el control de ascensor de carga basada en microcontrolador PIC.\nDesarrollo de operador electrónico para control de puertas con velocidad variable (PWM) empleando microcontrolador PIC.\nConstrucción de regulador de voltaje para alimentación del sistema de control de ascensores, con cargador de batería y encendido automático de lámpara de emergencia.",
             "endDate": "2016-02-02",
             "startDate": "2015-01-05",
             "title": "Project analyst",
             "titleSp": "Analista de Proyecto",
-            "url": "https://www.eurolift.com.ve/",
+            "url": "https://euroliftelevators.com/",
             "techStack": [
                 "ASM",
                 "C",
@@ -119,7 +126,7 @@
             "startDate": "2014-09-15",
             "title": "Internship",
             "titleSp": "Pasante",
-            "url": "https://www.eurolift.com.ve/",
+            "url": "https://euroliftelevators.com/",
             "techStack": [
                 "ASM",
                 "C",
