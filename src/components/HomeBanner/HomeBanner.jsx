@@ -13,9 +13,17 @@ const HomeBanner = () => (
         <br className={`.d-none .d-sm-block ${styles.hide}`} />
         <span className="display-4">Isaac Colls</span>
       </h1>
-      <p className={`my-1 ${styles.hide}`}>Electronic and Computer Engineering</p>
+      <p className={`my-1 ${styles.hide}`}>
+        Electronic and Computer Engineering
+        {' '}
+        <span role="img" aria-label="nerd face">🤓</span>
+      </p>
       <p className={`my-1 ${styles.hide}`}>&</p>
-      <p className={`my-1 ${styles.hide}`}>Full Stack developer</p>
+      <p className={`my-1 ${styles.hide}`}>
+        Full Stack developer
+        {' '}
+        <span role="img" aria-label="ninja">🥷</span>
+      </p>
     </div>
     <div className="w-100 mt-auto">
       <img className="w-100 h-100" src={headerBorder} alt="header-border" />
