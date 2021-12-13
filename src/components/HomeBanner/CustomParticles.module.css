@@ -22,12 +22,12 @@
     background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-2.png');
   }
   50% {
-    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.png');
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-3.png');
   }
   75% {
-    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-2.png');
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-4.png');
   }
   100% {
-    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.png');
+    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-5.png');
   }
 }
