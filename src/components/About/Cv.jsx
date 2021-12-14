@@ -26,7 +26,7 @@ const Cv = () => (
           rel="noopener noreferrer"
           href="https://isaaccolls.website/data/cv/cv-Isaac_Colls-en.pdf"
         >
-          CV English
+          English CV
           {' '}
           <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
         </a>
@@ -36,7 +36,7 @@ const Cv = () => (
           rel="noopener noreferrer"
           href="https://isaaccolls.website/data/cv/cv-Isaac_Colls-sp.pdf"
         >
-          CV Spanish
+          Spanish CV
           {' '}
           <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
         </a>
