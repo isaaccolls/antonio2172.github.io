@@ -26,7 +26,6 @@ import {
   faSearch,
   faDownload,
   faMagnet,
-  // faScrewdriverWrench,
   faHourglassHalf,
 } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -65,7 +64,6 @@ library.add(
   faSearch,
   faDownload,
   faMagnet,
-  // faScrewdriverWrench,
   faHourglassHalf,
   faUserNinja,
   faPaperPlane,
