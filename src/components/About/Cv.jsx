@@ -7,13 +7,13 @@ import styles from './About.module.css';
 
 const Cv = () => (
   <>
-    <Col xs={12} className="mb-2">
+    <Col xs={12}>
       <h2>
         Download my
         {' '}
         <small><del>old school</del></small>
         {' '}
-        PDF cv
+        PDF CV
         {' '}
         <FontAwesomeIcon icon={['fas', 'download']} className={styles.icon2} />
       </h2>
