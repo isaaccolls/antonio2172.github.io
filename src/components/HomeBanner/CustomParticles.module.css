@@ -9,25 +9,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   animation-name: backgroundCarousel;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 
 @keyframes backgroundCarousel {
-  0% {
+  0%, 100% {
     background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.png');
   }
-  25% {
+  33% {
     background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-2.png');
   }
-  50% {
-    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-3.png');
-  }
-  75% {
-    background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-4.png');
-  }
-  100% {
+  66% {
     background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-5.png');
   }
 }
