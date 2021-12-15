@@ -31,7 +31,13 @@
             "title": "Web application developer",
             "titleSp": "",
             "url": "https://kubi.cl/",
-            "techStack": []
+            "techStack": [
+                "Node.js + Express",
+                "MongoDB",
+                "Reactjs",
+                "AWS",
+                "PHP"
+            ]
         },
         {
             "company": "Aplicaciones Computacionales SPA",
