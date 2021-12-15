@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Route, Switch, useLocation,
+  HashRouter as Router, Route, Switch, useLocation,
 } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import HomeBanner from '../HomeBanner';
