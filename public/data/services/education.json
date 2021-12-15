@@ -4,7 +4,8 @@
             "date": "2015-07",
             "degree": "Electronic and Computer Engineering",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "institute": "Universidad Yacambú",
+            "instituteSp": "Universidad Yacambú",
+            "institute": "Yacambú University",
             "urlToInstitute": "http://www.uny.edu.ve/",
             "urlToDiploma": "https://isaaccolls.website/data/certificates/engineer.pdf"
         },
@@ -12,7 +13,8 @@
             "date": "2008-07",
             "degree": "Bachelor",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "institute": "Liceo Privado Churum Meru",
+            "instituteSp": "Liceo Privado Churum Meru",
+            "institute": "Churum Meru High School",
             "urlToInstitute": "",
             "urlToDiploma": "https://isaaccolls.website/data/certificates/bachelor.pdf"
         }
