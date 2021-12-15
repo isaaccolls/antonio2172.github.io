@@ -130,7 +130,7 @@
             "techStack": [
                 "ASM",
                 "C",
-                "PIC18FXXX",
+                "PIC16FXXX",
                 "PIC18FXXX"
             ]
         }
