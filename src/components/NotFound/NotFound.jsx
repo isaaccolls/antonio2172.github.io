@@ -1,18 +1,18 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './NotFound.css';
+import { Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './NotFound.module.css';
 
 const NotFound = () => (
-  <Container
-    className="min-vh-100 py-5 px-5 not-found"
-    fluid={true}
-  >
-    <Row>
-      <Col>
-        <h2>Not found =(</h2>
-      </Col>
-    </Row>
-  </Container>
+  <Row>
+    <Col xs={12} className="text-center">
+      <h2>
+        Not found
+        {' '}
+        <FontAwesomeIcon icon={['fas', 'frown']} className={styles.icon} />
+      </h2>
+    </Col>
+  </Row>
 );
 
 export default NotFound;

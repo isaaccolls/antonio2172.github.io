@@ -27,6 +27,7 @@ import {
   faDownload,
   faMagnet,
   faHourglassHalf,
+  faFrown,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
@@ -65,6 +66,7 @@ library.add(
   faDownload,
   faMagnet,
   faHourglassHalf,
+  faFrown,
   faUserNinja,
   faPaperPlane,
   faUserGraduate,
