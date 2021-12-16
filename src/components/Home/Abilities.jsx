@@ -27,7 +27,7 @@ const Abilities = () => (
       </div>
     </Col>
     <Col xs={6} md={3}>
-      <div className={`text-center ${styles.wrapper}`}>
+      <div className={`text-center ${styles.wrapper} ${styles.second}`}>
         <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'lightbulb']} />
         </h3>
@@ -38,18 +38,18 @@ const Abilities = () => (
       </div>
     </Col>
     <Col xs={6} md={3}>
-      <div className={`text-center ${styles.wrapper}`}>
+      <div className={`text-center ${styles.wrapper} ${styles.third}`}>
         <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'users']} />
         </h3>
         <h3>Team work</h3>
         <p className="text-center d-none d-sm-block">
-          Each and every individual’s personal opinion matters.
+          Each and every individual&apos;s personal opinion matters.
         </p>
       </div>
     </Col>
     <Col xs={6} md={3}>
-      <div className={`text-center ${styles.wrapper}`}>
+      <div className={`text-center ${styles.wrapper} ${styles.fourth}`}>
         <h3 className={styles.icon}>
           <FontAwesomeIcon icon={['fas', 'handshake']} />
         </h3>
