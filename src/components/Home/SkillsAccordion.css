@@ -24,6 +24,25 @@
   border: 1px solid var(--c-indian-red);
 }
 
-.custom-star {
+.indian-red {
   color: var(--c-indian-red);
+}
+
+.custom-star {
+  opacity: 0;
+  animation: fadeIn 1s ease both;
+  animation-delay: .5s;
+}
+
+.custom-star-2 {
+  animation-delay: 1s;
+}
+
+.custom-star-3 {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

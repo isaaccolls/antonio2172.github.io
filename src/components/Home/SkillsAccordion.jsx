@@ -3,6 +3,8 @@ import { Accordion, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './SkillsAccordion.css';
 
+const starAnimation = (index) => (index > 0 ? `custom-star-${index}` : null);
+
 const Stars = ({ value }) => {
   const stars = [];
   for (let k = 1; k <= 3; k += 1) {
@@ -11,7 +13,7 @@ const Stars = ({ value }) => {
         <FontAwesomeIcon
           key={k}
           icon={['fas', 'star']}
-          className="custom-star"
+          className={`indian-red custom-star ${starAnimation(k)}`}
         />,
       );
     } else if (k - value === 0.5) {
@@ -19,7 +21,7 @@ const Stars = ({ value }) => {
         <FontAwesomeIcon
           key={value}
           icon={['fas', 'star-half-alt']}
-          className="custom-star"
+          className={`indian-red custom-star ${starAnimation(k)}`}
         />,
       );
     } else {
@@ -27,7 +29,7 @@ const Stars = ({ value }) => {
         <FontAwesomeIcon
           key={k}
           icon={['far', 'star']}
-          className="custom-star"
+          className={`indian-red custom-star ${starAnimation(k)}`}
         />,
       );
     }
@@ -45,7 +47,7 @@ const SkillsAccordion = ({ skills }) => (
             eventKey={skill.order}
             className="custom-accordion-toggle py-0 text-left"
           >
-            <span className="custom-star"> - </span>
+            <span className="indian-red"> - </span>
             {skill.focus}
           </Accordion.Toggle>
         </Card.Header>
