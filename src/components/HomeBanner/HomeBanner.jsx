@@ -11,7 +11,7 @@ const HomeBanner = () => (
     >
       <h1>
         Hey, I&apos;m <br className={`.d-none .d-sm-block ${styles.hide}`} />
-        <span className="display-4">Isaac Colls!</span>
+        <span className="display-4">Isaac Colls</span>
       </h1>
       <p className={`my-1 ${styles.hide}`}>
         Electronic and Computer Engineering{' '}
