@@ -31,7 +31,7 @@
 .custom-star {
   opacity: 0;
   animation: fadeIn 1s ease both;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 .custom-star-2 {
@@ -43,6 +43,10 @@
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

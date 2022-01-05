@@ -11,6 +11,7 @@ export const experience = (state = {}, action) => {
 };
 
 export const getExperience = createSelector(
-  state => state.experience,
-  experience => experience.experience,
+  (state) => state.experience,
+  // eslint-disable-next-line
+  (experience) => experience.experience,
 );

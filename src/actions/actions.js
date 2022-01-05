@@ -9,7 +9,8 @@ import {
 } from './actionsTypes';
 
 const setSkillsData = (payload) => ({ type: SET_SKILLS_DATA, payload });
-const baseUrl = process.env.NODE_ENV === 'production' ? 'https://isaaccolls.website/' : '';
+const baseUrl =
+  process.env.NODE_ENV === 'production' ? 'https://isaaccolls.website/' : '';
 const basePath = 'data/services/';
 
 export const fetchSkills = () => (dispatch) => {
@@ -33,8 +34,8 @@ export const fetchExperience = () => (dispatch) => {
     .then((res) => res.json())
     .then((resJson) => {
       const { experience } = resJson;
-      const sortedExperience = experience.sort(
-        (a, b) => (new Date(a.startDate) < new Date(b.startDate) ? 1 : -1),
+      const sortedExperience = experience.sort((a, b) =>
+        new Date(a.startDate) < new Date(b.startDate) ? 1 : -1,
       );
       dispatch(setExperienceData({ experience: sortedExperience }));
     });
@@ -49,7 +50,9 @@ export const fetchEducation = () => (dispatch) => {
     .then((res) => res.json())
     .then((resJson) => {
       const { education } = resJson;
-      const sortedEducation = education.sort((a, b) => (a.date > b.date ? -1 : 1));
+      const sortedEducation = education.sort((a, b) =>
+        a.date > b.date ? -1 : 1,
+      );
       dispatch(setEducationData({ education: sortedEducation }));
     });
 };
@@ -66,7 +69,9 @@ export const fetchCertificates = () => (dispatch) => {
     .then((res) => res.json())
     .then((resJson) => {
       const { certificates } = resJson;
-      const sortedCertificates = certificates.sort((a, b) => (a.date > b.date ? -1 : 1));
+      const sortedCertificates = certificates.sort((a, b) =>
+        a.date > b.date ? -1 : 1,
+      );
       dispatch(setCertificatesData({ certificates: sortedCertificates }));
     });
 };
@@ -87,7 +92,10 @@ export const fetchProjects = () => (dispatch) => {
     });
 };
 
-export const setProjectCategory = (payload) => ({ type: SET_PROJECT_CATEGORY, payload });
+export const setProjectCategory = (payload) => ({
+  type: SET_PROJECT_CATEGORY,
+  payload,
+});
 
 const setClientsData = (payload) => ({
   type: SET_CLIENTS_DATA,

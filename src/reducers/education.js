@@ -11,6 +11,7 @@ export const education = (state = {}, action) => {
 };
 
 export const getEducation = createSelector(
-  state => state.education,
-  education => education.education,
+  (state) => state.education,
+  // eslint-disable-next-line
+  (education) => education.education,
 );

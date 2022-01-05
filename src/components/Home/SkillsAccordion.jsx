@@ -1,6 +1,7 @@
 import React from 'react';
 import { Accordion, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import PropTypes from 'prop-types';
 import './SkillsAccordion.css';
 
 const starAnimation = (index) => (index > 0 ? `custom-star-${index}` : null);
@@ -55,11 +56,7 @@ const SkillsAccordion = ({ skills }) => (
           <Card.Body className="custom-card-body py-1">
             {skill.skills.map((innerSkill) => (
               <Card.Text key={innerSkill.order} className="my-0">
-                {innerSkill.name}
-                {' '}
-                -
-                {' '}
-                <Stars value={innerSkill.value} />
+                {innerSkill.name} - <Stars value={innerSkill.value} />
               </Card.Text>
             ))}
           </Card.Body>
@@ -68,5 +65,10 @@ const SkillsAccordion = ({ skills }) => (
     ))}
   </Accordion>
 );
+
+SkillsAccordion.propTypes = {
+  // eslint-disable-next-line
+  skills: PropTypes.object.isRequired,
+};
 
 export default SkillsAccordion;

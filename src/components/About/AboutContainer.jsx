@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import PropTypes from 'prop-types';
 import styles from './About.module.css';
 import { getExperience } from '../../reducers/experience';
 import { getEducation } from '../../reducers/education';
@@ -21,27 +22,30 @@ import Cv from './Cv';
 
 class AboutContainer extends Component {
   componentDidMount() {
-    this.props.fetchExperience();
-    this.props.fetchEducation();
-    this.props.fetchCertificates();
-    this.props.fetchClients();
+    const {
+      fetchExperienceAux,
+      fetchEducationAux,
+      fetchCertificatesAux,
+      fetchClientsAux,
+    } = this.props;
+    fetchExperienceAux();
+    fetchEducationAux();
+    fetchCertificatesAux();
+    fetchClientsAux();
   }
 
   render() {
-    const {
-      experience,
-      education,
-      certificates,
-      clients,
-    } = this.props;
+    const { experience, education, certificates, clients } = this.props;
     return (
       <>
         <Row className="align-self-center text-center">
           <Col xs={12} className="mb-4">
             <h2>
-              Experience
-              {' '}
-              <FontAwesomeIcon icon={['fas', 'user-graduate']} className={styles.icon2} />
+              Experience{' '}
+              <FontAwesomeIcon
+                icon={['fas', 'user-graduate']}
+                className={styles.icon2}
+              />
             </h2>
           </Col>
           <Col xs={12}>
@@ -65,6 +69,21 @@ class AboutContainer extends Component {
   }
 }
 
+AboutContainer.propTypes = {
+  fetchExperienceAux: PropTypes.string.isRequired,
+  fetchEducationAux: PropTypes.string.isRequired,
+  fetchCertificatesAux: PropTypes.string.isRequired,
+  fetchClientsAux: PropTypes.string.isRequired,
+  // eslint-disable-next-line
+  experience: PropTypes.object.isRequired,
+  // eslint-disable-next-line
+  education: PropTypes.object.isRequired,
+  // eslint-disable-next-line
+  certificates: PropTypes.object.isRequired,
+  // eslint-disable-next-line
+  clients: PropTypes.object.isRequired,
+};
+
 const mapStateToProps = (state) => ({
   experience: getExperience(state),
   education: getEducation(state),
@@ -73,10 +92,10 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchExperience: (value) => dispatch(fetchExperience(value)),
-  fetchEducation: (value) => dispatch(fetchEducation(value)),
-  fetchCertificates: (value) => dispatch(fetchCertificates(value)),
-  fetchClients: (value) => dispatch(fetchClients(value)),
+  fetchExperienceAux: (value) => dispatch(fetchExperience(value)),
+  fetchEducationAux: (value) => dispatch(fetchEducation(value)),
+  fetchCertificatesAux: (value) => dispatch(fetchCertificates(value)),
+  fetchClientsAux: (value) => dispatch(fetchClients(value)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(AboutContainer);

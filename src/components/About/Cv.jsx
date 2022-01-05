@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  Row, Col,
-} from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './About.module.css';
 
@@ -9,12 +7,11 @@ const Cv = () => (
   <>
     <Col xs={12}>
       <h2>
-        Download my
-        {' '}
-        <small><del>old school</del></small>
-        {' '}
-        PDF CV
-        {' '}
+        Download my{' '}
+        <small>
+          <del>old school</del>
+        </small>{' '}
+        PDF CV{' '}
         <FontAwesomeIcon icon={['fas', 'download']} className={styles.icon2} />
       </h2>
     </Col>
@@ -26,8 +23,7 @@ const Cv = () => (
           rel="noopener noreferrer"
           href="https://isaaccolls.website/data/cv/cv-Isaac_Colls-en.pdf"
         >
-          English CV
-          {' '}
+          English CV{' '}
           <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
         </a>
         <a
@@ -36,8 +32,7 @@ const Cv = () => (
           rel="noopener noreferrer"
           href="https://isaaccolls.website/data/cv/cv-Isaac_Colls-sp.pdf"
         >
-          Spanish CV
-          {' '}
+          Spanish CV{' '}
           <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
         </a>
       </Row>

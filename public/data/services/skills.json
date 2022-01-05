@@ -1,171 +1,171 @@
 {
-    "skills": [
+  "skills": [
+    {
+      "focus": "Front End",
+      "order": 1,
+      "skills": [
         {
-            "focus": "Front End",
-            "order": 1,
-            "skills": [
-                {
-                    "name": "HTML5 + CSS3",
-                    "order": 0,
-                    "value": 2.5
-                },
-                {
-                    "name": "JavaScript ES6",
-                    "order": 1,
-                    "value": 2.5
-                },
-                {
-                    "name": "ReactJS + Redux",
-                    "order": 2,
-                    "value": 2.5
-                },
-                {
-                    "name": "Angular",
-                    "order": 3,
-                    "value": 2
-                },
-                {
-                    "name": "Vue.js",
-                    "order": 4,
-                    "value": 1.5
-                }
-            ]
+          "name": "HTML5 + CSS3",
+          "order": 0,
+          "value": 2.5
         },
         {
-            "focus": "Back End",
-            "order": 2,
-            "skills": [
-                {
-                    "name": "Node.js + Express",
-                    "order": 0,
-                    "value": 2.5
-                },
-                {
-                    "name": "Node.js + Nest",
-                    "order": 1,
-                    "value": 2
-                },
-                {
-                    "name": "PHP",
-                    "order": 2,
-                    "value": 2.5
-                },
-                {
-                    "name": "Python + Django",
-                    "order": 3,
-                    "value": 1.5
-                },
-                {
-                    "name": "Java + Spring Boot",
-                    "order": 4,
-                    "value": 1
-                }
-            ]
+          "name": "JavaScript ES6",
+          "order": 1,
+          "value": 2.5
         },
         {
-            "focus": "DevOps",
-            "order": 3,
-            "skills": [
-                {
-                    "name": "Firebase",
-                    "order": 0,
-                    "value": 2
-                },
-                {
-                    "name": "AWS",
-                    "order": 1,
-                    "value": 2
-                },
-                {
-                    "name": "Terraform",
-                    "order": 2,
-                    "value": 1
-                },
-                {
-                    "name": "Ansible",
-                    "order": 3,
-                    "value": 1
-                },
-                {
-                    "name": "Docker",
-                    "order": 4,
-                    "value": 2
-                },
-                {
-                    "name": "Kubernetes",
-                    "order": 5,
-                    "value": 1
-                }
-            ]
+          "name": "ReactJS + Redux",
+          "order": 2,
+          "value": 2.5
         },
         {
-            "focus": "Database",
-            "order": 4,
-            "skills": [
-                {
-                    "name": "MySQL",
-                    "order": 0,
-                    "value": 2
-                },
-                {
-                    "name": "PostgreSQL",
-                    "order": 1,
-                    "value": 2
-                },
-                {
-                    "name": "MongoDB",
-                    "order": 2,
-                    "value": 2.5
-                }
-            ]
+          "name": "Angular",
+          "order": 3,
+          "value": 2
         },
         {
-            "focus": "Mobile",
-            "order": 5,
-            "skills": [
-                {
-                    "name": "React Native",
-                    "order": 0,
-                    "value": 2
-                },
-                {
-                    "name": "Kony",
-                    "order": 1,
-                    "value": 2.5
-                }
-            ]
-        },
-        {
-            "focus": "QA",
-            "order": 6,
-            "skills": [
-                {
-                    "name": "Python + Appium",
-                    "order": 0,
-                    "value": 2.5
-                }
-            ]
-        },
-        {
-            "focus": "IoT",
-            "order": 7,
-            "skills": [
-                {
-                    "name": "Circuit design",
-                    "order": 0,
-                    "value": 2.5
-                },
-                {
-                    "name": "PIC Microcontrollers",
-                    "order": 1,
-                    "value": 2.5
-                },
-                {
-                    "name": "Raspberry Pi",
-                    "order": 2,
-                    "value": 2
-                }
-            ]
+          "name": "Vue.js",
+          "order": 4,
+          "value": 1.5
         }
-    ]
+      ]
+    },
+    {
+      "focus": "Back End",
+      "order": 2,
+      "skills": [
+        {
+          "name": "Node.js + Express",
+          "order": 0,
+          "value": 2.5
+        },
+        {
+          "name": "Node.js + Nest",
+          "order": 1,
+          "value": 2
+        },
+        {
+          "name": "PHP",
+          "order": 2,
+          "value": 2.5
+        },
+        {
+          "name": "Python + Django",
+          "order": 3,
+          "value": 1.5
+        },
+        {
+          "name": "Java + Spring Boot",
+          "order": 4,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "focus": "DevOps",
+      "order": 3,
+      "skills": [
+        {
+          "name": "Firebase",
+          "order": 0,
+          "value": 2
+        },
+        {
+          "name": "AWS",
+          "order": 1,
+          "value": 2
+        },
+        {
+          "name": "Terraform",
+          "order": 2,
+          "value": 1
+        },
+        {
+          "name": "Ansible",
+          "order": 3,
+          "value": 1
+        },
+        {
+          "name": "Docker",
+          "order": 4,
+          "value": 2
+        },
+        {
+          "name": "Kubernetes",
+          "order": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "focus": "Database",
+      "order": 4,
+      "skills": [
+        {
+          "name": "MySQL",
+          "order": 0,
+          "value": 2
+        },
+        {
+          "name": "PostgreSQL",
+          "order": 1,
+          "value": 2
+        },
+        {
+          "name": "MongoDB",
+          "order": 2,
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "focus": "Mobile",
+      "order": 5,
+      "skills": [
+        {
+          "name": "React Native",
+          "order": 0,
+          "value": 2
+        },
+        {
+          "name": "Kony",
+          "order": 1,
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "focus": "QA",
+      "order": 6,
+      "skills": [
+        {
+          "name": "Python + Appium",
+          "order": 0,
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "focus": "IoT",
+      "order": 7,
+      "skills": [
+        {
+          "name": "Circuit design",
+          "order": 0,
+          "value": 2.5
+        },
+        {
+          "name": "PIC Microcontrollers",
+          "order": 1,
+          "value": 2.5
+        },
+        {
+          "name": "Raspberry Pi",
+          "order": 2,
+          "value": 2
+        }
+      ]
+    }
+  ]
 }

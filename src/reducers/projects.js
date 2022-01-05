@@ -16,11 +16,12 @@ export const projects = (state = {}, action) => {
 };
 
 export const getProjects = createSelector(
-  state => state.projects,
-  projects => projects.projects,
+  (state) => state.projects,
+  // eslint-disable-next-line
+  (projects) => projects.projects,
 );
 
 export const getProjectCategory = createSelector(
-  state => state.projects.selectedCategory,
-  selectedCategory => selectedCategory,
+  (state) => state.projects.selectedCategory,
+  (selectedCategory) => selectedCategory,
 );

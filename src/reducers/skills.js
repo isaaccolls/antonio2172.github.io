@@ -11,6 +11,7 @@ export const skills = (state = {}, action) => {
 };
 
 export const getSkills = createSelector(
-  state => state.skills,
-  skills => skills.skills,
+  (state) => state.skills,
+  // eslint-disable-next-line
+  (skills) => skills.skills,
 );

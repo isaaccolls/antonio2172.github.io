@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import {
-  Spinner, Accordion, Button, Collapse,
-} from 'react-bootstrap';
+import { Spinner, Accordion, Button, Collapse } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import PropTypes from 'prop-types';
 import styles from './About.module.css';
 
 const Certificates = ({ certificates }) => {
@@ -21,7 +20,10 @@ const Certificates = ({ certificates }) => {
         className={open && styles.open}
       >
         <span>Certificates</span>
-        <FontAwesomeIcon icon={['fas', open ? 'chevron-up' : 'chevron-down']} className="ml-2" />
+        <FontAwesomeIcon
+          icon={['fas', open ? 'chevron-up' : 'chevron-down']}
+          className="ml-2"
+        />
       </Button>
       <Collapse in={open} className="text-left">
         <div id="certificates-collapse">
@@ -34,29 +36,38 @@ const Certificates = ({ certificates }) => {
                   textClassName={styles.text}
                   date={`${coursesItem.date}`}
                   dateClassName={styles.date}
-                  icon={<FontAwesomeIcon icon={['fas', 'chalkboard-teacher']} />}
+                  icon={
+                    <FontAwesomeIcon icon={['fas', 'chalkboard-teacher']} />
+                  }
                   iconClassName={styles.icon}
                 >
                   <h4 className="vertical-timeline-element-title">
                     {coursesItem.title}
                   </h4>
                   <h6 className="vertical-timeline-element-subtitle">
-                    {coursesItem.urlToInstitute
-                      ? (
-                        <a
-                          className={`text-decoration-none ${styles.link}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={coursesItem.urlToInstitute}
-                        >
-                          {coursesItem.institute}
-                        </a>
-                      )
-                      : <span className={styles.link}>{coursesItem.institute}</span>}
+                    {coursesItem.urlToInstitute ? (
+                      <a
+                        className={`text-decoration-none ${styles.link}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={coursesItem.urlToInstitute}
+                      >
+                        {coursesItem.institute}
+                      </a>
+                    ) : (
+                      <span className={styles.link}>
+                        {coursesItem.institute}
+                      </span>
+                    )}
                   </h6>
                   {coursesItem.urlToCertificate || coursesItem.urlToRepo ? (
                     <Accordion>
-                      <Accordion.Toggle as={Button} variant="light" eventKey="0" className={styles.toggle}>
+                      <Accordion.Toggle
+                        as={Button}
+                        variant="light"
+                        eventKey="0"
+                        className={styles.toggle}
+                      >
                         ...
                       </Accordion.Toggle>
                       <Accordion.Collapse eventKey="0">
@@ -70,7 +81,10 @@ const Certificates = ({ certificates }) => {
                                 href={coursesItem.urlToCertificate}
                               >
                                 Certificate
-                                <FontAwesomeIcon icon={['fas', 'file-pdf']} className="ml-2" />
+                                <FontAwesomeIcon
+                                  icon={['fas', 'file-pdf']}
+                                  className="ml-2"
+                                />
                               </a>
                             </p>
                           ) : null}
@@ -83,7 +97,10 @@ const Certificates = ({ certificates }) => {
                                 href={coursesItem.urlToRepo}
                               >
                                 Watch repo
-                                <FontAwesomeIcon icon={['fab', 'git-alt']} className="ml-2" />
+                                <FontAwesomeIcon
+                                  icon={['fab', 'git-alt']}
+                                  className="ml-2"
+                                />
                               </a>
                             </p>
                           ) : null}
@@ -94,7 +111,9 @@ const Certificates = ({ certificates }) => {
                 </VerticalTimelineElement>
               ))}
               <VerticalTimelineElement
-                icon={<FontAwesomeIcon icon={['fas', 'star']} transform="right-3" />}
+                icon={
+                  <FontAwesomeIcon icon={['fas', 'star']} transform="right-3" />
+                }
                 iconClassName={styles.start}
               />
             </VerticalTimeline>
@@ -105,6 +124,11 @@ const Certificates = ({ certificates }) => {
       </Collapse>
     </>
   );
+};
+
+Certificates.propTypes = {
+  // eslint-disable-next-line
+  certificates: PropTypes.object.isRequired,
 };
 
 export default Certificates;

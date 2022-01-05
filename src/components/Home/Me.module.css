@@ -4,7 +4,7 @@
 }
 
 .profile {
-  transition: filter .25s linear 0.2s;
+  transition: filter 0.25s linear 0.2s;
 }
 
 .profile:hover {

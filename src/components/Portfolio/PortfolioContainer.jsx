@@ -8,6 +8,7 @@ import {
   ToggleButton,
   Spinner,
 } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 import { getProjects, getProjectCategory } from '../../reducers/projects';
 import { fetchProjects, setProjectCategory } from '../../actions/actions';
 import PortfolioGallery from './PortfolioGallery';
@@ -15,25 +16,27 @@ import './Portfolio.css';
 
 class PortfolioContainer extends Component {
   componentDidMount() {
-    this.props.fetchProjects();
-    this.props.setProjectCategory('all');
+    const { fetchProjectsAux, setProjectCategoryAux } = this.props;
+    fetchProjectsAux();
+    setProjectCategoryAux('all');
   }
 
-  handleChange = selectedCategory => {
-    this.props.setProjectCategory(selectedCategory);
+  handleChange = (selectedCategory) => {
+    const { setProjectCategoryAux } = this.props;
+    setProjectCategoryAux(selectedCategory);
   };
 
   render() {
     const { projects, selectedCategory } = this.props;
-    let categories = projects
-      ? [...new Set(projects.map(portfolioItem => portfolioItem.category))]
+    const categories = projects
+      ? [...new Set(projects.map((portfolioItem) => portfolioItem.category))]
       : [];
     categories.unshift('all');
     return (
       <Container
         id="portfolio-container"
         className="min-vh-100 py-5 px-5"
-        fluid={true}
+        fluid
       >
         <Row>
           <Col xs={12}>
@@ -43,24 +46,24 @@ class PortfolioContainer extends Component {
         <Row>
           <Col xs={12}>
             <p>
-              We'll lay all these little funky little things in there. Fluff it
-              up a little and hypnotize it.
+              We&aposll lay all these little funky little things in there. Fluff
+              it up a little and hypnotize it.
             </p>
             <p>Be so very light. Be a gentle whisper.</p>
           </Col>
         </Row>
         <Row>
           <Col xs={12} className="text-center">
-            {/*{error && <Alert variant="danger">{`Error: ${error}`}</Alert>}*/}
+            {/* {error && <Alert variant="danger">{`Error: ${error}`}</Alert>} */}
             {categories.length > 1 ? (
               <ToggleButtonGroup
                 name="selectCategory"
                 type="radio"
-                value={'selectedCategory'}
+                value="selectedCategory"
                 onChange={this.handleChange}
                 className="mb-4"
               >
-                {categories.map(categoriesItem => (
+                {categories.map((categoriesItem) => (
                   <ToggleButton key={categoriesItem} value={categoriesItem}>
                     {categoriesItem}
                   </ToggleButton>
@@ -86,14 +89,24 @@ class PortfolioContainer extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+PortfolioContainer.propTypes = {
+  // eslint-disable-next-line
+  fetchProjectsAux: PropTypes.object.isRequired,
+  // eslint-disable-next-line
+  setProjectCategoryAux: PropTypes.object.isRequired,
+  selectedCategory: PropTypes.string.isRequired,
+  // eslint-disable-next-line
+  projects: PropTypes.array.isRequired,
+};
+
+const mapStateToProps = (state) => ({
   projects: getProjects(state),
   selectedCategory: getProjectCategory(state),
 });
 
-const mapDispatchToProps = dispatch => ({
-  fetchProjects: value => dispatch(fetchProjects(value)),
-  setProjectCategory: value => dispatch(setProjectCategory(value)),
+const mapDispatchToProps = (dispatch) => ({
+  fetchProjectsAux: (value) => dispatch(fetchProjects(value)),
+  setProjectCategoryAux: (value) => dispatch(setProjectCategory(value)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PortfolioContainer);

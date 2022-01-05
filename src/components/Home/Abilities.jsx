@@ -12,8 +12,7 @@ const Abilities = () => (
         </h3>
         <h3>Constructive</h3>
         <p className="text-center d-none d-sm-block">
-          Always happy with positive attitude
-          {' '}
+          Always happy with positive attitude{' '}
           <a
             className={`text-decoration-none ${styles.link}`}
             href="https://en.wikipedia.org/wiki/Hakuna_matata"

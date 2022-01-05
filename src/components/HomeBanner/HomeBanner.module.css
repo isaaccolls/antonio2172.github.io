@@ -16,7 +16,21 @@
 
 .title:hover h1 span {
   font-family: Playlist Script;
-  background: linear-gradient(to right, #7ece5c, #97d35b, #aed95c, #c5dd5e, #dbe262, #e9da5d, #f5d15c, #ffc85d, #ffb05d, #ff9964, #ff8370, #ff6f7f);
+  background: linear-gradient(
+    to right,
+    #7ece5c,
+    #97d35b,
+    #aed95c,
+    #c5dd5e,
+    #dbe262,
+    #e9da5d,
+    #f5d15c,
+    #ffc85d,
+    #ffb05d,
+    #ff9964,
+    #ff8370,
+    #ff6f7f
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -29,4 +43,4 @@
   .hide {
     display: none;
   }
- }
+}

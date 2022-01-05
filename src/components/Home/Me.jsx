@@ -1,8 +1,7 @@
 import React from 'react';
-import {
-  Row, Col, Spinner, Figure,
-} from 'react-bootstrap';
+import { Row, Col, Spinner, Figure } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import PropTypes from 'prop-types';
 import SkillsAccordion from './SkillsAccordion';
 import styles from './Me.module.css';
 
@@ -26,21 +25,20 @@ const Me = ({ skills }) => (
         />
       </Figure>
       <h2>
-        Who&apos;s this guy?
-        {' '}
+        Who&apos;s this guy?{' '}
         <FontAwesomeIcon icon={['fas', 'search']} className={styles.icon} />
       </h2>
       <p className="text-justify mx-2 px-2 mx-lg-5 px-lg-5">
         Design and implementation specialist of applications that involve
         hardware and software to solve problems on IT industry.
         <br />
-        My main focus these days is building cool things that make a impact on a changing world.
+        My main focus these days is building cool things that make a impact on a
+        changing world.
       </p>
     </Col>
     <Col xs={12} sm={6} className="text-center">
       <h2>
-        <FontAwesomeIcon icon={['fas', 'user-ninja']} className={styles.icon} />
-        {' '}
+        <FontAwesomeIcon icon={['fas', 'user-ninja']} className={styles.icon} />{' '}
         I&apos;ve been working with:
       </h2>
       {/* error ? <Alert variant="danger">{`Error: ${error}`}</Alert> : null */}
@@ -57,5 +55,10 @@ const Me = ({ skills }) => (
     </Col>
   </Row>
 );
+
+Me.propTypes = {
+  // eslint-disable-next-line
+  skills: PropTypes.object.isRequired,
+};
 
 export default Me;

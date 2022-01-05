@@ -7,9 +7,11 @@ const ComingSoon = () => (
   <Row>
     <Col xs={12} className="text-center">
       <h2>
-        Coming soon
-        {' '}
-        <FontAwesomeIcon icon={['fas', 'hourglass-half']} className={styles.icon} />
+        Coming soon{' '}
+        <FontAwesomeIcon
+          icon={['fas', 'hourglass-half']}
+          className={styles.icon}
+        />
       </h2>
       <p>This section is under construction and will be available here soon.</p>
     </Col>

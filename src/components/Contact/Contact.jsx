@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Row, Col, Form, Button,
-} from 'react-bootstrap';
+import { Row, Col, Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Contact extends Component {
@@ -42,10 +40,7 @@ class Contact extends Component {
           >
             <h2>Have a question or want to work together?</h2>
           </Col>
-          <Col
-            xs={{ span: 10, offset: 1 }}
-            sm={{ span: 4, offset: 4 }}
-          >
+          <Col xs={{ span: 10, offset: 1 }} sm={{ span: 4, offset: 4 }}>
             <Form onSubmit={this.handleSubmit}>
               <Form.Group controlid="formContactName">
                 <Form.Control
@@ -68,9 +63,7 @@ class Contact extends Component {
                 />
               </Form.Group>
               <Button type="submit" className="float-right">
-                Submit
-                {' '}
-                <FontAwesomeIcon icon={['fas', 'paper-plane']} />
+                Submit <FontAwesomeIcon icon={['fas', 'paper-plane']} />
               </Button>
             </Form>
           </Col>

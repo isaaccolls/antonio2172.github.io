@@ -16,7 +16,8 @@
 }
 
 @keyframes backgroundCarousel {
-  0%, 100% {
+  0%,
+  100% {
     background-image: url('https://isaaccolls.website/data/images/HomeBanner/home-bg-1.jpg');
   }
   33% {

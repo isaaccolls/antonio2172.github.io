@@ -118,7 +118,7 @@ a:hover {
 }
 
 .navbar .navbar-brand {
-  background-image: url("./assets/images/logo-white.svg") !important;
+  background-image: url('./assets/images/logo-white.svg') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   min-height: 56px !important;
@@ -127,7 +127,7 @@ a:hover {
 }
 
 .navbar:hover .navbar-brand {
-  background-image: url("./assets/images/logo-color.svg") !important;
+  background-image: url('./assets/images/logo-color.svg') !important;
 }
 
 .navbar-toggler-icon {
@@ -149,7 +149,10 @@ a:hover {
   color: var(--c-cultured) !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited {
   background: var(--c-indian-red) !important;
   border-color: var(--c-indian-red) !important;
   box-shadow: none !important;

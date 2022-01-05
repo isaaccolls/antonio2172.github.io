@@ -11,6 +11,7 @@ export const certificates = (state = {}, action) => {
 };
 
 export const getCertificates = createSelector(
-  state => state.certificates,
-  certificates => certificates.certificates,
+  (state) => state.certificates,
+  // eslint-disable-next-line
+  (certificates) => certificates.certificates,
 );
