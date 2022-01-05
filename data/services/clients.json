@@ -1,89 +1,89 @@
 {
-    "clients": [
-        {
-            "client": "2brains",
-            "logo": "https://isaaccolls.website/data/images/logos/2brains.svg",
-            "clientUrl": "https://www.2brains.cl/"
-        },
-        {
-            "client": "Kubi Tech SPA",
-            "logo": "https://isaaccolls.website/data/images/logos/kubi.png",
-            "clientUrl": "https://kubi.cl/"
-        },
-        {
-            "client": "Aplicaciones Computacionales SPA",
-            "logo": "https://isaaccolls.website/data/images/logos/acl.png",
-            "clientUrl": "https://www.acl.cl/"
-        },
-        {
-            "client": "Nunchee TM",
-            "logo": "https://isaaccolls.website/data/images/logos/nunchee.png",
-            "clientUrl": "https://nunchee.com/en/"
-        },
-        {
-            "client": "Transve S.A.",
-            "logo": "https://isaaccolls.website/data/images/logos/transve.png",
-            "clientUrl": "https://transve.cl/"
-        },
-        {
-            "client": "Banco San Juan Internacional (BSJI), Inc.",
-            "logo": "https://isaaccolls.website/data/images/logos/bsji.svg",
-            "clientUrl": "https://www.bsji.com/"
-        },
-        {
-            "client": "Eurolift de Venezuela C.A.",
-            "logo": "https://isaaccolls.website/data/images/logos/eurolift.png",
-            "clientUrl": "https://euroliftelevators.com/"
-        },
-        {
-            "client": "Fanatiz",
-            "logo": "https://isaaccolls.website/data/images/logos/fanatiz.svg",
-            "clientUrl": "https://www.fanatiz.com/"
-        },
-        {
-            "client": "Beisbolplay",
-            "logo": "https://isaaccolls.website/data/images/logos/beisbolplay.png",
-            "clientUrl": "https://www.beisbolplay.com/"
-        },
-        {
-            "client": "Movistar Gol",
-            "logo": "https://isaaccolls.website/data/images/logos/movistargol.png",
-            "clientUrl": "https://gol.movistar.com/"
-        },
-        {
-            "client": "VIVOplay",
-            "logo": "https://isaaccolls.website/data/images/logos/vivoplay.svg",
-            "clientUrl": "https://www.vivoplay.net/"
-        },
-        {
-            "client": "Minuto30",
-            "logo": "https://isaaccolls.website/data/images/logos/minuto30.png",
-            "clientUrl": "https://play.minuto30.com/"
-        },
-        {
-            "client": "Banco Itau",
-            "logo": "https://isaaccolls.website/data/images/logos/itau.png",
-            "clientUrl": "https://banco.itau.cl/"
-        },
-        {
-            "client": "Cencosud",
-            "logo": "https://isaaccolls.website/data/images/logos/cencosud.png",
-            "clientUrl": "https://www.cencosud.com/"
-        },
-        {
-            "client": "Clinica Alemana",
-            "logo": "https://isaaccolls.website/data/images/logos/cas.svg",
-            "clientUrl": "https://www.clinicaalemana.cl/"
-        },
-        {
-            "client": "Vida Security",
-            "logo": "https://isaaccolls.website/data/images/logos/vidasecurity.svg",
-            "clientUrl": "https://www.clinicaalemana.cl/"
-        },
-        {
-            "client": "Contable",
-            "logo": "https://isaaccolls.website/data/images/logos/contable.png",
-            "clientUrl": "https://contable.app/"
-        }
-    ]
+  "clients": [
+    {
+      "client": "2brains",
+      "logo": "https://isaaccolls.website/data/images/logos/2brains.svg",
+      "clientUrl": "https://www.2brains.cl/"
+    },
+    {
+      "client": "Kubi Tech SPA",
+      "logo": "https://isaaccolls.website/data/images/logos/kubi.png",
+      "clientUrl": "https://kubi.cl/"
+    },
+    {
+      "client": "Aplicaciones Computacionales SPA",
+      "logo": "https://isaaccolls.website/data/images/logos/acl.png",
+      "clientUrl": "https://www.acl.cl/"
+    },
+    {
+      "client": "Nunchee TM",
+      "logo": "https://isaaccolls.website/data/images/logos/nunchee.png",
+      "clientUrl": "https://nunchee.com/en/"
+    },
+    {
+      "client": "Transve S.A.",
+      "logo": "https://isaaccolls.website/data/images/logos/transve.png",
+      "clientUrl": "https://transve.cl/"
+    },
+    {
+      "client": "Banco San Juan Internacional (BSJI), Inc.",
+      "logo": "https://isaaccolls.website/data/images/logos/bsji.svg",
+      "clientUrl": "https://www.bsji.com/"
+    },
+    {
+      "client": "Eurolift de Venezuela C.A.",
+      "logo": "https://isaaccolls.website/data/images/logos/eurolift.png",
+      "clientUrl": "https://euroliftelevators.com/"
+    },
+    {
+      "client": "Fanatiz",
+      "logo": "https://isaaccolls.website/data/images/logos/fanatiz.svg",
+      "clientUrl": "https://www.fanatiz.com/"
+    },
+    {
+      "client": "Beisbolplay",
+      "logo": "https://isaaccolls.website/data/images/logos/beisbolplay.png",
+      "clientUrl": "https://www.beisbolplay.com/"
+    },
+    {
+      "client": "Movistar Gol",
+      "logo": "https://isaaccolls.website/data/images/logos/movistargol.png",
+      "clientUrl": "https://gol.movistar.com/"
+    },
+    {
+      "client": "VIVOplay",
+      "logo": "https://isaaccolls.website/data/images/logos/vivoplay.svg",
+      "clientUrl": "https://www.vivoplay.net/"
+    },
+    {
+      "client": "Minuto30",
+      "logo": "https://isaaccolls.website/data/images/logos/minuto30.png",
+      "clientUrl": "https://play.minuto30.com/"
+    },
+    {
+      "client": "Banco Itau",
+      "logo": "https://isaaccolls.website/data/images/logos/itau.png",
+      "clientUrl": "https://banco.itau.cl/"
+    },
+    {
+      "client": "Cencosud",
+      "logo": "https://isaaccolls.website/data/images/logos/cencosud.png",
+      "clientUrl": "https://www.cencosud.com/"
+    },
+    {
+      "client": "Clinica Alemana",
+      "logo": "https://isaaccolls.website/data/images/logos/cas.svg",
+      "clientUrl": "https://www.clinicaalemana.cl/"
+    },
+    {
+      "client": "Vida Security",
+      "logo": "https://isaaccolls.website/data/images/logos/vidasecurity.svg",
+      "clientUrl": "https://www.clinicaalemana.cl/"
+    },
+    {
+      "client": "Contable",
+      "logo": "https://isaaccolls.website/data/images/logos/contable.png",
+      "clientUrl": "https://contable.app/"
+    }
+  ]
 }
