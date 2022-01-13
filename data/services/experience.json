@@ -14,7 +14,7 @@
         "ReactJS",
         "Vue.js",
         "Angular",
-        "Node.js + Nest",
+        "Node.js+Nest",
         "PostgreSQL",
         "AWS",
         "Terraform",
@@ -31,7 +31,7 @@
       "title": "Web application developer",
       "titleSp": "",
       "url": "https://kubi.cl/",
-      "techStack": ["Node.js + Express", "MongoDB", "Reactjs", "AWS", "PHP"]
+      "techStack": ["Node.js+Express", "MongoDB", "Reactjs", "AWS", "PHP"]
     },
     {
       "company": "Aplicaciones Computacionales SPA",
