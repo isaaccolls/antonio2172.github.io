@@ -26,7 +26,7 @@ const Footer = () => (
           </a>
           <a
             className="text-decoration-none ml-4"
-            href="https://www.instagram.com/isaaccolls/"
+            href="https://www.instagram.com/isaaccolls/?theme=dark"
             target="_blank"
             rel="noopener noreferrer"
           >
