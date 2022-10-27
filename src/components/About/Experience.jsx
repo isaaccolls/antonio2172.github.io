@@ -46,11 +46,13 @@ const Experience = ({ experience }) => {
                   'Dec',
                 ];
                 let { startDate, endDate } = workItem;
-                startDate = new Date(startDate);
+                const [year, month, day] = startDate.split('-');
+                startDate = new Date(+year, +month - 1, +day);
                 startDate = `${
                   monthNames[startDate.getMonth()]
                 } ${startDate.getFullYear()}`;
-                endDate = endDate && new Date(endDate);
+                const [endYear, endMonth, endDay] = endDate.split('-');
+                endDate = endDate && new Date(+endYear, +endMonth - 1, +endDay);
                 endDate = endDate
                   ? `${monthNames[endDate.getMonth()]} ${endDate.getFullYear()}`
                   : 'Present';
