@@ -3,8 +3,8 @@
     {
       "company": "2brains",
       "department": "Devs",
-      "description": "Development of complex and scalable Design Systems, based on Web Components.\nNew functionalities implementation of responsive websites with integration for the services consumption.\nDesign and development of microservices.\nWorkflows adhered to agile methodologies and Scrum job framework.",
-      "descriptionSP": "Desarrollo de Design Systems complejos y escalables, basados en Web Components.\nImplementación de nuevas funcionalidades de sitios web responsive con integración para el consumo de servicios.\nDiseño y desarrollo de microservicios.\nFlujos de trabajo adheridos a las metodologías ágiles y el marco de trabajo Scrum.",
+      "description": "Develop new user facing features with a balance between functional and aesthetic design.\nBuilding high-quality UI components with scalability in mind.\nDesign and development of microservices.",
+      "descriptionSP": "Desarrollo de nuevas funciones orientadas al usuario con un equilibrio entre el diseño funcional y estético.\nCreación de componentes de interfaz de usuario de alta calidad teniendo en cuenta la escalabilidad.\nDiseño y desarrollo de microservicios.",
       "endDate": "",
       "startDate": "2022-07-01",
       "title": "Full Stack Developer",
@@ -12,35 +12,25 @@
       "url": "https://www.2brains.cl/",
       "techStack": [
         "ReactJS",
-        "Vue.js",
-        "Angular",
         "Node.js+Nest",
         "PostgreSQL",
         "AWS",
         "Terraform",
+        "Docker",
         "Kubernetes"
       ]
     },
     {
       "company": "2brains",
       "department": "Devs",
-      "description": "Development of complex and scalable Design Systems, based on Web Components.\nNew functionalities implementation of responsive websites with integration for the services consumption.\nDesign and development of microservices.\nWorkflows adhered to agile methodologies and Scrum job framework.",
-      "descriptionSP": "Desarrollo de Design Systems complejos y escalables, basados en Web Components.\nImplementación de nuevas funcionalidades de sitios web responsive con integración para el consumo de servicios.\nDiseño y desarrollo de microservicios.\nFlujos de trabajo adheridos a las metodologías ágiles y el marco de trabajo Scrum.",
+      "description": "Development of complex and scalable Design Systems, based on Web Components.\nNew functionalities implementation of responsive websites with integration for the services consumption.\nWorkflows adhered to agile methodologies and Scrum job framework.",
+      "descriptionSP": "Desarrollo de Design Systems complejos y escalables, basados en Web Components.\nImplementación de nuevas funcionalidades de sitios web responsive con integración para el consumo de servicios.\nFlujos de trabajo adheridos a las metodologías ágiles y el marco de trabajo Scrum.",
       "endDate": "2022-06-30",
       "startDate": "2020-10-01",
       "title": "Frontend Developer",
       "titleSp": "",
       "url": "https://www.2brains.cl/",
-      "techStack": [
-        "ReactJS",
-        "Vue.js",
-        "Angular",
-        "Node.js+Nest",
-        "PostgreSQL",
-        "AWS",
-        "Terraform",
-        "Kubernetes"
-      ]
+      "techStack": ["ReactJS", "Vue.js", "Angular"]
     },
     {
       "company": "Kubi Tech SPA",
