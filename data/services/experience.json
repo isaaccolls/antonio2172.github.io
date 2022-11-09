@@ -12,7 +12,7 @@
       "url": "https://www.2brains.cl/",
       "techStack": [
         "ReactJS",
-        "Node.js+Nest",
+        "Node.js+NestJS",
         "PostgreSQL",
         "AWS",
         "Terraform",
