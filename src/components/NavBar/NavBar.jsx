@@ -18,7 +18,7 @@ const CustomNavBar = () => (
             About
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item className="ml-3">
+        {/* <Nav.Item className="ml-3">
           <Nav.Link eventKey={3} as={Link} to="/portfolio">
             Portfolio
           </Nav.Link>
@@ -27,7 +27,7 @@ const CustomNavBar = () => (
           <Nav.Link eventKey={4} as={Link} to="/blog">
             Blog
           </Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
         <Nav.Item className="ml-3">
           <Nav.Link eventKey={5} as={Link} to="/contact">
             Contact
