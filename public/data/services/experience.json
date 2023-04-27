@@ -18,7 +18,8 @@
         "Terraform",
         "Docker",
         "Kubernetes"
-      ]
+      ],
+      "clients": ["cencosud"]
     },
     {
       "company": "2brains",
@@ -30,7 +31,8 @@
       "title": "Frontend Developer",
       "titleSp": "",
       "url": "https://www.2brains.cl/",
-      "techStack": ["ReactJS", "Vue.js", "Angular"]
+      "techStack": ["ReactJS", "Vue.js", "Angular"],
+      "clients": ["almamedis", "alemana"]
     },
     {
       "company": "Kubi Tech SPA",
@@ -54,7 +56,8 @@
       "title": "Java analyst developer",
       "titleSp": "Analista Desarrollador Java",
       "url": "https://www.acl.cl/",
-      "techStack": ["Kony", "JS", "Java"]
+      "techStack": ["Kony", "JS", "Java"],
+      "clients": ["banco itau"]
     },
     {
       "company": "SmartboxTV SpA.",
@@ -75,7 +78,8 @@
         "Node.js",
         "Reactjs",
         "MongoDB"
-      ]
+      ],
+      "clients": []
     },
     {
       "company": "Transve S.A.",
