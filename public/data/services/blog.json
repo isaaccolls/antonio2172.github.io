@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "my cheatsheets"
+    },
+    {
+      "id": 2,
+      "title": "my favorites links"
+    }
+  ]
+}
