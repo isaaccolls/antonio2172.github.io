@@ -19,7 +19,15 @@
         "Docker",
         "Kubernetes"
       ],
-      "clients": ["cencosud"]
+      "clients": [
+        {
+          "name": "cencosud",
+          "startDate": "2021-05-17",
+          "endDate": "",
+          "description": "full stack on cenco...",
+          "descriptionSP": ""
+        }
+      ]
     },
     {
       "company": "2brains",
@@ -32,7 +40,29 @@
       "titleSp": "",
       "url": "https://www.2brains.cl/",
       "techStack": ["ReactJS", "Vue.js", "Angular"],
-      "clients": ["almamedis", "alemana"]
+      "clients": [
+        {
+          "name": "almamedis",
+          "startDate": "2020-12-02",
+          "endDate": "2021-01-05",
+          "description": "refactor angular project",
+          "descriptionSP": ""
+        },
+        {
+          "name": "alemana",
+          "startDate": "2020-12-30",
+          "endDate": "2021-05-03",
+          "description": "design system",
+          "descriptionSP": ""
+        },
+        {
+          "name": "vida security",
+          "startDate": "2020-10-02",
+          "endDate": "2020-10-09",
+          "description": "design system",
+          "descriptionSP": ""
+        }
+      ]
     },
     {
       "company": "Kubi Tech SPA",
